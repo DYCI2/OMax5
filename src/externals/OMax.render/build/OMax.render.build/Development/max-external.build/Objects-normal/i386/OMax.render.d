@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch \
+  /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_data.hpp \
+  /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.hpp \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_prefix.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_mess.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_types.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_maxtypes.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_byteorder.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_proto.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_sysmem.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_sysfile.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_systime.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_expr.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_path.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_qtimage.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_wind.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_obex.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/commonsyms.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_linklist.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_hashtab.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_atomarray.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_obex_util.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_dictionary.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_obstring.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/jpatcher_api.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/jpatcher_syms.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/jgraphics.h \
+  /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../OMax.data/OMax.data.h \
+  /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/ext_atomic.h
