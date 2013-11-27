@@ -201,6 +201,9 @@ void yyfree (void *  );
 
 /* Begin user sect3 */
 
+#define yywrap(n) 1
+#define YY_SKIP_YYWRAP
+
 extern int yylineno;
 
 extern char *yytext;
@@ -311,9 +314,9 @@ extern int yylex (void);
 #undef YY_DECL
 #endif
 
-#line 65 "/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.oracle/../../parser/DOT.l"
+#line 66 "/Users/blevy/Projets/OMax/git2svn/src/parser/DOT.l"
 
 
-#line 318 "DOT.yy.h"
+#line 321 "DOT.yy.h"
 #undef yyIN_HEADER
 #endif /* yyHEADER_H */

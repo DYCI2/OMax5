@@ -13,8 +13,8 @@
 
 #include <string.h>
 
-//extern "C"
-//{
+extern "C"
+{
 #include "OMax.data.h"		// object structure
 
 ////////////////
@@ -59,7 +59,7 @@ t_class *OMax_data_class;
 // Functions //
 ///////////////	
 
-int main(void)
+int C74_EXPORT main(void)
 {	
     t_class *c;
     
@@ -1415,6 +1415,6 @@ void OMax_data_doread(t_OMax_data *x, t_symbol *s)
 
 //@}
 
-//}
+}
 
 #endif

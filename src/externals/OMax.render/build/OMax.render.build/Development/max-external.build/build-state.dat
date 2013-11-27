@@ -1,117 +1,0 @@
-Tmax-external
-v5
-r1
-cCheck dependencies
-cSymLink /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-cCompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.render normal i386
-cTouch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c0000000051BAEFCA00000000000000CC
-t1371205578
-s204
-
-N/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch
-c000000004F1966D800000000000000A4
-t1327064792
-s164
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../../../../../../Max6/MaxSDK-6.0.4/c74support/max-includes/MaxAPI.framework/MaxAPI
-c000000004F1966D80000000000077894
-t1327064792
-s489620
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.render
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp
-c0000000051A46DAA000000000000365D
-t1369730474
-s13917
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c
-c0000000051A46DAA0000000000004C4E
-t1369730474
-s19534
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxo
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.LinkFileList
-c00000000522B8C0C0000000000000145
-t1378585612
-s325
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o
-t2
-s0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4167668cc3dbb741^acca6e8cc3dbb741^---0#1#0#--18"Check dependencies36"648EB695-5DF1-479D-AD1C-D0FDA71296E5-
-
-CCompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400278412.455638
-e400278413.939911
-r1
-xCompileC
-xbuild/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.cdac5748cc3dbb741^069df08dc3dbb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c0000000000000000^2900"CompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o OMax.render.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/OMax.render.hmap -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/include -I/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/DerivedSources/i386 -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../../../../../../Max6/MaxSDK-6.0.4/c74support/max-includes -include /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.d --serialize-diagnostics /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.dia -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/OMax.render.c -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.o36"9A9594E2-FB08-4085-BAEC-1FB9B16D9530-
-
-CCompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400278412.455976
-e400278413.903480
-r1
-xCompileC
-xbuild/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp67d4748cc3dbb741^f757e78dc3dbb741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp0000000000000000^2930"CompileC build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o ../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/OMax.render.hmap -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/include -I/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/DerivedSources/i386 -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../../../../../../Max6/MaxSDK-6.0.4/c74support/max-includes -include /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.d --serialize-diagnostics /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.dia -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../cpp/Oracle_label.cpp -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o36"6911834B-2F9F-49E8-B343-63BA09166082-
-
-CLd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.render normal i386
-s400278413.946708
-e400278413.973917
-r1
-xLd
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.render
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.renderde75f28dc3dbb741^5891f98dc3dbb741^---0#0#0#--1157"Ld ../../build/OMax.render.mxo/Contents/MacOS/OMax.render normal i386    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../../../../../../Max6/MaxSDK-6.0.4/c74support/max-includes -filelist /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/OMax.render.build/Development/max-external.build/Objects-normal/i386/OMax.render.LinkFileList -mmacosx-version-min=10.5 -framework MaxAPI -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo/Contents/MacOS/OMax.render36"17D1DB7E-0359-445A-809A-8B0226791F86-
-
-CSymLink /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-s400278412.438809
-e400278412.447552
-r1
-xSymLink
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxo
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxod97c708cc3dbb741^16a3728cc3dbb741^---0#0#0#--374"SymLink build/Development/OMax.render.mxo ../../build/OMax.render.mxo    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render    /bin/ln -sf /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/build/Development/OMax.render.mxo36"EC274E17-70EE-4CDD-93AC-FDBD95599F77-
-
-CTouch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-s400278413.982027
-e400278413.988199
-r1
-xTouch
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxoa27afb8dc3dbb741^01fbfc8dc3dbb741^---0#0#0#--237"Touch ../../build/OMax.render.mxo    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render    /usr/bin/touch -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.render/../../build/OMax.render.mxo36"626C46D7-7625-4DA2-9D70-B2DFFD631EC1-
-

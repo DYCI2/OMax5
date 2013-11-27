@@ -21,8 +21,8 @@ GCC_PREFIX_HEADER = $(C74SUPPORT)/max-includes/macho-prefix.pch
 
 
 // Architecture and Deployment
-ARCHS = i386
-//ARCHS = i386 x86_64
+//ARCHS = i386
+ARCHS = i386 x86_64
 
 // Xcode 3.x
 // SDKROOT = $(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk
@@ -31,9 +31,9 @@ ARCHS = i386
 // SDKROOT = $(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk
 
 // Xcode 4.3+
-SDKROOT = macosx10.8
+SDKROOT = macosx10.7
 
-MACOSX_DEPLOYMENT_TARGET = 10.6
+MACOSX_DEPLOYMENT_TARGET = 10.5
 
 
 // Complilation
@@ -42,7 +42,7 @@ MACOSX_DEPLOYMENT_TARGET = 10.6
 //GCC_VERSION = com.apple.compilers.llvm.clang.1_0
 
 // Files
-GCC_INPUT_FILETYPE = sourcecode.cpp.cpp
+//GCC_INPUT_FILETYPE = sourcecode.cpp.cpp
 
 // Preprocessor Defines
 GCC_PREPROCESSOR_DEFINITIONS = "DENORM_WANT_FIX = 1" "NO_TRANSLATION_SUPPORT = 1"
@@ -57,7 +57,7 @@ GENERATE_PKGINFO_FILE = YES
 
 // Flags to enforce some build-time checks for the symbols used while not actually performing a hard link
 C74_SYM_LINKER_FLAGS = @$(C74SUPPORT)/max-includes/c74_linker_flags.txt
-OTHER_LDFLAGS= $(C74_SYM_LINKER_FLAGS)
+OTHER_LDFLAGS= $(C74_SYM_LINKER_FLAGS) //-lfl
 
 
 // hide all symbols by default

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 16.0, 75.0, 797.0, 719.0 ],
@@ -51,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 180.0, 142.0, 32.0 ],
+					"patching_rect" : [ 323.0, 180.0, 142.0, 31.0 ],
 					"text" : "script replace Yin newex 0 0 75 10 yin~ $1 $2 1."
 				}
 
@@ -215,14 +216,14 @@
 						"Level" : [ 50 ],
 						"Pitch" : [ 1 ],
 						"Proba" : [ 0.56 ],
-						"Quality" : [ 0.52 ],
+						"Quality" : [ 0.5 ],
 						"Window" : [ 55 ],
 						"YinFreq" : [ 100 ],
 						"YinSampl" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u416003710"
+					"varname" : "u375001631"
 				}
 
 			}
@@ -238,8 +239,8 @@
 					"patching_rect" : [ 521.0, 61.0, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
-						"storage_rect" : [ 766, 44, 1220, 302 ],
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"storage_rect" : [ 766, 44, 1220, 302 ]
 					}
 ,
 					"text" : "pattrstorage pattrstorage @savemode 0",
@@ -277,6 +278,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -291,6 +293,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -363,8 +366,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1005.0, 216.0, 165.0, 329.0 ],
@@ -582,22 +586,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 362.0, 294.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p mem"
@@ -628,8 +631,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 723.0, 489.0, 419.0, 295.0 ],
@@ -817,22 +821,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 66.0, 212.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p presentation"
@@ -922,8 +925,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "" ],
-					"patching_rect" : [ 178.0, 431.0, 295.0, 20.0 ],
-					"text" : "Yin+ 100"
+					"patching_rect" : [ 178.0, 431.0, 223.0, 20.0 ],
+					"text" : "OMax.yinstats 100"
 				}
 
 			}
@@ -1017,6 +1020,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-162",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1081,6 +1085,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1096,6 +1101,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1149,6 +1155,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1202,6 +1209,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1218,6 +1226,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1235,7 +1244,6 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1249,7 +1257,6 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"id" : "obj-6",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1263,7 +1270,6 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"id" : "obj-46",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1288,7 +1294,7 @@
 					"destination" : [ "obj-158", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 167.0, 426.0, 463.5, 426.0 ],
+					"midpoints" : [ 167.0, 426.0, 391.5, 426.0 ],
 					"source" : [ "obj-131", 1 ]
 				}
 
@@ -1676,9 +1682,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Yin+.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/WoMax-Reorganized/patches/experimental",
-				"patcherrelativepath" : "",
+				"name" : "OMax.yinstats.maxpat",
+				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

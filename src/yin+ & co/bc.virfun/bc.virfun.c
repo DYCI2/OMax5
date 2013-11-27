@@ -37,7 +37,7 @@ typedef struct _bc_virfun
 // Prototypes //
 ////////////////
 
-// Standard Max5 methodes
+// Standard methodes
 void *bc_virfun_new(t_symbol *s, long argc, t_atom *argv);
 void bc_virfun_free(t_bc_virfun *x);
 void bc_virfun_assist(t_bc_virfun *x, void *b, long m, long a, char *s);
@@ -62,13 +62,13 @@ t_class *bc_virfun_class;
 // Functions //
 ///////////////
 
-int main(void)
-{	
+int C74_EXPORT main(void)
+{
 	t_class *c;
 	
-	c = class_new("bc.virfun", (method)bc_virfun_new, (method)bc_virfun_free, (long)sizeof(t_bc_virfun), 
-				  0L /* leave NULL!! */, A_GIMME, 0);
-	// credits
+	c = class_new("bc.virfun", (method)bc_virfun_new, (method)bc_virfun_free, (long)sizeof(t_bc_virfun), 0L, A_GIMME, 0);
+	
+    // credits
 	post("bc.virfun v0.1b – 2010: Virtual fundamental calculation");
 	post("   design by Gérard Assayag with help from Bennett Smith");
 	post("   external by Benjamin Lévy");
@@ -82,7 +82,6 @@ int main(void)
 	class_addmethod(c, (method)bc_virfun_float, "float", A_FLOAT, 0);
 	class_addmethod(c, (method)bc_virfun_list, "list", A_GIMME, 0);
 	//class_addmethod(c, (method)bc_virfun_anything, "anything",A_GIMME, 0);
-	
 	//class_addmethod(c, (method)bc_virfun_approx, "ft1", A_FLOAT, 0);
 	
 	// Mode attribute
@@ -97,7 +96,7 @@ int main(void)
 	CLASS_ATTR_SAVE(c, "approx", 0);
 	CLASS_ATTR_ACCESSORS(c,"approx",NULL,bc_virfun_approx);
 	
-	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
+	class_register(CLASS_BOX, c);
 	bc_virfun_class = c;
 	
 	return 0;
@@ -116,7 +115,7 @@ void *bc_virfun_new(t_symbol *s, long argc, t_atom *argv)
 	{
 		// outlets
 		x->out = intout(x);
-	}
+        
 	if (argc)
 	{
 		if ((argv)->a_type == A_LONG)
@@ -135,6 +134,7 @@ void *bc_virfun_new(t_symbol *s, long argc, t_atom *argv)
 	// process attr args, if any
 	attr_args_process(x, argc, argv);
 	
+    }
 	return (x);
 }
 

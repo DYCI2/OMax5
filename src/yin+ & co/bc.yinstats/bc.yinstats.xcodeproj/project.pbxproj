@@ -3,19 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7B186AAA128751F7000A07FB /* max.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B186AA9128751F7000A07FB /* max.xcconfig */; };
-		7B31D5A4143A00B8000B42B9 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B31D5A3143A00B8000B42B9 /* MaxAPI.framework */; };
 		7BA4379910FB74950093DEB8 /* bc.yinstats.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4379810FB74950093DEB8 /* bc.yinstats.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FBBEAE508F335360078DB84 /* bc.yinstats.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bc.yinstats.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B186AA9128751F7000A07FB /* max.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = max.xcconfig; path = ../max.xcconfig; sourceTree = SOURCE_ROOT; };
-		7B31D5A3143A00B8000B42B9 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../../../../../../Max5/MaxSDK-5.1.7/c74support/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
 		7BA4379810FB74950093DEB8 /* bc.yinstats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bc.yinstats.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -24,7 +22,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B31D5A4143A00B8000B42B9 /* MaxAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,18 +33,9 @@
 			children = (
 				7B186AA9128751F7000A07FB /* max.xcconfig */,
 				08FB77ADFE841716C02AAC07 /* Source */,
-				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 			);
 			name = iterator;
-			sourceTree = "<group>";
-		};
-		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				7B31D5A3143A00B8000B42B9 /* MaxAPI.framework */,
-			);
-			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
 		};
 		08FB77ADFE841716C02AAC07 /* Source */ = {
@@ -103,8 +91,10 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "bc.yinstats" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -155,31 +145,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2FBBEAD008F335010078DB84 /* Development */ = {
+		2FBBEAD008F335010078DB84 /* Default */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B186AA9128751F7000A07FB /* max.xcconfig */;
 			buildSettings = {
 			};
-			name = Development;
+			name = Default;
 		};
-		2FBBEAD108F335010078DB84 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B186AA9128751F7000A07FB /* max.xcconfig */;
-			buildSettings = {
-			};
-			name = Deployment;
-		};
-		2FBBEAE108F335360078DB84 /* Development */ = {
+		2FBBEAE108F335360078DB84 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
-			name = Development;
-		};
-		2FBBEAE208F335360078DB84 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Deployment;
+			name = Default;
 		};
 /* End XCBuildConfiguration section */
 
@@ -187,20 +164,18 @@
 		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "bc.yinstats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FBBEAD008F335010078DB84 /* Development */,
-				2FBBEAD108F335010078DB84 /* Deployment */,
+				2FBBEAD008F335010078DB84 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Default;
 		};
 		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FBBEAE108F335360078DB84 /* Development */,
-				2FBBEAE208F335360078DB84 /* Deployment */,
+				2FBBEAE108F335360078DB84 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Default;
 		};
 /* End XCConfigurationList section */
 	};

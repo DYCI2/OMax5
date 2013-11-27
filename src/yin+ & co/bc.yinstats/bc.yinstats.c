@@ -50,7 +50,7 @@ typedef struct _bc_yinstats
 // prototypes //
 ////////////////
 
-// Standard Max5 methodes
+// Standard methodes
 void *bc_yinstats_new(t_symbol *s, long argc, t_atom *argv);
 void bc_yinstats_free(t_bc_yinstats *x);
 void bc_yinstats_assist(t_bc_yinstats *x, void *b, long m, long a, char *s);
@@ -70,8 +70,7 @@ void bc_yinstats_reset(t_bc_yinstats *x, bc_statelem *stat);
 // Global class pointer variable
 t_class *bc_yinstats_class;
 
-
-int main(void)
+int C74_EXPORT main(void)
 {	
 	t_class *c;
 	
@@ -91,18 +90,20 @@ int main(void)
 	class_addmethod(c, (method)bc_yinstats_pitchf, "float", A_FLOAT, 0);
 	class_addmethod(c, (method)bc_yinstats_amp, "ft1", A_FLOAT, 0);
 	class_addmethod(c, (method)bc_yinstats_stop, "stop", 0);
-		
+    
+    // statistical window attribute
 	CLASS_ATTR_LONG(c, "window", 0, t_bc_yinstats, window);
 	CLASS_ATTR_LABEL(c, "window", 0, "Window (ms)");
 	CLASS_ATTR_SAVE(c, "window", 0);
 	CLASS_ATTR_MIN(c, "window", 0, 0);
 	
+    // probability threshold attribute
 	CLASS_ATTR_DOUBLE(c, "minproba", 0, t_bc_yinstats, minproba);
 	CLASS_ATTR_LABEL(c, "minproba", 0, "Probability Threshold");
 	CLASS_ATTR_SAVE(c, "minproba", 0);
 	CLASS_ATTR_FILTER_CLIP(c, "minproba", 0., 1.);
 	
-	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
+	class_register(CLASS_BOX, c);
 	bc_yinstats_class = c;
 	
 	return 0;

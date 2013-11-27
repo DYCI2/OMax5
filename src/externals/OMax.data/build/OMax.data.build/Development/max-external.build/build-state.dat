@@ -1,146 +1,0 @@
-Tmax-external
-v5
-r1
-cCheck dependencies
-cSymLink /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-cCompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data normal i386
-cTouch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c0000000051BAEFCA00000000000000CC
-t1371205578
-s204
-
-N/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch
-c000000004F1966D800000000000000A4
-t1327064792
-s164
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../../../../../../Max6/MaxSDK-6.0.4/c74support/max-includes/MaxAPI.framework/MaxAPI
-c000000004F1966D80000000000077894
-t1327064792
-s489620
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp
-c0000000051A46DAA000000000000365D
-t1369730474
-s13917
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c
-c0000000051B885AE000000000000D81B
-t1371047342
-s55323
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxo
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.LinkFileList
-c00000000522B8BFB000000000000013B
-t1378585595
-s315
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o
-t2
-s0
-
-N/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o
-t2
-s0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb3d2b07bc3dbb741^450fc87bc3dbb741^---0#1#0#--18"Check dependencies36"0BE22C21-2B59-4851-A6A6-2F697C66B9ED-
-
-CCompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400278395.903067
-e400278403.170474
-r1
-xCompileC
-xbuild/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_spectral' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
-o                delete (O_DataType*)(*O_it);
-o                ^
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:224:25: note: in instantiation of function template specialization 'O_data::freestates<O_spectral>' requested here
-o                x->data.freestates<O_spectral>();
-o                        ^
-oIn file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_pitch' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
-o                delete (O_DataType*)(*O_it);
-o                ^
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:227:25: note: in instantiation of function template specialization 'O_data::freestates<O_pitch>' requested here
-o                x->data.freestates<O_pitch>();
-o                        ^
-oIn file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_MIDI' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
-o                delete (O_DataType*)(*O_it);
-o                ^
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:230:25: note: in instantiation of function template specialization 'O_data::freestates<O_MIDI>' requested here
-o                x->data.freestates<O_MIDI>();
-o                        ^
-oIn file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_char' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
-o                delete (O_DataType*)(*O_it);
-o                ^
-o/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:233:25: note: in instantiation of function template specialization 'O_data::freestates<O_char>' requested here
-o                x->data.freestates<O_char>();
-o                        ^
-o4 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0551e77bc3dbb741^9ca22b83c3dbb741^-2673"In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_spectral' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]                delete (O_DataType*)(*O_it);                ^/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:224:25: note: in instantiation of function template specialization 'O_data::freestates<O_spectral>' requested here                x->data.freestates<O_spectral>();                        ^In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_pitch' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]                delete (O_DataType*)(*O_it);                ^/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:227:25: note: in instantiation of function template specialization 'O_data::freestates<O_pitch>' requested here                x->data.freestates<O_pitch>();                        ^In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_MIDI' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]                delete (O_DataType*)(*O_it);                ^/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:230:25: note: in instantiation of function template specialization 'O_data::freestates<O_MIDI>' requested here                x->data.freestates<O_MIDI>();                        ^In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_data.hpp:164:3: warning: delete called on 'O_char' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]                delete (O_DataType*)(*O_it);                ^/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:233:25: note: in instantiation of function template specialization 'O_data::freestates<O_char>' requested here                x->data.freestates<O_char>();                        ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@83"Delete called on 'O_spectral' that has virtual functions but non-virtual destructor-400278403#18446744073709551615#0#2(2@108"In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^11#9#11#9#291#0#21"Clang LLVM 1.0 Notice--2@100"In instantiation of function template specialization 'O_data::freestates<O_spectral>' requested here-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^223#24#223#24#8721#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/cpp/Oracle_data.hpp0000000000000000^163#2#163#2#3900#0#14"Semantic Issue--2@80"Delete called on 'O_pitch' that has virtual functions but non-virtual destructor-400278403#18446744073709551615#0#2(2@108"In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^11#9#11#9#291#0#21"Clang LLVM 1.0 Notice--2@97"In instantiation of function template specialization 'O_data::freestates<O_pitch>' requested here-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^226#24#226#24#8818#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/cpp/Oracle_data.hpp0000000000000000^163#2#163#2#3900#0#14"Semantic Issue--2@79"Delete called on 'O_MIDI' that has virtual functions but non-virtual destructor-400278403#18446744073709551615#0#2(2@108"In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^11#9#11#9#291#0#21"Clang LLVM 1.0 Notice--2@96"In instantiation of function template specialization 'O_data::freestates<O_MIDI>' requested here-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^229#24#229#24#8911#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/cpp/Oracle_data.hpp0000000000000000^163#2#163#2#3900#0#14"Semantic Issue--2@79"Delete called on 'O_char' that has virtual functions but non-virtual destructor-400278403#18446744073709551615#0#2(2@108"In file included from /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c:12:-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^11#9#11#9#291#0#21"Clang LLVM 1.0 Notice--2@96"In instantiation of function template specialization 'O_data::freestates<O_char>' requested here-400278403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^232#24#232#24#9001#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/cpp/Oracle_data.hpp0000000000000000^163#2#163#2#3900#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c0000000000000000^2714"CompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o OMax.data.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/OMax.data.hmap -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/include -I/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/DerivedSources/i386 -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -include /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.d --serialize-diagnostics /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.dia -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/OMax.data.c -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.o36"C122AB51-592E-4C9E-B68B-829C10962EC2-
-
-CCompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400278395.903597
-e400278402.930507
-r1
-xCompileC
-xbuild/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cppc879e77bc3dbb741^9d46ee82c3dbb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp0000000000000000^2756"CompileC build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o ../../cpp/Oracle_label.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/OMax.data.hmap -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/include -I/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/DerivedSources/i386 -I/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -include /Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.d --serialize-diagnostics /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.dia -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../cpp/Oracle_label.cpp -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/Oracle_label.o36"5E128E6C-5208-4739-9785-9D44B02CA3AE-
-
-CLd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data normal i386
-s400278403.177394
-e400278404.055004
-r1
-xLd
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data328e2d83c3dbb741^96210e84c3dbb741^---0#0#0#--997"Ld ../../build/OMax.data.mxo/Contents/MacOS/OMax.data normal i386    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development -F/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development -F/Users/blevy/Max6/MaxSDK-6.0.4/c74support/max-includes -filelist /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/OMax.data.build/Development/max-external.build/Objects-normal/i386/OMax.data.LinkFileList -mmacosx-version-min=10.5 -framework MaxAPI -o /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo/Contents/MacOS/OMax.data36"00B49910-8AF5-4AA8-8374-C0E5AD3ADFD6-
-
-CSymLink /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-s400278395.787150
-e400278395.894789
-r1
-xSymLink
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxo
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxoe7a6c97bc3dbb741^0a2be57bc3dbb741^---0#0#0#--360"SymLink build/Development/OMax.data.mxo ../../build/OMax.data.mxo    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data    /bin/ln -sf /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/build/Development/OMax.data.mxo36"4BC57CF7-BF0A-4D4B-A15F-985227B363AB-
-
-CTouch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-s400278404.062933
-e400278404.110855
-r1
-xTouch
-x/Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxocf2d1084c3dbb741^ec6c1c84c3dbb741^---0#0#0#--229"Touch ../../build/OMax.data.mxo    cd /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data    /usr/bin/touch -c /Users/blevy/Projets/OMax/git2svn/src/experimental/externals/OMax.data/../../build/OMax.data.mxo36"4E21F393-57C9-4117-B63B-66F10F84F9C5-
-
