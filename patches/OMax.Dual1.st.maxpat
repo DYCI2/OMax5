@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 24.0, 45.0, 373.0, 275.0 ],
@@ -308,7 +309,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1258.25, 135.265198, 58.0, 20.0 ],
@@ -886,7 +887,7 @@
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u443000555"
+					"varname" : "u425000679"
 				}
 
 			}
@@ -2989,169 +2990,169 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Load.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn-File.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-Alphabet-new.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Monitor.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Record.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.yin+.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Yin+.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"name" : "OMax.yinstats.maxpat",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.seg.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.vufader.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/ircam-omax_m/patchers",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ircam-omax_m/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-PITCH.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Oracle-gen.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-pure.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.core.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-SP.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ActivityDel.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Dual-Visu.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Display.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Selections.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Selection.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.4Regions.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

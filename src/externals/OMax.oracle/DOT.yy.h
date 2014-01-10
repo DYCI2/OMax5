@@ -314,7 +314,7 @@ extern int yylex (void);
 #undef YY_DECL
 #endif
 
-#line 66 "/Users/blevy/Projets/OMax/git2svn/src/parser/DOT.l"
+#line 66 "/Users/blevy/Projets/OMax/Dev-Forge/src/parser/DOT.l"
 
 
 #line 321 "DOT.yy.h"

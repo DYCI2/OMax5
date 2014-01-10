@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 222.0, 69.0, 1215.0, 462.0 ],
@@ -337,7 +338,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-67",
-					"items" : [ "Dual1", ",", "Dual2", ",", "Load1" ],
+					"items" : "Dual1",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -463,7 +464,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-63",
-					"items" : [ "Dual1", ",", "Dual2", ",", "Load1" ],
+					"items" : "Dual1",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -560,7 +561,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-56",
-					"items" : [ "Dual1", ",", "Dual2", ",", "Load1" ],
+					"items" : "Dual1",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -757,7 +758,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-37",
-					"items" : [ "Dual1", ",", "Dual2", ",", "Load1" ],
+					"items" : "Dual1",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2947,239 +2948,239 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
-			"obj-8::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
-			"obj-8::obj-97" : [ "NK2m8", "NK2m8", 0 ],
-			"obj-8::obj-98" : [ "NK2next1[1]", "NK2next1", 0 ],
-			"obj-8::obj-64" : [ "NKpot3[1]", "NKpot3", 0 ],
-			"obj-8::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
-			"obj-8::obj-59" : [ "NKpot8[1]", "NKpot8", 0 ],
-			"obj-8::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
-			"obj-8::obj-107" : [ "NK2m3", "NK2m3", 0 ],
-			"obj-8::obj-100" : [ "NK2set[1]", "NK2set", 0 ],
-			"obj-8::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
-			"obj-8::obj-82" : [ "NK2s6", "NK2s6", 0 ],
-			"obj-8::obj-182" : [ "NK2back", "NK2back", 0 ],
-			"obj-2::obj-13::obj-21" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-8::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
-			"obj-8::obj-7" : [ "NK2s1", "NK2s1", 0 ],
-			"obj-8::obj-95" : [ "NK2prev2", "NK2prev2", 0 ],
-			"obj-8::obj-105" : [ "NK2m4", "NK2m4", 0 ],
-			"obj-8::obj-16" : [ "NK2r7[1]", "NK2r7", 0 ],
-			"obj-8::obj-18" : [ "NK2r6[1]", "NK2r6", 0 ],
-			"obj-8::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
-			"obj-8::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
 			"obj-8::obj-80" : [ "NK2s7", "NK2s7", 0 ],
-			"obj-8::obj-42" : [ "NK2r3[1]", "NK2r3", 0 ],
-			"obj-8::obj-188" : [ "NK2fast", "NK2fast", 0 ],
-			"obj-8::obj-186" : [ "NK2play", "NK2play", 0 ],
-			"obj-8::obj-44" : [ "NK2r2[1]", "NK2r2", 0 ],
-			"obj-8::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
-			"obj-8::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
+			"obj-8::obj-182" : [ "NK2back", "NK2back", 0 ],
 			"obj-8::obj-10" : [ "NK2s2", "NK2s2", 0 ],
 			"obj-8::obj-103" : [ "NK2m5", "NK2m6", 0 ],
-			"obj-8::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
+			"obj-8::obj-98" : [ "NK2next1[1]", "NK2next1", 0 ],
 			"obj-8::obj-78" : [ "NK2s8", "NK2s8", 0 ],
+			"obj-8::obj-188" : [ "NK2fast", "NK2fast", 0 ],
+			"obj-8::obj-186" : [ "NK2play", "NK2play", 0 ],
+			"obj-8::obj-76" : [ "NK2s3", "NK2s3", 0 ],
+			"obj-8::obj-101" : [ "NK2m6", "NK2m6", 0 ],
+			"obj-8::obj-95" : [ "NK2prev2", "NK2prev2", 0 ],
+			"obj-8::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
 			"obj-8::obj-196" : [ "NK2rec", "NK2rec", 0 ],
 			"obj-8::obj-192" : [ "NK2stop", "NK2stop", 0 ],
 			"obj-8::obj-43" : [ "NKslider8[1]", "NKslider8", 0 ],
+			"obj-8::obj-111" : [ "NK2m1", "NK2m1", 0 ],
 			"obj-8::obj-41" : [ "NKslider7[1]", "NKslider7", 0 ],
 			"obj-8::obj-39" : [ "NKslider6[1]", "NKslider6", 0 ],
 			"obj-8::obj-37" : [ "NKslider5[1]", "NKslider5", 0 ],
-			"obj-8::obj-76" : [ "NK2s3", "NK2s3", 0 ],
+			"obj-8::obj-74" : [ "NK2s4", "NK2s4", 0 ],
 			"obj-8::obj-35" : [ "NKslider4[1]", "NKslider4", 0 ],
 			"obj-8::obj-33" : [ "NKslider1[3]", "NKslider1", 0 ],
-			"obj-8::obj-101" : [ "NK2m6", "NK2m6", 0 ],
 			"obj-8::obj-31" : [ "NKslider2[1]", "NKslider2", 0 ],
-			"obj-8::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
-			"obj-8::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
 			"obj-8::obj-20" : [ "NKslider1[4]", "NKslider1", 0 ],
-			"obj-8::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
-			"obj-8::obj-111" : [ "NK2m1", "NK2m1", 0 ],
-			"obj-8::obj-74" : [ "NK2s4", "NK2s4", 0 ],
 			"obj-8::obj-99" : [ "NK2m7", "NK2m7", 0 ],
+			"obj-8::obj-64" : [ "NKpot3[1]", "NKpot3", 0 ],
+			"obj-8::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
+			"obj-8::obj-59" : [ "NKpot8[1]", "NKpot8", 0 ],
 			"obj-8::obj-109" : [ "NK2m2", "NK2m2", 0 ],
-			"obj-8::obj-84" : [ "NK2s5", "NK2s5", 0 ]
+			"obj-8::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
+			"obj-2::obj-13::obj-21" : [ "live.dial[1]", "live.dial", 0 ],
+			"obj-8::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
+			"obj-8::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
+			"obj-8::obj-84" : [ "NK2s5", "NK2s5", 0 ],
+			"obj-8::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
+			"obj-8::obj-42" : [ "NK2r3[1]", "NK2r3", 0 ],
+			"obj-8::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
+			"obj-8::obj-44" : [ "NK2r2[1]", "NK2r2", 0 ],
+			"obj-8::obj-97" : [ "NK2m8", "NK2m8", 0 ],
+			"obj-8::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
+			"obj-8::obj-16" : [ "NK2r7[1]", "NK2r7", 0 ],
+			"obj-8::obj-18" : [ "NK2r6[1]", "NK2r6", 0 ],
+			"obj-8::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
+			"obj-8::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
+			"obj-8::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
+			"obj-8::obj-107" : [ "NK2m3", "NK2m3", 0 ],
+			"obj-8::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
+			"obj-8::obj-82" : [ "NK2s6", "NK2s6", 0 ],
+			"obj-8::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
+			"obj-8::obj-7" : [ "NK2s1", "NK2s1", 0 ],
+			"obj-8::obj-100" : [ "NK2set[1]", "NK2set", 0 ],
+			"obj-8::obj-105" : [ "NK2m4", "NK2m4", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Impro-Dual.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Pick.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-OracleCollect.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-SearchWin.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Region.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Taboo.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Energy.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Context.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Weight.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Player.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Switch.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioOut-Stereo.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nanoKONTROL2.maxpat",
-				"bootpath" : "/Users/blevy/Max6/Utiles",
-				"patcherrelativepath" : "../../../../../Max6/Utiles",
+				"bootpath" : "/Users/blevy/Max6.1/Utiles",
+				"patcherrelativepath" : "../../../../Max6.1/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sr.maxpat",
-				"bootpath" : "/Users/blevy/Max6/Utiles",
-				"patcherrelativepath" : "../../../../../Max6/Utiles",
+				"bootpath" : "/Applications/Max 6.1/packages/ircam-omax_m/patchers",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ircam-omax_m/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Extend.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fr.maxpat",
-				"bootpath" : "/Users/blevy/Max6/Utiles",
-				"patcherrelativepath" : "../../../../../Max6/Utiles",
+				"bootpath" : "/Users/blevy/Max6.1/Utiles",
+				"patcherrelativepath" : "../../../../Max6.1/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Follow.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Player.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Play.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Player.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Simple.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Control.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
