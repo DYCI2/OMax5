@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 5,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 24.0, 45.0, 373.0, 275.0 ],
+		"rect" : [ 80.0, 45.0, 373.0, 275.0 ],
 		"bgcolor" : [ 0.619608, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -887,7 +887,7 @@
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u425000679"
+					"varname" : "u651000659"
 				}
 
 			}
@@ -2005,7 +2005,7 @@
 					"destination" : [ "obj-45", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 504.227325, 218.568176, 782.5, 218.568176 ],
+					"midpoints" : [ 504.227336, 218.568176, 782.5, 218.568176 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -2025,7 +2025,7 @@
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 437.894012, 225.0, 437.0, 225.0, 437.0, 311.0, 480.0, 311.0, 480.0, 371.0, 531.5, 371.0 ],
+					"midpoints" : [ 437.894002, 225.0, 437.0, 225.0, 437.0, 311.0, 480.0, 311.0, 480.0, 371.0, 531.5, 371.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -3053,8 +3053,8 @@
 			}
 , 			{
 				"name" : "bc.vufader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/ircam-omax_m/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ircam-omax_m/patchers",
+				"bootpath" : "/Users/blevy/Projets/OMax/Dev-Forge/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
