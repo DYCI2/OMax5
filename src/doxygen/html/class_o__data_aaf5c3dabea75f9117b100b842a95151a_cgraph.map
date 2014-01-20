@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_o__data.html#a3fa234b4542a1383c6c902f8a65b0a45" title="Reference a date from data." alt="" coords="157,56,286,83"/>
+<area shape="rect" id="node5" href="$class_o__data.html#a37130bd8972a72c868f85b979b865dcf" title="Reference a state from data." alt="" coords="155,5,287,32"/>
+<area shape="rect" id="node6" href="$class_o__label.html#ab2223be6bad9787764c8ce87579cd33c" title="Set the number of the state in the sequence." alt="" coords="149,107,293,133"/>
+<area shape="rect" id="node3" href="$class_o__label.html#a18816b978a098c2e57b5f36e39e8f8ad" title="Return the time reference in the buffer the state is pointing to (in ms)." alt="" coords="341,5,488,32"/>
+<area shape="rect" id="node4" href="$class_o__label.html#a95c66f241f7bd5fc50215aa84d50ad9b" title="Return the number of the state in the sequence." alt="" coords="342,56,487,83"/>
+</map>

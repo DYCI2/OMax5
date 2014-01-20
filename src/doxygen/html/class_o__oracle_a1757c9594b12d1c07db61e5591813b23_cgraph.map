@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_o__oracle.html#a34fcae86cf56ad0bca2ce4f94e11dddc" title="Reference a date from data." alt="" coords="163,5,301,32"/>
+<area shape="rect" id="node3" href="$class_o__oracle.html#af47d5ab0a74db5b97885d8a89593b75a" title="Reference a state from data." alt="" coords="161,56,303,83"/>
+<area shape="rect" id="node4" href="$class_o__state.html#a86bf0468ce6bb52458056d6ce4474ae1" title="Add a transition to the transition list." alt="" coords="164,107,300,133"/>
+<area shape="rect" id="node5" href="$class_o__state.html#a046051313287022e6d9893beac4f3e4b" title="Return the number of the state in FO." alt="" coords="561,208,706,235"/>
+<area shape="rect" id="node6" href="$class_o__oracle.html#aaab57df465a11c7ff254e8e93323fd54" title="Initialisation." alt="" coords="177,208,287,235"/>
+<area shape="rect" id="node7" href="$class_o__oracle.html#a447ef183e8ce099c31adfd9523df4a3f" title="Run the suffix oracle core algorithm." alt="" coords="175,259,289,285"/>
+<area shape="rect" id="node8" href="$class_o__state.html#ae1f577ab7e81969b53d589e22d4e853c" title="Return the suffix link and the associated lrs." alt="" coords="567,284,700,311"/>
+<area shape="rect" id="node9" href="$class_o__oracle.html#ac72f79b02338a2c8553e4a6543728876" title="Compute the length of common suffix." alt="" coords="383,259,481,285"/>
+<area shape="rect" id="node10" href="$class_o__oracle.html#a18b97ae8003fbbded4786f49428cb03f" title="Find transition." alt="" coords="352,360,512,387"/>
+<area shape="rect" id="node11" href="$class_o__state.html#a10b14aabd7bb9b8441198cc8934a41d9" title="Return the list transitions." alt="" coords="567,360,699,387"/>
+</map>
