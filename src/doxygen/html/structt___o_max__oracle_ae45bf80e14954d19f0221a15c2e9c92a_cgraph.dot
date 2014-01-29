@@ -1,0 +1,16 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="t_OMax_oracle::OMax_oracle_reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="O_oracle::freestates",height=0.2,width=0.4,color="black",URL="$class_o__oracle.html#a933bc6787c8b335ce00d86950497994e",tooltip="Delete states and fee memory."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="O_oracle::get_size",height=0.2,width=0.4,color="black",URL="$class_o__oracle.html#a084597a4f020b5ddadc603881b596d4f",tooltip="Return the current size of FO."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="O_oracle::reset_D2S",height=0.2,width=0.4,color="black",URL="$class_o__oracle.html#accd9046f510ee95bdaa51a8597cf10f0",tooltip="Reset hash table."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="O_oracle::reset_S2D",height=0.2,width=0.4,color="black",URL="$class_o__oracle.html#a6947546d5b3c57e67538ace53ef2beda",tooltip="Reset hash table."];
+}

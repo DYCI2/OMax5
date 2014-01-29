@@ -11,7 +11,7 @@ using namespace std;
 #include "Oracle_classes.hpp"
 #include "Oracle_label.hpp"
 #include "Oracle_data.hpp"
-#include "virfun.h"
+//#include "virfun.h"
 
 // variable globale
 int modulo=1;

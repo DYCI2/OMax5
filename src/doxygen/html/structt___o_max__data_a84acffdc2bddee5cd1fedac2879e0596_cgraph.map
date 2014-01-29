@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_o__data.html#aaf5c3dabea75f9117b100b842a95151a" title="Add state to the sequence." alt="" coords="343,81,439,108"/>
+<area shape="rect" id="node8" href="$class_o__data.html#ab8222f2093f5b02d55857a8c61d1ee0c" title="Return the current size of the sequence." alt="" coords="329,284,452,311"/>
+<area shape="rect" id="node9" href="$structt___o_max__data.html#a7c20ee830c53d614336dc6e192f40777" title="Set parameters to new data." alt="" coords="262,335,519,361"/>
+<area shape="rect" id="node19" href="$class_o___m_i_d_i.html#aa6b6b0f0207510920a5602349c642d77" title="Set mean velocity." alt="" coords="313,385,469,412"/>
+<area shape="rect" id="node20" href="$class_o__pitch.html#a8cfce76f79a9c2cbc7fb5d746f983937" title="Set the pitch of the state." alt="" coords="326,436,455,463"/>
+<area shape="rect" id="node21" href="$class_o__pitch.html#ae86fbfcc13e51fe0d595f890382cedba" title="Set the velocity of the state." alt="" coords="318,487,463,513"/>
+<area shape="rect" id="node22" href="$class_o___m_i_d_i.html#a6f4555723c255ce558594c5337e3b1f6" title="Set virtual fundamental." alt="" coords="323,537,459,564"/>
+<area shape="rect" id="node3" href="$class_o__data.html#a3fa234b4542a1383c6c902f8a65b0a45" title="Reference a date from data." alt="" coords="578,5,707,32"/>
+<area shape="rect" id="node6" href="$class_o__data.html#a37130bd8972a72c868f85b979b865dcf" title="Reference a state from data." alt="" coords="577,56,709,83"/>
+<area shape="rect" id="node7" href="$class_o__label.html#ab2223be6bad9787764c8ce87579cd33c" title="Set the number of the state in the sequence." alt="" coords="571,107,715,133"/>
+<area shape="rect" id="node4" href="$class_o__label.html#a18816b978a098c2e57b5f36e39e8f8ad" title="Return the time reference in the buffer the state is pointing to (in ms)." alt="" coords="765,5,912,32"/>
+<area shape="rect" id="node5" href="$class_o__label.html#a95c66f241f7bd5fc50215aa84d50ad9b" title="Return the number of the state in the sequence." alt="" coords="766,56,911,83"/>
+<area shape="rect" id="node10" href="$class_o__label.html#a7540608232110763eb458df1d3d79e48" title="Set the first additional info of the state." alt="" coords="574,157,711,184"/>
+<area shape="rect" id="node11" href="$class_o__label.html#a583695043e8b7cdeb40e49bf5bef30b4" title="Set the second additional info of the state." alt="" coords="574,208,711,235"/>
+<area shape="rect" id="node12" href="$class_o__label.html#aa604942e962480873de964bd7986479d" title="Set the time reference in the buffer of the state (in ms)." alt="" coords="570,259,715,285"/>
+<area shape="rect" id="node13" href="$class_o__label.html#a783347204e8d849058121c6cb1189db7" title="Set the duration of the state (in ms)." alt="" coords="568,309,717,336"/>
+<area shape="rect" id="node14" href="$class_o__label.html#a6599513c3fcd436c7bfb7157d2faa216" title="Set the extra info list of the state." alt="" coords="574,360,711,387"/>
+<area shape="rect" id="node15" href="$class_o__label.html#abc2b63bf1946307c66c0d711392373b2" title="Set the phase of the state." alt="" coords="574,411,711,437"/>
+<area shape="rect" id="node16" href="$class_o__label.html#ab20ca31f06e2cc0c4bab3e54981bfc77" title="Set the number of the phrase the state belongs to." alt="" coords="572,461,713,488"/>
+<area shape="rect" id="node17" href="$class_o__label.html#a2e1f26e1f1f6d0632ea7d4438a330b4a" title="Set the number of the section the state belongs to." alt="" coords="571,512,714,539"/>
+<area shape="rect" id="node18" href="$class_o__label.html#afa67adf76fc7298402e3ca1cc46dfae5" title="Set the tempo of the state." alt="" coords="574,563,711,589"/>
+</map>

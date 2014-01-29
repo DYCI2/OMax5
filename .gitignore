@@ -128,6 +128,14 @@
 /src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
 /src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
 
-/.DS_Store
-/patches/.DS_Store
-/src/.DS_Store
+/src/cpp/OracleCPP.xcodeproj/project.xcworkspace/
+/src/cpp/OracleCPP.xcodeproj/xcuserdata/
+/src/parser/parser.xcodeproj/project.xcworkspace/
+/src/parser/parser.xcodeproj/xcuserdata/
+
+/src/cpp/build/
+/src/parser/build/
+
+/src/parser/DOT.yy.h
+
+/src/parser/parser
