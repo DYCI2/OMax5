@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 566.0, 67.0, 755.0, 487.0 ],
@@ -77,12 +78,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-					"patching_rect" : [ 18.25, 252.253937, 136.0, 47.0 ],
+					"patching_rect" : [ 17.898315, 265.253937, 187.203369, 33.0 ],
 					"text" : "transport @name #1_BufferTime @clocksource internal"
 				}
 
@@ -94,7 +95,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.25, 304.253937, 25.0, 25.0 ]
+					"patching_rect" : [ 57.25, 222.204834, 25.0, 25.0 ]
 				}
 
 			}
@@ -178,8 +179,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 185.880402, 104.0, 20.0 ],
-					"text" : "sprintf read %s 0."
+					"patching_rect" : [ 253.0, 185.880402, 106.0, 20.0 ],
+					"text" : "sprintf replace %s"
 				}
 
 			}
