@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 129.0, 44.0, 941.0, 805.0 ],
@@ -37,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.75, 71.5, 49.0, 20.0 ],
+					"patching_rect" : [ 256.25, 71.5, 49.0, 20.0 ],
 					"text" : "receive"
 				}
 
@@ -51,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.75, 45.5, 151.0, 20.0 ],
+					"patching_rect" : [ 256.25, 45.5, 151.0, 20.0 ],
 					"text" : "sprintf set %s_AudioReset"
 				}
 
@@ -65,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 213.75, 15.5, 107.0, 20.0 ],
+					"patching_rect" : [ 234.25, 15.5, 107.0, 20.0 ],
 					"text" : "regexp (.+)_Buffer"
 				}
 
@@ -1546,6 +1547,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1935,15 +1945,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

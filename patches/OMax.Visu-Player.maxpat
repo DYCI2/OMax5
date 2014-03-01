@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 506.0, 76.0, 846.0, 545.0 ],
@@ -739,8 +740,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 124.5, 128.0, 65.0, 20.0 ],
-					"text" : "qmetro #2"
+					"patching_rect" : [ 124.5, 128.0, 58.0, 20.0 ],
+					"text" : "metro #2"
 				}
 
 			}

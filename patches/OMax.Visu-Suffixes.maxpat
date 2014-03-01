@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 6,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 158.0, 44.0, 761.0, 800.0 ],
+		"rect" : [ 158.0, 44.0, 793.0, 800.0 ],
 		"bgcolor" : [ 0.898039, 0.898039, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -89,7 +89,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u424004461"
+					"varname" : "u024012336"
 				}
 
 			}
@@ -932,7 +932,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 184.0, 723.0, 499.0, 19.0 ],
+					"patching_rect" : [ 184.0, 723.0, 501.0, 19.0 ],
 					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1"
 				}
 
@@ -1135,7 +1135,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 6,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 421.0, 49.0, 701.0, 568.0 ],
@@ -1877,7 +1877,7 @@
 									"destination" : [ "obj-27", 4 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 541.5, 336.0, 270.100006, 336.0 ],
+									"midpoints" : [ 541.5, 336.0, 270.1, 336.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1887,7 +1887,7 @@
 									"destination" : [ "obj-27", 3 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 541.5, 336.0, 250.699997, 336.0 ],
+									"midpoints" : [ 541.5, 336.0, 250.7, 336.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1897,7 +1897,7 @@
 									"destination" : [ "obj-27", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 541.5, 336.0, 231.300003, 336.0 ],
+									"midpoints" : [ 541.5, 336.0, 231.3, 336.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 

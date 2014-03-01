@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 433.0, 74.0, 806.0, 772.0 ],
@@ -484,8 +484,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 350.0, 115.0, 335.0, 568.0 ],
@@ -1326,8 +1326,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1079.0, 389.0, 229.0, 328.0 ],
@@ -1645,8 +1645,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 76.0, 69.0, 282.0, 194.0 ],
@@ -1858,8 +1858,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 386.0, 477.0, 254.0, 307.0 ],
@@ -2405,8 +2405,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 604.0, 107.0, 331.0, 437.0 ],
@@ -2988,7 +2988,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 53.0, 512.0, 605.0, 33.0 ],
-					"text" : "jit.gl.render #1 @erase_color 0.9 0.9 1. 1. @far_clip 15000. @auto_material 0 @depth_enable 0 @two_sided 0 @near_clip 0.01 @blend_enable 1"
+					"text" : "jit.gl.render #1 @erase_color 0.9 0.9 1. 1. @far_clip 15000. @auto_material 0 @depth_enable 0 @two_sided 0 @near_clip 0.01 @blend_enable 1 @accelerated 1"
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 70.0, 86.0, 939.0, 674.0 ],
@@ -234,8 +235,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 1033.0, 151.0, 366.0, 304.0 ],
@@ -684,8 +686,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 519.0, 357.0, 403.0, 301.0 ],
@@ -1745,24 +1748,42 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"id" : "obj-49",
-					"maxclass" : "slider",
+					"bgcolor" : [ 0.0, 0.0, 1.0, 0.1 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"id" : "obj-50",
+					"ignoreclick" : 1,
+					"interval" : 150,
+					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 173.0, 218.0, 15.0, 100.0 ],
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 197.0, 218.0, 15.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.040634, 32.669853, 18.0, 66.0 ],
-					"size" : 157.0
+					"prototypename" : "BenCello01"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.0, 0.0, 1.0, 0.1 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"id" : "obj-168",
+					"ignoreclick" : 1,
+					"interval" : 150,
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 115.0, 218.0, 15.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.040634, 32.669853, 18.0, 66.0 ],
+					"prototypename" : "BenCello01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"id" : "obj-61",
 					"maxclass" : "slider",
@@ -1779,35 +1800,17 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 1.0, 0.101961 ],
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"id" : "obj-50",
-					"interval" : 100,
-					"maxclass" : "meter~",
+					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"id" : "obj-49",
+					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 197.0, 218.0, 15.0, 100.0 ],
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 173.0, 218.0, 15.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.040634, 32.669853, 18.0, 66.0 ],
-					"prototypename" : "BenCello01"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 1.0, 0.101961 ],
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"id" : "obj-168",
-					"interval" : 100,
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 115.0, 218.0, 15.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.040634, 32.669853, 18.0, 66.0 ],
-					"prototypename" : "BenCello01"
+					"size" : 157.0
 				}
 
 			}

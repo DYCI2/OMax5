@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 413.0, -678.0, 757.0, 560.0 ],
+		"rect" : [ 413.0, 44.0, 757.0, 560.0 ],
 		"bgcolor" : [ 0.898039, 0.898039, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -727,8 +727,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 505.0, 550.0, 19.0 ],
-					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1 @layer 3"
+					"patching_rect" : [ 45.0, 506.0, 475.0, 19.0 ],
+					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @layer 3"
 				}
 
 			}
@@ -741,7 +741,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.030457, 433.484558, 587.272766, 115.545471 ],
+					"patching_rect" : [ 22.727234, 433.484558, 587.272766, 115.545471 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 69.0, 65.0 ]
 				}

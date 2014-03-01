@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 188.0, 82.0, 788.0, 588.0 ],
@@ -380,13 +381,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 196.0, 497.0, 521.0, 33.0 ],
-					"text" : "jit.gl.sketch #1 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1 @blend_enable 1 @layer 1"
+					"patching_rect" : [ 196.0, 497.0, 589.0, 20.0 ],
+					"text" : "jit.gl.sketch #1 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @blend_enable 1 @layer 1"
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 94.0, 112.0, 811.0, 609.0 ],
@@ -27,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 535.5, 82.0, 20.0 ],
+					"text" : "speedlim 100"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -287,8 +302,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 671.0, 44.0, 622.0, 590.0 ],
@@ -801,7 +817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 533.0, 30.0, 18.0 ],
+					"patching_rect" : [ 310.0, 571.0, 30.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 20.5, 28.0, 18.0 ],
 					"text" : "Size"
@@ -819,7 +835,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 255.0, 533.0, 47.0, 18.0 ],
+					"patching_rect" : [ 255.0, 571.0, 47.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 20.5, 42.0, 18.0 ],
 					"triangle" : 0
@@ -1261,7 +1277,7 @@
 					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 381.833313, 199.0, 442.5, 199.0 ],
+					"midpoints" : [ 381.833328, 199.0, 442.5, 199.0 ],
 					"source" : [ "obj-17", 4 ]
 				}
 
@@ -1361,7 +1377,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
@@ -1449,6 +1465,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
