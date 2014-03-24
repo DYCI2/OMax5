@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 4.0, 449.0, 286.0, 170.0 ],
+		"rect" : [ 4.0, 449.0, 288.0, 171.0 ],
 		"bgcolor" : [ 0.619608, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 65.333313, 339.0, 160.0, 20.0 ],
+					"text" : "OMax.4Regions Load1 Vizu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -151,12 +164,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.833313, 179.0, 134.0, 20.0 ],
+					"patching_rect" : [ 39.833313, 179.0, 161.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.5, 4.0, 132.0, 20.0 ],
-					"text" : "OMax.Dual-Visu Load1",
+					"presentation_rect" : [ 119.5, 146.0, 161.0, 20.0 ],
+					"text" : "OMax.Dual-Visu Load1 Vizu",
 					"varname" : "OMax.Dual-Visu"
 				}
 
@@ -539,9 +552,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 303.0, -210.5, 210.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 404, 353 ],
+						"client_rect" : [ 67, 153, 461, 322 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 794, -709, 1244, -510 ]
 					}
 ,
 					"text" : "pattrstorage OMax.inDual @greedy 1",
@@ -561,7 +574,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.833313, 55.765198, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.5, 33.5, 46.0, 20.0 ],
+					"presentation_rect" : [ 105.5, 8.5, 46.0, 20.0 ],
 					"text" : "Reset"
 				}
 
@@ -577,7 +590,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.833313, 427.871155, 150.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 100.0, 105.0, 44.0 ]
+					"presentation_rect" : [ 76.0, 73.0, 105.0, 44.0 ]
 				}
 
 			}
@@ -592,7 +605,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 216.5, 427.871155, 159.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 100.0, 104.0, 70.0 ]
+					"presentation_rect" : [ 181.0, 73.0, 104.0, 70.0 ]
 				}
 
 			}
@@ -607,7 +620,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 249.0, 224.371155, 160.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 30.0, 105.0, 70.0 ]
+					"presentation_rect" : [ 181.0, 3.5, 105.0, 70.0 ]
 				}
 
 			}
@@ -622,7 +635,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.833313, 224.371155, 149.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 56.0, 105.0, 44.0 ]
+					"presentation_rect" : [ 76.0, 30.0, 105.0, 44.0 ]
 				}
 
 			}
@@ -652,7 +665,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 39.833313, 48.265198, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.136353, 33.5, 20.0, 20.0 ]
+					"presentation_rect" : [ 86.136353, 8.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -768,6 +781,16 @@
 				"patchline" : 				{
 					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-105", 0 ]
@@ -1167,13 +1190,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.Visu-Display.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
 				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
@@ -1182,20 +1198,6 @@
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Selections.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Selection.maxpat",
 				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

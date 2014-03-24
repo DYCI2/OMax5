@@ -685,8 +685,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.75, 350.0, 115.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 44.0, 96.0, 20.0 ],
-					"text" : "DualV"
+					"presentation_rect" : [ 59.0, 44.0, 96.0, 20.0 ]
 				}
 
 			}

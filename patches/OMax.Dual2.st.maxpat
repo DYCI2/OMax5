@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 103.0, 109.0, 373.0, 275.0 ],
+		"rect" : [ 20.0, 342.0, 373.0, 276.0 ],
 		"bgcolor" : [ 0.619608, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -18,7 +19,7 @@
 		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -28,6 +29,166 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ 250, "Rest" ],
+					"id" : "obj-110",
+					"maxclass" : "bpatcher",
+					"name" : "OMax.ActivityDel.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 491.227325, 359.265198, 74.0, 44.136322 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 109.0, 74.0, 44.136322 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bordercolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-67",
+					"ignoreclick" : 1,
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 517.727295, 508.90155, 36.0, 18.0 ],
+					"triangle" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 491.227325, 422.772705, 24.0, 20.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 566.227295, 422.772705, 38.0, 20.0 ],
+					"text" : "t 0 -1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 491.227325, 460.772705, 45.5, 20.0 ],
+					"text" : "i 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 517.727295, 422.772705, 32.5, 20.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 491.227325, 541.636353, 36.0, 20.0 ],
+					"text" : "pack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-98",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.560699, -19.0, 47.0, 18.0 ],
+					"text" : "wclose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-100",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 418.560699, -19.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-106",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 418.560699, 9.0, 129.0, 31.0 ],
+					"text" : "window flags noclose, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 418.560699, 51.0, 69.0, 20.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -251,12 +412,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 970.0, 46.265198, 132.0, 20.0 ],
+					"patching_rect" : [ 970.0, 46.265198, 165.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.0, 8.0, 132.0, 20.0 ],
-					"text" : "OMax.Dual-Visu Dual2",
+					"presentation_rect" : [ 5.0, 251.0, 165.0, 20.0 ],
+					"text" : "OMax.Dual-Visu Dual2 Vizu2",
 					"varname" : "OMax.Dual-Visu"
 				}
 
@@ -308,7 +469,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1258.25, 135.265198, 58.0, 20.0 ],
@@ -443,171 +604,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 862.5, 29.0, 60.0, 20.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-65",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 366.772705, 27.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 111.0, 23.0, 18.0 ],
-					"text" : "ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-66",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 515.90155, 40.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 110.0, 40.0, 20.0 ],
-					"text" : "Rest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bordercolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-67",
-					"ignoreclick" : 1,
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 548.5, 515.90155, 36.0, 18.0 ],
-					"triangle" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-68",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 628.0, 366.772705, 39.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 184.0, 111.0, 35.0, 18.0 ],
-					"triscale" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 522.0, 395.772705, 125.0, 20.0 ],
-					"text" : "OMax.ActivityDel 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-74",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 522.0, 429.772705, 24.0, 20.0 ],
-					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 597.0, 429.772705, 38.0, 20.0 ],
-					"text" : "t 0 -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-76",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 522.0, 467.772705, 45.5, 20.0 ],
-					"text" : "i 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-81",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 548.5, 429.772705, 32.5, 20.0 ],
-					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-82",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 522.0, 548.636353, 36.0, 20.0 ],
-					"text" : "pack"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-83",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 568.0, 333.871155, 105.0, 20.0 ],
-					"text" : "loadmess set 250"
 				}
 
 			}
@@ -886,7 +882,7 @@
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u145000657"
+					"varname" : "u597002527"
 				}
 
 			}
@@ -943,9 +939,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 676.0, -196.5, 216.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 67, 153, 461, 322 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 794, -709, 1244, -510 ]
 					}
 ,
 					"text" : "pattrstorage OMax.inDual2 @greedy 1",
@@ -1097,7 +1093,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 756.5, 21.5, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 12.0, 46.0, 20.0 ],
+					"presentation_rect" : [ 173.5, 9.0, 46.0, 20.0 ],
 					"text" : "Reset"
 				}
 
@@ -1114,7 +1110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 697.0, 21.5, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 12.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 100.0, 9.0, 49.0, 20.0 ],
 					"text" : "Enable"
 				}
 
@@ -1129,7 +1125,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 667.0, 21.5, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.636353, 12.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 80.636353, 9.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1465,7 +1461,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 797.5, 21.5, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.136353, 12.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 154.136353, 9.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1485,7 +1481,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3, 4 ],
+					"args" : [ 2, 2 ],
 					"id" : "obj-60",
 					"maxclass" : "bpatcher",
 					"name" : "OMax.AudioIn.maxpat",
@@ -1504,8 +1500,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "OMax.AudioIn-File.st.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "int" ],
 					"patching_rect" : [ 160.25, 9.0, 74.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 26.0, 74.0, 69.0 ]
@@ -1535,7 +1531,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 517.5, 360.371155, 156.0, 218.530426 ]
+					"patching_rect" : [ 486.727325, 353.371155, 156.0, 218.530426 ]
 				}
 
 			}
@@ -1546,6 +1542,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-100", 0 ]
 				}
 
 			}
@@ -1689,16 +1694,6 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
 					"destination" : [ "obj-8", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1718,10 +1713,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -1931,6 +1944,7 @@
 					"destination" : [ "obj-82", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 451.560669, 532.253754, 517.727325, 532.253754 ],
 					"source" : [ "obj-22", 4 ]
 				}
 
@@ -1973,6 +1987,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2004,7 +2027,7 @@
 					"destination" : [ "obj-45", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 504.227325, 218.568176, 782.5, 218.568176 ],
+					"midpoints" : [ 504.227336, 218.568176, 782.5, 218.568176 ],
 					"source" : [ "obj-3", 2 ]
 				}
 
@@ -2016,16 +2039,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 570.560669, 209.265198, 891.280334, 209.265198, 891.280334, 119.265198, 984.25, 119.265198 ],
 					"source" : [ "obj-3", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 437.894012, 225.0, 437.0, 225.0, 437.0, 311.0, 480.0, 311.0, 480.0, 371.0, 531.5, 371.0 ],
-					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -2523,24 +2536,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2643,7 +2638,7 @@
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 531.5, 496.772736, 589.25, 496.772736, 589.25, 419.772736, 558.0, 419.772736 ],
+					"midpoints" : [ 500.727325, 489.772736, 558.477325, 489.772736, 558.477325, 412.772736, 527.227295, 412.772736 ],
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -2749,15 +2744,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-82", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -2986,172 +2972,160 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Load.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn-File.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-Alphabet-new.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Monitor.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Record.st.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.yin+.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Yin+.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"name" : "OMax.yinstats.maxpat",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.seg.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.vufader.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-PITCH.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Oracle-gen.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-pure.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.core.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-SP.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.ActivityDel.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Dual-Visu.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Display.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Selections.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Selection.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.4Regions.maxpat",
-				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OMax.ActivityDel.maxpat",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

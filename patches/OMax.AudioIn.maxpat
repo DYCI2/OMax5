@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 617.0, 79.0, 595.0, 718.0 ],
+		"rect" : [ 598.0, 65.0, 595.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 166.320526, 86.0, 153.0, 20.0 ],
+					"text" : "if $i2 then out2 $i2 else $i1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 166.320526, 57.0, 49.0, 20.0 ],
+					"text" : "unpack"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
@@ -40,7 +69,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.181824, 128.545441, 29.0, 20.0 ],
+					"patching_rect" : [ 165.50235, 144.545441, 29.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.361252, 45.0, 26.00034, 20.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ]
@@ -61,7 +90,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.181824, 128.545441, 30.0, 20.0 ],
+					"patching_rect" : [ 106.181824, 144.545441, 30.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.361252, 26.999996, 26.00034, 20.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ]
@@ -127,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 150.0, 93.0, 40.0, 20.0 ],
+					"patching_rect" : [ 166.320526, 115.0, 40.0, 20.0 ],
 					"text" : "+ 1"
 				}
 
@@ -141,8 +170,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 53.0, 83.0, 20.0 ],
-					"text" : "loadmess #1"
+					"patching_rect" : [ 166.320526, 19.0, 95.0, 20.0 ],
+					"text" : "loadmess #1 #2"
 				}
 
 			}
@@ -183,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.094391, 128.545441, 25.0, 18.0 ],
+					"patching_rect" : [ 84.094391, 144.545441, 25.0, 18.0 ],
 					"text" : "ch"
 				}
 
@@ -225,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 149.50235, 154.179443, 37.0, 20.0 ],
+					"patching_rect" : [ 165.822876, 172.179443, 37.0, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -322,6 +351,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"disabled" : 0,
@@ -451,6 +498,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -469,7 +534,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-90", 0 ]

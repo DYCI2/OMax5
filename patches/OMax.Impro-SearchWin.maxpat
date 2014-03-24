@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 802.0, 100.0, 491.0, 678.0 ],
@@ -181,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 140.120483, 105.0, 20.0 ],
-					"text" : "loadmess set 500"
+					"text" : "loadmess set 750"
 				}
 
 			}
