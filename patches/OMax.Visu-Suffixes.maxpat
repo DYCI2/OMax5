@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
@@ -51,7 +51,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 181.0, 84.0, 20.0 ],
+					"patching_rect" : [ 724.0, 181.0, 74.0, 20.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -578,7 +578,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u577007968"
+					"varname" : "u079001154"
 				}
 
 			}
@@ -709,7 +709,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 628.0, 84.0, 20.0 ],
+					"patching_rect" : [ 122.0, 628.0, 74.0, 20.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -738,7 +738,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 239.0, 82.0, 20.0 ],
+					"patching_rect" : [ 8.0, 239.0, 72.0, 20.0 ],
 					"text" : "r #0-redraw"
 				}
 
@@ -752,7 +752,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 397.0, 248.0, 84.0, 20.0 ],
+					"patching_rect" : [ 397.0, 248.0, 74.0, 20.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -1277,7 +1277,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 638.0, 84.0, 20.0 ],
+					"patching_rect" : [ 294.0, 638.0, 74.0, 20.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -1349,8 +1349,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 227.5, 793.0, 525.0, 19.0 ],
-					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1"
+					"patching_rect" : [ 243.5, 793.0, 550.0, 19.0 ],
+					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1 @layer 2"
 				}
 
 			}
@@ -1551,7 +1551,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64"
 						}
 ,

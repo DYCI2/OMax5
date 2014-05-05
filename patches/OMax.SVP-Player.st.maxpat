@@ -1049,8 +1049,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 193.75, 700.0, 400.25, 20.0 ],
-					"text" : "poly~ OMax.SVP-Play.st 4 @args 20"
+					"patching_rect" : [ 193.75, 700.0, 399.0, 20.0 ],
+					"text" : "poly~ OMax.SVP-Play.st 4 @args 20 @parallel 1"
 				}
 
 			}

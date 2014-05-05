@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 392.0, 44.0, 111.0, 266.0 ],
+		"rect" : [ 393.0, 48.0, 111.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 550.0, 308.0, 32.5, 18.0 ],
+					"patching_rect" : [ 550.0, 308.0, 40.5, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -78,7 +78,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 550.0, 339.0, 88.0, 20.0 ],
+					"patching_rect" : [ 550.0, 339.0, 96.0, 20.0 ],
 					"text" : "s #2-SetActive"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.75, 16.0, 99.0, 20.0 ],
+					"patching_rect" : [ 425.75, 16.0, 107.0, 20.0 ],
 					"text" : "r #2-Active-Input"
 				}
 
@@ -179,18 +179,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 99.0, 107.0, 49.0, 20.0 ],
 					"text" : "receive"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "symbol: Input Name",
-					"id" : "obj-92",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1288.0, 214.0, 25.0, 25.0 ]
 				}
 
 			}
