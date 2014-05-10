@@ -68,7 +68,7 @@ extern "C"
     
     // Input/ouput routines
     void OMax_render_read(t_OMax_render *x, long statnb);
-    void OMax_render_readid(t_OMax_render *x, long id);
+//    void OMax_render_readid(t_OMax_render *x, long id);
     void OMax_render_setname(t_OMax_render *x, t_symbol *newname);
     void OMax_render_phrases(t_OMax_render *x);
     
@@ -95,7 +95,7 @@ extern "C"
         
         // input methods
         class_addmethod(c, (method)OMax_render_read,"int", A_LONG, 0);
-        class_addmethod(c, (method)OMax_render_readid,"in1", A_LONG, 0);
+//        class_addmethod(c, (method)OMax_render_readid,"in1", A_LONG, 0);
         class_addmethod(c, (method)OMax_render_setname, "set", A_DEFSYM, 0);
         class_addmethod(c, (method)OMax_render_phrases, "phrases",0);
         
@@ -131,7 +131,7 @@ extern "C"
             x->coeftab = NULL;
             
             // inlets
-            x->in_ms = intin(x,1);
+//            x->in_ms = intin(x,1);
             
             // outlets
             x->out_statenb = intout(x); // rightmost
@@ -426,7 +426,7 @@ extern "C"
     /**@public @memberof t_OMax_render
      * @brief Output all the information of a Data state
      * @remarks Input message in Max5: a state number (@c int) */
-    void OMax_render_readid(t_OMax_render *x, long idin)
+/*    void OMax_render_readid(t_OMax_render *x, long idin)
     {
         int statenb = 0;
         if (OMax_render_bind(x)&&(x->dataname->s_thing))
@@ -443,6 +443,7 @@ extern "C"
             ATOMIC_DECREMENT(&(((t_OMax_data *)(x->dataname->s_thing))->readcount));
         }
     }
+*/
     
     /**@public @memberof t_OMax_render
      * @brief Browse the whole data structure

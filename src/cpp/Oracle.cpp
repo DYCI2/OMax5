@@ -11,7 +11,7 @@ using namespace std;
 #include "Oracle_classes.hpp"
 #include "Oracle_label.hpp"
 #include "Oracle_data.hpp"
-#include "virfun.h"
+//#include "virfun.h"
 
 // variable globale
 int modulo=1;
@@ -28,33 +28,47 @@ int main (int argc, char * const argv[]) {
     
     //cout<<a;
     
-	oracle.set_name("Pouet");
+	//oracle.set_name("Pouet");
     data.set_name("Truc");
-	oracle.start();
+	//oracle.start();
     data.start<O_char>();
-    oracle.add(1);
-    //data.add<O_char>(1, (O_label*)&a);
-    oracle.add(2);
-    //data.add<O_char>(2, (O_label*)&b);
-    oracle.add(2);
-    //data.add<O_char>(3, (O_label*)&b);
-    oracle.add(3);
-    //data.add<O_char>(4, (O_label*)&c);
-    oracle.add(1);
-    //data.add<O_char>(5, (O_label*)&a);
-    oracle.add(2);
-    //data.add<O_char>(6, (O_label*)&b);
-    oracle.add(3);
-    //data.add<O_char>(7, (O_label*)&c);
-    oracle.add(4);
-    //data.add<O_char>(8, (O_label*)&d);
-    oracle.add(1);
-    //data.add<O_char>(9, (O_label*)&a);
-    oracle.add(2);
-    //data.add<O_char>(10, (O_label*)&b);
-    oracle.add(3);
-    //data.add<O_char>(11, (O_label*)&c);
+    //oracle.add(1);
+    data.add<O_char>((O_label*)&a);
+    //oracle.add(2);
+    data.add<O_char>((O_label*)&b);
+    //oracle.add(2);
+    data.add<O_char>((O_label*)&b);
+    //oracle.add(3);
+    data.add<O_char>((O_label*)&c);
+    //oracle.add(1);
+    data.add<O_char>((O_label*)&a);
+    //oracle.add(2);
+    data.add<O_char>((O_label*)&b);
+    //oracle.add(3);
+    data.add<O_char>((O_label*)&c);
+    //oracle.add(4);
+    data.add<O_char>((O_label*)&d);
+    //oracle.add(1);
+    data.add<O_char>((O_label*)&a);
+    //oracle.add(2);
+    data.add<O_char>((O_label*)&b);
+    //oracle.add(3);
+    data.add<O_char>((O_label*)&c);
 	
+    O_data copy;
+    copy.copy<O_char>(data, 119, 7);
+    copy.set_name("Copy");
+    
+    cout<<"---------------------"<<endl;
+    cout<<data<<endl;
+    
+    //data.freestates<O_char>();
+    
+    cout<<"---------------------"<<endl;
+    cout<<copy<<endl;
+    
+    
+    
     /*data.start<O_MIDI_poly>();
 	
 	O_learner build (oracle,data);*/
@@ -127,10 +141,10 @@ int main (int argc, char * const argv[]) {
 	cout<<(frame1==frame2)<<endl;
 	cout<<(frame3==frame2)<<endl;*/
 	
-    cout<<endl<<"---------------------"<<endl<<endl;
-	cout<<oracle;
-    cout<<endl<<"---------------------"<<endl<<endl;
-    cout<<data;
+    //cout<<endl<<"---------------------"<<endl<<endl;
+	//cout<<oracle;
+    //cout<<endl<<"---------------------"<<endl<<endl;
+    //cout<<data;
 	
 	/*O_oracle copy;
 	O_data copy_data;

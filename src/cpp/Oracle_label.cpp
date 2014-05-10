@@ -50,6 +50,7 @@ O_label::O_label(const O_label & labelin)
     tempo = labelin.tempo;
     binfo1 = labelin.binfo1;
     binfo2 = labelin.binfo2;
+    extras = list<float>(labelin.extras);
 }
 
 int O_label::get_statenb()
@@ -172,7 +173,9 @@ void O_label::print(ostream & out) const
     //cout<<"{"<<endl;
     out<<"    \"state\" : "<<this->statenb<<","<<endl;
     out<<"    \"time\" : [ "<<this->bufferef<<", "<<this->duration<<" ],"<<endl;
-    out<<"    \"seg\" : [ "<<this->phrase<<", "<<this->section<<" ]";
+    out<<"    \"seg\" : [ "<<this->phrase<<", "<<this->section<<" ]"<<endl;
+    out<<"    \"beat\" : [ "<<this->phase<<", "<<this->tempo<<", "<<this->binfo1<<", "<<this->binfo2<<" ]";
+//    out<<"    \"extras\" : [ "<<this->extras" ]";
     //return out;
 }
 

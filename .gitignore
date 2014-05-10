@@ -148,3 +148,22 @@
 /src/parser/.DS_Store
 
 /Icon
+
+/src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/project.xcworkspace/xcuserdata/
+/src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/xcuserdata/BenCello.xcuserdatad/
+
+/src/yin+ & co/bc.yinstats/.DS_Store
+
+/src/cpp/OracleCPP.xcodeproj/project.xcworkspace/
+/src/cpp/OracleCPP.xcodeproj/xcuserdata/
+
+/src/externals/OMax.id2state/OMax.id2state.xcodeproj/project.xcworkspace/xcuserdata/
+/src/externals/OMax.id2state/OMax.id2state.xcodeproj/xcuserdata/BenCello.xcuserdatad/
+
+/src/externals/OMax.render/OMax.render.xcodeproj/project.xcworkspace/xcuserdata/
+/src/externals/OMax.render/OMax.render.xcodeproj/xcuserdata/BenCello.xcuserdatad/
+
+/src/externals/OMax.id2state/.DS_Store
+/src/externals/OMax.oracle/.DS_Store
+/src/externals/OMax.render/.DS_Store
+/src/externals/OMax.state2id/.DS_Store

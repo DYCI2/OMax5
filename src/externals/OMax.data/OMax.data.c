@@ -44,6 +44,8 @@ void OMax_data_setID(t_OMax_data *x, long n);
 // from learner
 void OMax_data_add(t_OMax_data *x, t_symbol *s, short ac, t_atom * av);
 void OMax_data_note(t_OMax_data *x, t_symbol *s, short ac, t_atom * av);
+    
+void OMax_data_copyfrom(t_OMax_data*x, t_symbol *s, long argc, t_atom *argv);
 
 // Internal routines
 t_symbol * OMax_data_name(t_symbol * oname);
@@ -86,6 +88,7 @@ int C74_EXPORT main(void)
     
     class_addmethod(c, (method)OMax_data_setID, "int", A_LONG, 0);
     class_addmethod(c, (method)OMax_data_list, "list", A_GIMME, 0);
+    class_addmethod(c, (method)OMax_data_copyfrom, "copyfrom", A_GIMME, 0);
     
     class_register(CLASS_BOX, c); /* CLASS_NOBOX */
     OMax_data_class = c;
@@ -344,8 +347,8 @@ void OMax_data_reset(t_OMax_data *x)
                 x->data.freestates<O_char>();
         }
     }
-    x->data.reset_D2S();
-    x->data.reset_S2D();
+//    x->data.reset_D2S();
+//    x->data.reset_S2D();
     ATOMIC_DECREMENT(&x->wflag);
     outlet_int(x->out0,(long)x->data.get_size());
 }
@@ -403,7 +406,7 @@ void OMax_data_add(t_OMax_data *x, t_symbol *s, short ac, t_atom * av)
                         if (!x->readcount)
                         {
                             /// Add state to data structure
-                            out = x->data.add<O_char>(x->ID,(O_label*)(newdata));
+                            out = x->data.add<O_char>((O_label*)(newdata));
                         }
                         else
                             object_error((t_object *)x,"Oracle %s being read (%d)",x->oname->s_name, x->readcount);
@@ -452,7 +455,7 @@ void OMax_data_add(t_OMax_data *x, t_symbol *s, short ac, t_atom * av)
                     if (!x->readcount)
                     {
                         // Add state to data structure
-                        out = x->data.add<O_pitch>(x->ID,(O_label*)newdata);
+                        out = x->data.add<O_pitch>((O_label*)newdata);
                     }
                     else
                         object_error((t_object *)x,"Oracle %s being read (%d)",x->oname->s_name, x->readcount);
@@ -496,7 +499,7 @@ void OMax_data_add(t_OMax_data *x, t_symbol *s, short ac, t_atom * av)
                     if (!x->readcount)
                     {
                         // Add state to data structure
-                        out = x->data.add<O_spectral>(x->ID,(O_label*)newdata);
+                        out = x->data.add<O_spectral>((O_label*)newdata);
                     }
                     else
                         object_error((t_object *)x,"Oracle %s being read (%d)",x->oname->s_name, x->readcount);
@@ -549,7 +552,7 @@ void OMax_data_add(t_OMax_data *x, t_symbol *s, short ac, t_atom * av)
                     if (!x->readcount)
                     {
                         // Add state to data structure
-                        out = x->data.add<O_MIDI>(atom_getlong(av+4),(O_label*)newdata);
+                        out = x->data.add<O_MIDI>((O_label*)newdata);
                     }
                     else
                         object_error((t_object *)x,"Oracle %s being read (%d)",x->oname->s_name, x->readcount);
@@ -606,6 +609,70 @@ void OMax_data_note(t_OMax_data *x, t_symbol *s, short ac, t_atom * av)
             }
         }
     }
+}
+
+    
+void OMax_data_copyfrom(t_OMax_data*x, t_symbol *s, long argc, t_atom *argv)
+{
+    t_object* otherdata_obj;
+    t_symbol* otherdata_name;
+    if ((argc == 1 && atom_gettype(argv)==A_SYM) || ( argc == 3 && atom_gettype(argv)==A_SYM && atom_gettype(argv+1)==A_LONG && atom_gettype(argv+2)==A_LONG))
+    {
+        otherdata_name = OMax_data_name(atom_getsym(argv));
+        if ((otherdata_name->s_thing) && (ob_sym(otherdata_name->s_thing) == gensym("OMax.data")))
+        {
+            otherdata_obj = otherdata_name->s_thing;
+            if (((t_OMax_data*)otherdata_obj)->datatype == x->datatype)
+            {
+                if (argc == 1)
+                {
+                    ATOMIC_INCREMENT(&x->wflag);
+                    OMax_data_reset(x);
+                    switch (x->datatype)
+                    {
+                        case SPECTRAL:
+                            x->data.copy<O_spectral>(((t_OMax_data*)otherdata_obj)->data);
+                            break;
+                        case PITCH:
+                            x->data.copy<O_pitch>(((t_OMax_data*)otherdata_obj)->data);
+                            break;
+                        case MIDI:
+                            x->data.copy<O_MIDI>(((t_OMax_data*)otherdata_obj)->data);
+                            break;
+                        default:
+                            x->data.copy<O_char>(((t_OMax_data*)otherdata_obj)->data);
+                    }
+                    ATOMIC_DECREMENT(&x->wflag);
+                }
+                else if (argc == 3)
+                {
+                    ATOMIC_INCREMENT(&x->wflag);
+                    OMax_data_reset(x);
+                    switch (x->datatype)
+                    {
+                        case SPECTRAL:
+                            x->data.copy<O_spectral>(((t_OMax_data*)otherdata_obj)->data, atom_getlong(argv+1), atom_getlong(argv+2));
+                            break;
+                        case PITCH:
+                            x->data.copy<O_pitch>(((t_OMax_data*)otherdata_obj)->data, atom_getlong(argv+1), atom_getlong(argv+2));
+                            break;
+                        case MIDI:
+                            x->data.copy<O_MIDI>(((t_OMax_data*)otherdata_obj)->data, atom_getlong(argv+1), atom_getlong(argv+2));
+                            break;
+                        default:
+                            x->data.copy<O_char>(((t_OMax_data*)otherdata_obj)->data, atom_getlong(argv+1), atom_getlong(argv+2));
+                    }
+                    ATOMIC_DECREMENT(&x->wflag);
+                }
+            }
+            else
+                object_error((t_object*)x, "Data type mismatch");
+        }
+        else
+            object_error((t_object*)x, "Invalid data name");
+    }
+    else
+        object_error((t_object*)x, "wrong arguments for message \"copyfrom\"");
 }
 
 void OMax_data_setID(t_OMax_data *x, long n)
@@ -1204,7 +1271,7 @@ void OMax_data_doread(t_OMax_data *x, t_symbol *s)
                             notelist.clear();
                             
                             // add to the data structure
-                            x->data.add<O_MIDI>(date,(O_label*)newstate);
+                            x->data.add<O_MIDI>((O_label*)newstate);
                         }
                     }
                     break;
@@ -1277,7 +1344,7 @@ void OMax_data_doread(t_OMax_data *x, t_symbol *s)
                             }
                             
                             // add to the data structure
-                            x->data.add<O_spectral>(date,(O_label*)newstate);
+                            x->data.add<O_spectral>((O_label*)newstate);
                         }
                     }
                     break;
@@ -1344,7 +1411,7 @@ void OMax_data_doread(t_OMax_data *x, t_symbol *s)
                             }
                             
                             // add to the data structure
-                            x->data.add<O_pitch>(date,(O_label*)newstate);
+                            x->data.add<O_pitch>((O_label*)newstate);
                         }
                     }
                     break;
@@ -1401,7 +1468,7 @@ void OMax_data_doread(t_OMax_data *x, t_symbol *s)
                             extras.clear();
                             
                             // add to the data structure
-                            x->data.add<O_char>(date,(O_label*)newstate);
+                            x->data.add<O_char>((O_label*)newstate);
                         }
                     }
                     break;
