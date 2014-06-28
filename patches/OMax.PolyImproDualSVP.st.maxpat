@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 760.0, 473.0, 672.0, 212.0 ],
+		"rect" : [ 760.0, 473.0, 672.0, 239.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,7 +27,177 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"showontab" : 1,
+		"globalpatchername" : "master",
+		"title" : "Poly Players",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 417.333313, 146.5, 59.5, 20.0 ],
+					"restore" : 					{
+						"volume" : [ 127 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u096011655"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 417.333313, 121.0, 112.0, 20.0 ],
+					"text" : "pattrmarker master"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.298039, 0.298039, 0.298039, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 597.0, 400.0, 69.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 178.0, 69.0, 20.0 ],
+					"text" : "OMax.Mira",
+					"varname" : "OMax.Mira"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 314.5, 172.0, 51.0, 20.0 ],
+					"text" : "route /z"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 461.0, 243.0, 51.0, 20.0 ],
+					"text" : "route /z"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 314.5, 146.5, 96.0, 20.0 ],
+					"text" : "osc-route /panic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 0.5 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 314.5, 121.0, 69.0, 20.0 ],
+					"text" : "r oscTouch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 461.0, 274.0, 100.0, 20.0 ],
+					"text" : "zmap 0. 1. 0 157"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 461.0, 215.0, 104.0, 20.0 ],
+					"text" : "osc-route /master"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 0.5 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 461.0, 187.5, 69.0, 20.0 ],
+					"text" : "r oscTouch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 0.5 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 597.0, 362.0, 104.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 201.0, 178.0, 104.0, 20.0 ],
+					"text" : "OMax.TouchOSC",
+					"varname" : "OMax.TouchOSC"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
@@ -40,7 +210,8 @@
 					"patching_rect" : [ 369.333313, 331.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 429.236938, 31.5, 54.526123, 166.0 ],
-					"size" : 157.0
+					"size" : 157.0,
+					"varname" : "volume"
 				}
 
 			}
@@ -244,7 +415,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.333313, 85.5, 47.0, 18.0 ],
+					"patching_rect" : [ 486.333313, 15.5, 47.0, 18.0 ],
 					"text" : "wclose"
 				}
 
@@ -258,7 +429,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 399.333313, 85.5, 60.0, 20.0 ],
+					"patching_rect" : [ 417.333313, 15.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -273,7 +444,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 399.333313, 113.5, 129.0, 31.0 ],
+					"patching_rect" : [ 417.333313, 43.5, 129.0, 31.0 ],
 					"text" : "window flags noclose, window exec"
 				}
 
@@ -287,7 +458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 399.333313, 155.5, 69.0, 20.0 ],
+					"patching_rect" : [ 417.333313, 85.5, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -391,7 +562,8 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 230.5, 183.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 9.0, 58.0, 58.0 ]
+					"presentation_rect" : [ 9.0, 9.0, 58.0, 58.0 ],
+					"varname" : "panic"
 				}
 
 			}
@@ -509,7 +681,8 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "", "" ],
 					"patching_rect" : [ 97.0, 353.0, 206.0, 20.0 ],
-					"text" : "poly~ OMax.Poly-ImproDualSVP.st 6"
+					"text" : "poly~ OMax.Poly-ImproDualSVP.st 6",
+					"varname" : "Players"
 				}
 
 			}
@@ -856,6 +1029,51 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -905,6 +1123,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -991,77 +1227,128 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33.1::obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
-			"obj-14::obj-186" : [ "NK2play", "NK2play", 0 ],
-			"obj-14::obj-105" : [ "NK2m4", "NK2m4", 0 ],
-			"obj-14::obj-74" : [ "NK2s4", "NK2s4", 0 ],
-			"obj-22::obj-20" : [ "PhBpot11", "PhBpot11", 0 ],
-			"obj-22::obj-12" : [ "PhBpot3", "PhBpot3", 0 ],
-			"obj-14::obj-99" : [ "NK2m7", "NK2m7", 0 ],
-			"obj-14::obj-80" : [ "NK2s7", "NK2s7", 0 ],
-			"obj-33.2::obj-13::obj-21" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-22::obj-15" : [ "PhBpot6", "PhBpot6", 0 ],
+			"obj-29::obj-30::obj-195" : [ "live.dial[10]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-76" : [ "volume-L[5]", "volume-L", 0 ],
+			"obj-28::obj-1::obj-48" : [ "volume-L[3]", "volume-L", 0 ],
+			"obj-29::obj-30::obj-196" : [ "live.dial[11]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-181" : [ "live.text[5]", "live.text", 0 ],
+			"obj-14::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
+			"obj-14::obj-80" : [ "NK2s7", "NK2s7", 0 ],
+			"obj-33.1::obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
+			"obj-33.5::obj-13::obj-21" : [ "live.dial[21]", "live.dial", 0 ],
 			"obj-14::obj-95" : [ "NK2prev2", "NK2prev2", 0 ],
-			"obj-14::obj-109" : [ "NK2m2", "NK2m2", 0 ],
-			"obj-14::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
-			"obj-14::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
-			"obj-14::obj-10" : [ "NK2s2", "NK2s2", 0 ],
-			"obj-14::obj-196" : [ "NK2rec", "NK2rec", 0 ],
+			"obj-28::obj-1::obj-68" : [ "pan[4]", "pan", 0 ],
+			"obj-14::obj-101" : [ "NK2m6", "NK2m6", 0 ],
+			"obj-14::obj-186" : [ "NK2play", "NK2play", 0 ],
 			"obj-22::obj-23" : [ "PhBpot9", "PhBpot9", 0 ],
-			"obj-14::obj-192" : [ "NK2stop", "NK2stop", 0 ],
-			"obj-22::obj-22" : [ "PhBpot1", "PhBpot1", 0 ],
-			"obj-14::obj-103" : [ "NK2m5", "NK2m6", 0 ],
-			"obj-14::obj-84" : [ "NK2s5", "NK2s5", 0 ],
-			"obj-33.6::obj-13::obj-21" : [ "live.dial[5]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-78" : [ "live.dial[14]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-62" : [ "toggle[4]", "live.slider", 0 ],
+			"obj-29::obj-30::obj-12" : [ "live.dial[16]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-235" : [ "live.slider[12]", "live.slider[1]", 0 ],
 			"obj-14::obj-100" : [ "NK2set[1]", "NK2set", 0 ],
+			"obj-29::obj-30::obj-107" : [ "live.dial[12]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-79" : [ "live.dial[15]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-63" : [ "volume-L[4]", "volume-L", 0 ],
+			"obj-14::obj-10" : [ "NK2s2", "NK2s2", 0 ],
+			"obj-29::obj-30::obj-8" : [ "live.dial[17]", "live.dial", 0 ],
+			"obj-14::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
+			"obj-33.3::obj-13::obj-21" : [ "live.dial[19]", "live.dial", 0 ],
+			"obj-14::obj-196" : [ "NK2rec", "NK2rec", 0 ],
+			"obj-14::obj-111" : [ "NK2m1", "NK2m1", 0 ],
 			"obj-22::obj-19" : [ "PhBpot12", "PhBpot12", 0 ],
+			"obj-22::obj-11" : [ "PhBpot2", "PhBpot2", 0 ],
 			"obj-22::obj-13" : [ "PhBpot4", "PhBpot4", 0 ],
-			"obj-14::obj-35" : [ "NKslider4[1]", "NKslider4", 0 ],
-			"obj-14::obj-97" : [ "NK2m8", "NK2m8", 0 ],
-			"obj-14::obj-33" : [ "NKslider1[3]", "NKslider1", 0 ],
+			"obj-29::obj-30::obj-53" : [ "live.text", "live.text", 0 ],
+			"obj-29::obj-30::obj-75" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-14::obj-84" : [ "NK2s5", "NK2s5", 0 ],
+			"obj-14::obj-43" : [ "NKslider8[1]", "NKslider8", 0 ],
+			"obj-28::obj-1::obj-1" : [ "volume-L[6]", "volume-L", 0 ],
+			"obj-14::obj-41" : [ "NKslider7[1]", "NKslider7", 0 ],
+			"obj-14::obj-105" : [ "NK2m4", "NK2m4", 0 ],
+			"obj-28::obj-1::obj-25" : [ "toggle[1]", "live.slider", 0 ],
+			"obj-14::obj-39" : [ "NKslider6[1]", "NKslider6", 0 ],
+			"obj-14::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
+			"obj-22::obj-16" : [ "PhBpot7", "PhBpot7", 0 ],
+			"obj-28::obj-1::obj-26" : [ "volume-L[1]", "volume-L", 0 ],
+			"obj-28::obj-1::obj-18" : [ "toggle", "live.slider", 0 ],
+			"obj-14::obj-37" : [ "NKslider5[1]", "NKslider5", 0 ],
+			"obj-14::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
+			"obj-29::obj-30::obj-18" : [ "live.slider", "live.slider", 0 ],
 			"obj-14::obj-78" : [ "NK2s8", "NK2s8", 0 ],
 			"obj-14::obj-64" : [ "NKpot3[1]", "NKpot3", 0 ],
-			"obj-14::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
-			"obj-14::obj-31" : [ "NKslider2[1]", "NKslider2", 0 ],
-			"obj-14::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
-			"obj-22::obj-27" : [ "NKpot1[8]", "NKpot1", 0 ],
+			"obj-14::obj-35" : [ "NKslider4[1]", "NKslider4", 0 ],
 			"obj-14::obj-16" : [ "NK2r7[1]", "NK2r7", 0 ],
-			"obj-14::obj-20" : [ "NKslider1[4]", "NKslider1", 0 ],
-			"obj-22::obj-16" : [ "PhBpot7", "PhBpot7", 0 ],
-			"obj-33.5::obj-13::obj-21" : [ "live.dial[4]", "live.dial", 0 ],
-			"obj-14::obj-59" : [ "NKpot8[1]", "NKpot8", 0 ],
+			"obj-28::obj-1::obj-81" : [ "pan[5]", "pan", 0 ],
 			"obj-14::obj-18" : [ "NK2r6[1]", "NK2r6", 0 ],
-			"obj-14::obj-182" : [ "NK2back", "NK2back", 0 ],
-			"obj-14::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
-			"obj-14::obj-107" : [ "NK2m3", "NK2m3", 0 ],
-			"obj-14::obj-43" : [ "NKslider8[1]", "NKslider8", 0 ],
-			"obj-14::obj-76" : [ "NK2s3", "NK2s3", 0 ],
-			"obj-14::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
-			"obj-14::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
-			"obj-14::obj-41" : [ "NKslider7[1]", "NKslider7", 0 ],
-			"obj-14::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
-			"obj-14::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
+			"obj-14::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
+			"obj-14::obj-33" : [ "NKslider1[3]", "NKslider1", 0 ],
+			"obj-14::obj-99" : [ "NK2m7", "NK2m7", 0 ],
+			"obj-29::obj-30::obj-165" : [ "live.dial[8]", "live.dial", 0 ],
+			"obj-14::obj-188" : [ "NK2fast", "NK2fast", 0 ],
 			"obj-22::obj-21" : [ "PhBpot10", "PhBpot10", 0 ],
-			"obj-14::obj-39" : [ "NKslider6[1]", "NKslider6", 0 ],
+			"obj-29::obj-30::obj-151" : [ "live.text[4]", "live.text", 0 ],
+			"obj-14::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
+			"obj-14::obj-31" : [ "NKslider2[1]", "NKslider2", 0 ],
+			"obj-14::obj-59" : [ "NKpot8[1]", "NKpot8", 0 ],
+			"obj-29::obj-30::obj-166" : [ "live.dial[9]", "live.dial", 0 ],
+			"obj-14::obj-20" : [ "NKslider1[4]", "NKslider1", 0 ],
+			"obj-14::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
+			"obj-14::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
+			"obj-29::obj-30::obj-136" : [ "live.dial[6]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-61" : [ "volume-L", "volume-L", 0 ],
+			"obj-14::obj-76" : [ "NK2s3", "NK2s3", 0 ],
+			"obj-29::obj-30::obj-122" : [ "live.text[3]", "live.text", 0 ],
+			"obj-29::obj-30::obj-93" : [ "live.text[2]", "live.text", 0 ],
+			"obj-33.2::obj-13::obj-21" : [ "live.dial[18]", "live.dial", 0 ],
 			"obj-14::obj-42" : [ "NK2r3[1]", "NK2r3", 0 ],
-			"obj-22::obj-11" : [ "PhBpot2", "PhBpot2", 0 ],
-			"obj-14::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
+			"obj-14::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
+			"obj-22::obj-27" : [ "NKpot1[8]", "NKpot1", 0 ],
+			"obj-29::obj-30::obj-137" : [ "live.dial[7]", "live.dial", 0 ],
 			"obj-14::obj-44" : [ "NK2r2[1]", "NK2r2", 0 ],
-			"obj-14::obj-101" : [ "NK2m6", "NK2m6", 0 ],
-			"obj-14::obj-37" : [ "NKslider5[1]", "NKslider5", 0 ],
-			"obj-14::obj-82" : [ "NK2s6", "NK2s6", 0 ],
-			"obj-14::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
-			"obj-33.4::obj-13::obj-21" : [ "live.dial[3]", "live.dial", 0 ],
-			"obj-14::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
+			"obj-14::obj-109" : [ "NK2m2", "NK2m2", 0 ],
+			"obj-14::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
 			"obj-22::obj-18" : [ "PhBpot13", "PhBpot13", 0 ],
+			"obj-29::obj-30::obj-108" : [ "live.dial[13]", "live.dial", 0 ],
 			"obj-22::obj-14" : [ "PhBpot5", "PhBpot5", 0 ],
+			"obj-29::obj-30::obj-162" : [ "live.slider[9]", "live.slider", 0 ],
+			"obj-14::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
+			"obj-14::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
+			"obj-29::obj-30::obj-72" : [ "live.slider[2]", "live.slider[1]", 0 ],
+			"obj-28::obj-1::obj-42" : [ "pan[2]", "pan", 0 ],
+			"obj-14::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
+			"obj-14::obj-82" : [ "NK2s6", "NK2s6", 0 ],
+			"obj-29::obj-30::obj-192" : [ "live.slider[11]", "live.slider", 0 ],
+			"obj-29::obj-30::obj-133" : [ "live.slider[7]", "live.slider", 0 ],
+			"obj-29::obj-30::obj-104" : [ "live.slider[5]", "live.slider", 0 ],
 			"obj-14::obj-98" : [ "NK2next1[1]", "NK2next1", 0 ],
-			"obj-14::obj-111" : [ "NK2m1", "NK2m1", 0 ],
-			"obj-14::obj-7" : [ "NK2s1", "NK2s1", 0 ],
+			"obj-28::obj-1::obj-36" : [ "toggle[2]", "live.slider", 0 ],
+			"obj-14::obj-103" : [ "NK2m5", "NK2m6", 0 ],
+			"obj-33.6::obj-13::obj-21" : [ "live.dial[22]", "live.dial", 0 ],
+			"obj-14::obj-182" : [ "NK2back", "NK2back", 0 ],
 			"obj-22::obj-24" : [ "PhBpot8", "PhBpot8", 0 ],
-			"obj-33.3::obj-13::obj-21" : [ "live.dial[2]", "live.dial", 0 ],
-			"obj-14::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
-			"obj-14::obj-188" : [ "NK2fast", "NK2fast", 0 ]
+			"obj-28::obj-1::obj-37" : [ "volume-L[2]", "volume-L", 0 ],
+			"obj-29::obj-30::obj-159" : [ "live.slider[8]", "live.slider[1]", 0 ],
+			"obj-29::obj-30::obj-26" : [ "live.slider[1]", "live.slider[1]", 0 ],
+			"obj-29::obj-30::obj-240" : [ "live.text[6]", "live.text", 0 ],
+			"obj-14::obj-7" : [ "NK2s1", "NK2s1", 0 ],
+			"obj-29::obj-30::obj-64" : [ "live.text[1]", "live.text", 0 ],
+			"obj-29::obj-30::obj-189" : [ "live.slider[10]", "live.slider[1]", 0 ],
+			"obj-14::obj-97" : [ "NK2m8", "NK2m8", 0 ],
+			"obj-29::obj-30::obj-101" : [ "live.slider[4]", "live.slider[1]", 0 ],
+			"obj-29::obj-30::obj-130" : [ "live.slider[6]", "live.slider[1]", 0 ],
+			"obj-14::obj-192" : [ "NK2stop", "NK2stop", 0 ],
+			"obj-22::obj-20" : [ "PhBpot11", "PhBpot11", 0 ],
+			"obj-22::obj-22" : [ "PhBpot1", "PhBpot1", 0 ],
+			"obj-22::obj-12" : [ "PhBpot3", "PhBpot3", 0 ],
+			"obj-33.4::obj-13::obj-21" : [ "live.dial[20]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-31" : [ "pan[1]", "pan", 0 ],
+			"obj-28::obj-1::obj-53" : [ "pan[3]", "pan", 0 ],
+			"obj-14::obj-74" : [ "NK2s4", "NK2s4", 0 ],
+			"obj-28::obj-1::obj-75" : [ "toggle[5]", "live.slider", 0 ],
+			"obj-28::obj-1::obj-47" : [ "toggle[3]", "live.slider", 0 ],
+			"obj-14::obj-107" : [ "NK2m3", "NK2m3", 0 ],
+			"obj-28::obj-1::obj-60" : [ "pan", "pan", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1115,8 +1402,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1233,6 +1520,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "OMax.TouchOSC.maxpat",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tOSC-dbtap.maxpat",
+				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OMax.Mira.maxpat",
+				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OMax.id2state.mxo",
 				"type" : "iLaX"
 			}
@@ -1250,6 +1558,10 @@
 			}
 , 			{
 				"name" : "supervp.scrub~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]

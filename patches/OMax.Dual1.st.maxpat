@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
@@ -51,7 +51,7 @@
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ -22.0 ],
+							"parameter_initial" : [ -22.598425 ],
 							"parameter_unitstyle" : 4
 						}
 
@@ -937,13 +937,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 718.227295, 505.0, 87.0, 47.0 ],
-					"restore" : [ 20 ],
+					"restore" : [ 25 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u171002567"
+					"varname" : "u704000147"
 				}
 
 			}

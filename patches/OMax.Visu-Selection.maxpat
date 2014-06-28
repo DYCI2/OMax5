@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
@@ -89,11 +89,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-46",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 648.166809, 148.0, 46.0, 20.0 ],
-					"text" : "sel 0 1"
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 648.166809, 145.0, 36.0, 20.0 ],
+					"text" : "sel 0"
 				}
 
 			}
@@ -608,7 +608,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 196.0, 497.0, 589.0, 20.0 ],
-					"text" : "jit.gl.sketch #1 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @blend_enable 1 @layer 1"
+					"text" : "jit.gl.sketch #1 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @blend_enable 1 @layer 3"
 				}
 
 			}

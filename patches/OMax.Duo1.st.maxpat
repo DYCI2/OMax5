@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64"
 		}
 ,
@@ -50,7 +50,7 @@
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 0.0 ],
+							"parameter_initial" : [ -16.003062 ],
 							"parameter_unitstyle" : 4
 						}
 
@@ -473,7 +473,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1036.0, 63.265198, 156.0, 20.0 ],
 					"presentation" : 1,
@@ -844,7 +844,7 @@
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u178000230"
+					"varname" : "u088003810"
 				}
 
 			}
@@ -1357,7 +1357,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 1 ],
+					"args" : [ 1, 2 ],
 					"id" : "obj-60",
 					"maxclass" : "bpatcher",
 					"name" : "OMax.AudioIn.maxpat",

@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 478.0, 269.0, 418.0, 370.0 ],
+		"rect" : [ 191.0, 281.0, 418.0, 370.0 ],
 		"bgcolor" : [ 0.8, 0.4, 0.0, 0.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,6 +29,26 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 207.0, 13.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"speed" : [ 1.0 ],
+						"transp" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u742012155"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "float: transposition",
 					"id" : "obj-15",
@@ -120,7 +141,8 @@
 					"patching_rect" : [ 223.0, 224.0, 68.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 22.0, 35.0, 18.0 ],
-					"triscale" : 0.7
+					"triscale" : 0.7,
+					"varname" : "transp"
 				}
 
 			}
@@ -196,7 +218,8 @@
 					"patching_rect" : [ 90.0, 222.0, 68.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 4.0, 35.0, 18.0 ],
-					"triscale" : 0.7
+					"triscale" : 0.7,
+					"varname" : "speed"
 				}
 
 			}

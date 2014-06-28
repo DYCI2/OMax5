@@ -148,3 +148,12 @@
 /src/parser/.DS_Store
 
 /Icon
+
+/src/externals/OMax.id2state/.DS_Store
+/src/externals/OMax.oracle/.DS_Store
+
+/src/externals/OMax.render/.DS_Store
+/src/externals/OMax.state2id/.DS_Store
+/src/yin+ & co/bc.yinstats/.DS_Store
+
+/src/externals/OMax.oracle/DOT.yy.h
