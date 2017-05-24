@@ -5,7 +5,7 @@ PRODUCT_NAME = $(PROJECT_NAME)
 // Paths
 //MAX_SDK = ~/Max5/MaxSDK-5.1.7
 //MAX_SDK = ~/Max6/MaxSDK-6.0.4
-MAX_SDK = /Users/BenCello/Documents/Max/MaxSDK-6.1.4
+MAX_SDK = /Users/BenCello/Documents/Max6.1/MaxSDK-6.1.4
 C74SUPPORT = $(MAX_SDK)/c74support
 HEADER_SEARCH_PATHS = "$(C74SUPPORT)/max-includes" //"/Developer/Headers/FlatCarbon"
 FRAMEWORK_SEARCH_PATHS = "$(C74SUPPORT)/max-includes"
@@ -31,7 +31,7 @@ ARCHS = i386 x86_64
 // SDKROOT = $(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk
 
 // Xcode 4.3+
-SDKROOT = macosx10.8
+SDKROOT = macosx10.9
 
 MACOSX_DEPLOYMENT_TARGET = 10.6
 

@@ -10,22 +10,26 @@
 	<string>OMax.oracle</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>5510A373B762BB8B217F8A50F6D3094FAD1EFF87</key>
+		<string>bencello.net:Repos/OMax5.git</string>
 		<key>E7A02066-F4E6-4C6D-A0BD-9A5B498174DE</key>
 		<string>git+ssh://forge.ircam.fr/OMax-git-fromSVN.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/experimental/externals/OMax.oracle/OMax.oracle.xcodeproj/project.xcworkspace</string>
+	<string>src/externals/OMax.oracle/OMax.oracle.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>5510A373B762BB8B217F8A50F6D3094FAD1EFF87</key>
+		<string>../../../../..</string>
 		<key>E7A02066-F4E6-4C6D-A0BD-9A5B498174DE</key>
-		<string>../../../../../..</string>
+		<string>../../../../../../git2svn</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>git+ssh://forge.ircam.fr/OMax-git-fromSVN.git</string>
+	<string>bencello.net:Repos/OMax5.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E7A02066-F4E6-4C6D-A0BD-9A5B498174DE</string>
+	<string>5510A373B762BB8B217F8A50F6D3094FAD1EFF87</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>E7A02066-F4E6-4C6D-A0BD-9A5B498174DE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>git2svn</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5510A373B762BB8B217F8A50F6D3094FAD1EFF87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OMax5</string>
 		</dict>
 	</array>
 </dict>

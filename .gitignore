@@ -1,159 +1,39 @@
-/src/experimental/build/
-/src/experimental/externals/OMax.build/build/
-/src/experimental/externals/OMax.data/build/
-/src/experimental/externals/OMax.id2state/build/
-/src/experimental/externals/OMax.learn/build/
-/src/experimental/externals/OMax.oracle/build/
+
+# Created by https://www.gitignore.io/api/macos
+
+### macOS ###
+*.DS_Store
+
+# Created by https://www.gitignore.io/api/xcode
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+
+## Various settings
+xcuserdata/
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+project.xcworkspace/
+xcuserdata/
+
+# Max externals #
+*.mxo
+
+
+# Yacc generated file #
 /src/experimental/externals/OMax.oracle/DOT.yy.h
-/src/experimental/externals/OMax.read/build/
-/src/experimental/externals/OMax.render/build/
-/src/experimental/externals/OMax.SLT/build/
-/src/experimental/externals/OMax.state2id/build/
-/src/experimental/yin+ & co/bc.virfun/build/
-/src/experimental/yin+ & co/bc.yinstats/build/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/bc.virfun.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/bc.yinstats.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.build.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.data.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.date2state.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.learn.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.oracle.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.read.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.render.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.SLT.mxo/
-/Forum/OMax4.5.3/OMax 4.5.3/OMax Patches&Objects/OMax.state2date.mxo/
-/src/dev/externals/OMax.build/build/
-/src/dev/externals/OMax.data/build/
-/src/dev/externals/OMax.date2state/build/
-/src/dev/externals/OMax.learn/build/
-/src/dev/externals/OMax.oracle/build/
-/src/dev/externals/OMax.read/build/
-/src/dev/externals/OMax.render/build/
-/src/dev/externals/OMax.SLT/build/
-/src/dev/externals/OMax.state2date/build/
-/src/dev/yin+ & co/bc.virfun/build/
-/src/dev/yin+ & co/bc.yinstats/build/
 /src/dev/externals/OMax.oracle/DOT.yy.h
-/src/experimental/externals/OMax.data/OMax.data.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.data/OMax.data.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.id2state/OMax.id2state.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.id2state/OMax.id2state.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.oracle/OMax.oracle.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.oracle/OMax.oracle.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.read/OMax.read.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.read/OMax.read.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.render/OMax.render.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.render/OMax.render.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.SLT/OMax.SLT.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.SLT/OMax.SLT.xcodeproj/xcuserdata/
-/src/experimental/externals/OMax.state2id/OMax.state2id.xcodeproj/project.xcworkspace/
-/src/experimental/externals/OMax.state2id/OMax.state2id.xcodeproj/xcuserdata/
-/src/dev/externals/OMax.data/OMax.data.xcodeproj/project.xcworkspace/
-/src/dev/externals/OMax.data/OMax.data.xcodeproj/xcuserdata/
-/src/dev/externals/OMax.oracle/OMax.oracle.xcodeproj/project.xcworkspace/
-/src/dev/externals/OMax.oracle/OMax.oracle.xcodeproj/xcuserdata/
-/src/dev/yin+ & co/bc.virfun/bc.virfun.xcodeproj/project.xcworkspace/
-/src/dev/yin+ & co/bc.virfun/bc.virfun.xcodeproj/xcuserdata/
-/src/experimental/yin+ & co/bc.virfun/bc.virfun.xcodeproj/project.xcworkspace/
-/src/experimental/yin+ & co/bc.virfun/bc.virfun.xcodeproj/xcuserdata/
-/src/experimental/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/project.xcworkspace/
-/src/experimental/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/xcuserdata/
-/src/build/
-
-/src/externals/OMax.build/build/
-
-/src/externals/OMax.build/OMax.build.xcodeproj/project.xcworkspace/
-/src/externals/OMax.build/OMax.build.xcodeproj/xcuserdata/
-
-/src/externals/OMax.data/OMax.data.xcodeproj/project.xcworkspace/xcshareddata/
-
-/src/externals/OMax.id2state/OMax.id2state.xcodeproj/project.xcworkspace/xcshareddata/
-
-/src/externals/OMax.read/OMax.read.xcodeproj/project.xcworkspace/xcshareddata/
-
-/src/externals/OMax.read/OMax.read.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.render/OMax.render.xcodeproj/project.xcworkspace/xcshareddata/
-
-/src/externals/OMax.SLT/OMax.SLT.xcodeproj/project.xcworkspace/xcshareddata/
-/src/externals/OMax.SLT/OMax.SLT.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.state2id/OMax.state2id.xcodeproj/project.xcworkspace/xcshareddata/
-
-/src/externals/OMax.state2id/OMax.state2id.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/project.xcworkspace/xcshareddata/
-/src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/yin+ & co/bc.virfun/build/
-
-/src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/project.xcworkspace/xcshareddata/
-/src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/yin+ & co/bc.yinstats/build/
-
-/src/externals/OMax.build/build
-
-/src/externals/OMax.data/build
-
-/src/externals/OMax.id2state/build
-
-/src/externals/OMax.oracle/build
-
-/src/externals/OMax.read/build
-
-/src/externals/OMax.render/build
-
-/src/externals/OMax.SLT/build
-
-/src/externals/OMax.state2id/build
-
-/src/yin+ & co/bc.virfun/build
-
-/src/yin+ & co/bc.yinstats/build
-
-/src/externals/OMax.data/OMax.data.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.id2state/OMax.id2state.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.oracle/OMax.oracle.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.render/OMax.render.xcodeproj/project.xcworkspace/xcuserdata/blevy.xcuserdatad/UserInterfaceState.xcuserstate
-
-/src/externals/OMax.data/OMax.data.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/externals/OMax.oracle/OMax.oracle.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/externals/OMax.read/OMax.read.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/externals/OMax.render/OMax.render.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/externals/OMax.SLT/OMax.SLT.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-/src/yin+ & co/bc.yinstats/bc.yinstats.xcodeproj/xcuserdata/blevy.xcuserdatad/xcschemes/Max6.xcscheme
-
-/src/.DS_Store
-/src/externals/.DS_Store
-/src/externals/OMax.data/.DS_Store
-
-/.DS_Store
-
-/src/yin+ & co/.DS_Store
-/src/yin+ & co/bc.virfun/.DS_Store
-
-/src/externals/OMax.data/OMax.data.xcodeproj/project.xcworkspace/xcuserdata/
-/src/externals/OMax.data/OMax.data.xcodeproj/xcuserdata/BenCello.xcuserdatad/
-/src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/project.xcworkspace/xcuserdata/
-/src/yin+ & co/bc.virfun/bc.virfun.xcodeproj/xcuserdata/BenCello.xcuserdatad/
-
-/patches/.DS_Store
-
-/src/cpp/.DS_Store
-/src/parser/.DS_Store
-
-/Icon
-
-/src/externals/OMax.id2state/.DS_Store
-/src/externals/OMax.oracle/.DS_Store
-
-/src/externals/OMax.render/.DS_Store
-/src/externals/OMax.state2id/.DS_Store
-/src/yin+ & co/bc.yinstats/.DS_Store
-
 /src/externals/OMax.oracle/DOT.yy.h
+
+Icon
+

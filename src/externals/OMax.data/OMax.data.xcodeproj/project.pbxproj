@@ -171,7 +171,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB3521B20F70080E00B535EC /* OMax.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx10.7;
 			};
 			name = Development;
 		};
@@ -179,7 +178,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB3521B20F70080E00B535EC /* OMax.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx10.7;
 			};
 			name = Deployment;
 		};
