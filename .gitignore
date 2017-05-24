@@ -31,9 +31,8 @@ xcuserdata/
 
 
 # Yacc generated file #
-/src/experimental/externals/OMax.oracle/DOT.yy.h
-/src/dev/externals/OMax.oracle/DOT.yy.h
-/src/externals/OMax.oracle/DOT.yy.h
+DOT.yy.h
 
+*.zip
+/src/parser/parser
 Icon
-

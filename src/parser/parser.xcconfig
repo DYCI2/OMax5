@@ -3,7 +3,7 @@
 //  Created by Benjamin Levy on 15/04/10.
 //
 
-OTHER_LDFLAGS = -lfl
+OTHER_LDFLAGS = -ll
 GCC_VERSION[arch=i386] = 4.2
 DSTROOT = $(SRCROOT)
 INSTALL_PATH = /
