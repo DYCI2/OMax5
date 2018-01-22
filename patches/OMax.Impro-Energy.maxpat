@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 327.0, 44.0, 530.0, 810.0 ],
+		"rect" : [ 188.0, 45.0, 530.0, 810.0 ],
 		"bgcolor" : [ 1.0, 0.8, 0.4, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -576,8 +576,8 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "bang", "", "list", "list", "int" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "", "list", "list", "list", "", "int" ],
 					"patching_rect" : [ 79.0, 261.0, 81.0, 20.0 ],
 					"text" : "OMax.render"
 				}
@@ -592,7 +592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 161.5, 227.0, 49.0, 20.0 ],
+					"patching_rect" : [ 130.0, 227.0, 49.0, 20.0 ],
 					"text" : "unpack"
 				}
 
@@ -646,7 +646,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 161.5, 201.0, 57.0, 20.0 ],
+					"patching_rect" : [ 130.0, 201.0, 57.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -659,8 +659,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "bang", "", "list", "list", "int" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "", "list", "list", "list", "", "int" ],
 					"patching_rect" : [ 186.5, 261.0, 81.0, 20.0 ],
 					"text" : "OMax.render"
 				}
@@ -1068,6 +1068,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

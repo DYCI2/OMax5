@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 694.0, 56.0, 443.0, 784.0 ],
@@ -687,7 +688,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "bang", "", "list", "list", "list", "", "int" ],
 					"patching_rect" : [ 134.25, 293.0, 100.0, 20.0 ],
@@ -786,7 +787,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 1 ]

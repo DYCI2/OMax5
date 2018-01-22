@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 393.0, 48.0, 111.0, 266.0 ],
+		"rect" : [ 505.0, 1077.0, 111.0, 266.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -283,7 +283,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, "#2" ],
+					"args" : [ "#1_sp", "#2" ],
 					"bgmode" : 1,
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
@@ -327,7 +327,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 0, "#2", 1 ],
+					"args" : [ "#1_pitch", "#2", 1 ],
 					"bgmode" : 1,
 					"id" : "obj-36",
 					"maxclass" : "bpatcher",

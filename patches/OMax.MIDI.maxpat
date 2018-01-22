@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 5.0, 350.0, 372.0, 173.0 ],
+		"rect" : [ 72.0, 137.0, 1115.0, 832.0 ],
 		"bgcolor" : [ 0.619608, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,42 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"channels" : 1,
-					"id" : "obj-68",
-					"interval" : 100,
-					"maxclass" : "live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"orientation" : 1,
-					"outlettype" : [ "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 338.060669, 117.265198, 73.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 5.0, 87.0, 21.0 ],
-					"relative" : 1,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_mmin" : -70.0,
-							"parameter_mmax" : 6.0,
-							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ -22.0 ],
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"showname" : 0,
-					"shownumber" : 0,
-					"slidercolor" : [ 0.0, 0.0, 1.0, 0.101961 ],
-					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -90,20 +54,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 567.75, 9.265198, 64.0, 20.0 ],
 					"text" : "r NK2buts"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-66",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 567.75, 190.265198, 46.0, 20.0 ],
-					"text" : "yin~"
 				}
 
 			}
@@ -202,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.621368, 361.136353, 71.0, 20.0 ],
+					"patching_rect" : [ 370.621368, 361.136353, 71.0, 20.0 ],
 					"text" : "prepend /bt"
 				}
 
@@ -216,7 +166,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.621368, 333.636353, 83.0, 20.0 ],
+					"patching_rect" : [ 370.621368, 333.636353, 83.0, 20.0 ],
 					"text" : "pack 0. 0. 0 0"
 				}
 
@@ -248,7 +198,7 @@
 					"patching_rect" : [ 289.0, 31.0, 81.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 2.0, 81.0, 27.0 ],
-					"text" : "Spect1"
+					"text" : "MIDI1"
 				}
 
 			}
@@ -284,40 +234,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-94",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 990.0, 557.462097, 82.0, 20.0 ],
-					"text" : "prepend read"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-95",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 957.5, 524.0, 84.0, 20.0 ],
-					"text" : "regexp .+_chr"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-96",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 961.0, 620.0, 82.0, 20.0 ],
+					"patching_rect" : [ 991.5, 585.340759, 82.0, 20.0 ],
 					"text" : "prepend read"
 				}
 
@@ -331,8 +253,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 930.5, 591.394043, 80.0, 20.0 ],
-					"text" : "regexp .+_sp"
+					"patching_rect" : [ 957.5, 556.734802, 87.0, 20.0 ],
+					"text" : "regexp .+_mid"
 				}
 
 			}
@@ -358,8 +280,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.0, 595.0, 163.0, 20.0 ],
-					"text" : "OMax.4Regions Spect1 Vizu"
+					"patching_rect" : [ 744.0, 595.0, 158.0, 20.0 ],
+					"text" : "OMax.4Regions MIDI1 Vizu"
 				}
 
 			}
@@ -474,8 +396,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 820.25, 15.265198, 103.0, 20.0 ],
-					"text" : "loadmess Spect1"
+					"patching_rect" : [ 820.25, 15.265198, 97.0, 20.0 ],
+					"text" : "loadmess MIDI1"
 				}
 
 			}
@@ -604,8 +526,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 632.0, 119.0, 20.0 ],
-					"text" : "s Spect1_Buffer-size"
+					"patching_rect" : [ 77.0, 632.0, 116.0, 20.0 ],
+					"text" : "s MIDI1_Buffer-size"
 				}
 
 			}
@@ -701,7 +623,7 @@
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u696004497"
+					"varname" : "u734000587"
 				}
 
 			}
@@ -964,10 +886,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Spect1" ],
+					"args" : [ "MIDI1" ],
 					"id" : "obj-29",
 					"maxclass" : "bpatcher",
-					"name" : "OMax.Data-SP.maxpat",
+					"name" : "OMax.Data-MIDI.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1007,7 +929,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Spect1_sp" ],
+					"args" : [ "MIDI1_midi" ],
 					"id" : "obj-26",
 					"maxclass" : "bpatcher",
 					"name" : "OMax.Oracle-gen.maxpat",
@@ -1057,8 +979,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "int" ],
-					"patching_rect" : [ 509.5, 332.0, 123.0, 20.0 ],
-					"text" : "OMax.seg Spect1 /cc"
+					"patching_rect" : [ 509.5, 332.0, 120.0, 20.0 ],
+					"text" : "OMax.seg MIDI1 /mi"
 				}
 
 			}
@@ -1080,16 +1002,16 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Spect1" ],
+					"args" : [ "MIDI1" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
-					"name" : "OMax.Record.st.maxpat",
-					"numinlets" : 6,
+					"name" : "OMax.Time.maxpat",
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 77.0, 522.765198, 183.0, 70.0 ],
+					"patching_rect" : [ 77.0, 522.765198, 183.0, 54.696899 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 99.5, 74.0, 70.0 ],
+					"presentation_rect" : [ 2.0, 99.5, 74.0, 48.5 ],
 					"varname" : "Record"
 				}
 
@@ -1176,40 +1098,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.0, 566.0, 164.0, 20.0 ],
+					"patching_rect" : [ 744.0, 566.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 149.5, 164.0, 20.0 ],
-					"text" : "OMax.Dual-Visu Spect1 Vizu",
+					"presentation_rect" : [ 77.0, 149.5, 159.0, 20.0 ],
+					"text" : "OMax.Dual-Visu MIDI1 Vizu",
 					"varname" : "OMax.Duo-Visu"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2, 2 ],
-					"id" : "obj-60",
-					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 76.800003, 9.0, 74.0, 69.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 30.0, 74.0, 69.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn-File.st.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 160.25, 9.0, 74.0, 69.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 30.0, 74.0, 69.0 ]
 				}
 
 			}
@@ -1366,16 +1259,6 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
-					"destination" : [ "obj-7", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.4, 0.8, 1.0, 0.5 ],
 					"destination" : [ "obj-91", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1517,60 +1400,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1828,16 +1657,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.8, 0.4, 1.0, 0.5 ],
-					"destination" : [ "obj-7", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-58", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"destination" : [ "obj-101", 4 ],
 					"disabled" : 0,
@@ -1876,60 +1695,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1944,33 +1709,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 949.0, 263.265198, 1041.25, 263.265198, 1041.25, 128.265198, 856.25, 128.265198 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -2174,28 +1912,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-93", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-93", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-95", 2 ]
 				}
 
 			}
@@ -2228,118 +1948,100 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-68" : [ "live.gain~", "live.gain~", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Load.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.AudioIn-File.st.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.AudioIn.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Dual-Visu.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-Alphabet-new.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Monitor.st.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.Record.st.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"name" : "OMax.Time.maxpat",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-pure.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.core.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.seg.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Oracle-gen.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.Data-SP.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"name" : "OMax.Data-MIDI.maxpat",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.4Regions.maxpat",
-				"bootpath" : "/Users/bencello/Projets/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2353,14 +2055,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zsa.dist.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "OMax.oracle.mxo",
 				"type" : "iLaX"
 			}
@@ -2369,7 +2063,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "yin~.mxo",
+				"name" : "OMax.render.mxo",
 				"type" : "iLaX"
 			}
  ]

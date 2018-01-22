@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 1311.0, 705.0, 99.0, 133.0 ],
+		"rect" : [ 1314.0, 721.0, 99.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.5, 355.0, 72.0, 20.0 ],
-					"text" : "loadmess 1"
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-11",
-					"items" : [ "Dual1", ",", "Dual2" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -597,8 +597,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../Applications/Max6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

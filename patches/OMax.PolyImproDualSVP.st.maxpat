@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 760.0, 473.0, 672.0, 239.0 ],
+		"rect" : [ 764.0, 474.0, 672.0, 239.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -32,6 +32,44 @@
 		"title" : "Poly Players",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "list" ],
+					"patching_rect" : [ 130.0, 152.0, 41.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 131.0, 152.0, 41.0, 20.0 ],
+					"text" : "LPD8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 529.0, 285.0, 75.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 67, 153, 461, 322 ],
+						"parameter_enable" : 0,
+						"storage_rect" : [ 794, -709, 1244, -510 ]
+					}
+,
+					"text" : "pattrstorage",
+					"varname" : "u104000430"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
@@ -45,7 +83,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u096011655"
+					"varname" : "u567003370"
 				}
 
 			}
@@ -82,48 +120,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 314.5, 172.0, 51.0, 20.0 ],
-					"text" : "route /z"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 461.0, 243.0, 51.0, 20.0 ],
-					"text" : "route /z"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-38",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 314.5, 146.5, 96.0, 20.0 ],
-					"text" : "osc-route /panic"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -132,51 +128,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.5, 121.0, 69.0, 20.0 ],
-					"text" : "r oscTouch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 274.0, 100.0, 20.0 ],
-					"text" : "zmap 0. 1. 0 157"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-36",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 461.0, 215.0, 104.0, 20.0 ],
-					"text" : "osc-route /master"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 0.5 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 187.5, 69.0, 20.0 ],
-					"text" : "r oscTouch"
+					"patching_rect" : [ 273.5, 147.0, 97.0, 20.0 ],
+					"text" : "r ::master::panic"
 				}
 
 			}
@@ -1029,43 +982,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
@@ -1123,24 +1040,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-40", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -1227,175 +1126,194 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-15" : [ "PhBpot6", "PhBpot6", 0 ],
-			"obj-29::obj-30::obj-195" : [ "live.dial[10]", "live.dial", 0 ],
-			"obj-28::obj-1::obj-76" : [ "volume-L[5]", "volume-L", 0 ],
-			"obj-28::obj-1::obj-48" : [ "volume-L[3]", "volume-L", 0 ],
-			"obj-29::obj-30::obj-196" : [ "live.dial[11]", "live.dial", 0 ],
-			"obj-29::obj-30::obj-181" : [ "live.text[5]", "live.text", 0 ],
-			"obj-14::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
-			"obj-14::obj-80" : [ "NK2s7", "NK2s7", 0 ],
-			"obj-33.1::obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
-			"obj-33.5::obj-13::obj-21" : [ "live.dial[21]", "live.dial", 0 ],
-			"obj-14::obj-95" : [ "NK2prev2", "NK2prev2", 0 ],
-			"obj-28::obj-1::obj-68" : [ "pan[4]", "pan", 0 ],
-			"obj-14::obj-101" : [ "NK2m6", "NK2m6", 0 ],
-			"obj-14::obj-186" : [ "NK2play", "NK2play", 0 ],
-			"obj-22::obj-23" : [ "PhBpot9", "PhBpot9", 0 ],
-			"obj-29::obj-30::obj-78" : [ "live.dial[14]", "live.dial", 0 ],
-			"obj-28::obj-1::obj-62" : [ "toggle[4]", "live.slider", 0 ],
-			"obj-29::obj-30::obj-12" : [ "live.dial[16]", "live.dial", 0 ],
-			"obj-29::obj-30::obj-235" : [ "live.slider[12]", "live.slider[1]", 0 ],
-			"obj-14::obj-100" : [ "NK2set[1]", "NK2set", 0 ],
-			"obj-29::obj-30::obj-107" : [ "live.dial[12]", "live.dial", 0 ],
-			"obj-29::obj-30::obj-79" : [ "live.dial[15]", "live.dial", 0 ],
-			"obj-28::obj-1::obj-63" : [ "volume-L[4]", "volume-L", 0 ],
-			"obj-14::obj-10" : [ "NK2s2", "NK2s2", 0 ],
-			"obj-29::obj-30::obj-8" : [ "live.dial[17]", "live.dial", 0 ],
-			"obj-14::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
-			"obj-33.3::obj-13::obj-21" : [ "live.dial[19]", "live.dial", 0 ],
-			"obj-14::obj-196" : [ "NK2rec", "NK2rec", 0 ],
+			"obj-14::obj-43" : [ "NKslider8[1]", "NKslider8", 0 ],
+			"obj-28::obj-1::obj-53" : [ "pan[3]", "pan", 0 ],
+			"obj-33.2::obj-13::obj-21" : [ "live.dial[18]", "live.dial", 0 ],
+			"obj-34::obj-53" : [ "NKpot5[2]", "NKpot5", 0 ],
+			"obj-29::obj-30::obj-64" : [ "live.text[1]", "live.text", 0 ],
+			"obj-14::obj-41" : [ "NKslider7[1]", "NKslider7", 0 ],
+			"obj-29::obj-30::obj-137" : [ "live.dial[7]", "live.dial", 0 ],
 			"obj-14::obj-111" : [ "NK2m1", "NK2m1", 0 ],
 			"obj-22::obj-19" : [ "PhBpot12", "PhBpot12", 0 ],
-			"obj-22::obj-11" : [ "PhBpot2", "PhBpot2", 0 ],
-			"obj-22::obj-13" : [ "PhBpot4", "PhBpot4", 0 ],
-			"obj-29::obj-30::obj-53" : [ "live.text", "live.text", 0 ],
-			"obj-29::obj-30::obj-75" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-14::obj-84" : [ "NK2s5", "NK2s5", 0 ],
-			"obj-14::obj-43" : [ "NKslider8[1]", "NKslider8", 0 ],
-			"obj-28::obj-1::obj-1" : [ "volume-L[6]", "volume-L", 0 ],
-			"obj-14::obj-41" : [ "NKslider7[1]", "NKslider7", 0 ],
-			"obj-14::obj-105" : [ "NK2m4", "NK2m4", 0 ],
-			"obj-28::obj-1::obj-25" : [ "toggle[1]", "live.slider", 0 ],
-			"obj-14::obj-39" : [ "NKslider6[1]", "NKslider6", 0 ],
-			"obj-14::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
-			"obj-22::obj-16" : [ "PhBpot7", "PhBpot7", 0 ],
-			"obj-28::obj-1::obj-26" : [ "volume-L[1]", "volume-L", 0 ],
-			"obj-28::obj-1::obj-18" : [ "toggle", "live.slider", 0 ],
-			"obj-14::obj-37" : [ "NKslider5[1]", "NKslider5", 0 ],
-			"obj-14::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
-			"obj-29::obj-30::obj-18" : [ "live.slider", "live.slider", 0 ],
-			"obj-14::obj-78" : [ "NK2s8", "NK2s8", 0 ],
-			"obj-14::obj-64" : [ "NKpot3[1]", "NKpot3", 0 ],
-			"obj-14::obj-35" : [ "NKslider4[1]", "NKslider4", 0 ],
-			"obj-14::obj-16" : [ "NK2r7[1]", "NK2r7", 0 ],
-			"obj-28::obj-1::obj-81" : [ "pan[5]", "pan", 0 ],
-			"obj-14::obj-18" : [ "NK2r6[1]", "NK2r6", 0 ],
-			"obj-14::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
-			"obj-14::obj-33" : [ "NKslider1[3]", "NKslider1", 0 ],
-			"obj-14::obj-99" : [ "NK2m7", "NK2m7", 0 ],
 			"obj-29::obj-30::obj-165" : [ "live.dial[8]", "live.dial", 0 ],
-			"obj-14::obj-188" : [ "NK2fast", "NK2fast", 0 ],
-			"obj-22::obj-21" : [ "PhBpot10", "PhBpot10", 0 ],
+			"obj-34::obj-84" : [ "NK2s5[1]", "NK2s5", 0 ],
+			"obj-14::obj-7" : [ "NK2s1", "NK2s1", 0 ],
+			"obj-14::obj-39" : [ "NKslider6[1]", "NKslider6", 0 ],
+			"obj-22::obj-13" : [ "PhBpot4", "PhBpot4", 0 ],
+			"obj-34::obj-78" : [ "NK2s8[1]", "NK2s8", 0 ],
+			"obj-14::obj-100" : [ "NK2set[1]", "NK2set", 0 ],
+			"obj-14::obj-37" : [ "NKslider5[1]", "NKslider5", 0 ],
+			"obj-14::obj-102" : [ "NK2prev1[1]", "NK2prev1", 0 ],
+			"obj-29::obj-30::obj-195" : [ "live.dial[10]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-78" : [ "live.dial[14]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-48" : [ "volume-L[3]", "volume-L", 0 ],
+			"obj-14::obj-35" : [ "NKslider4[1]", "NKslider4", 0 ],
+			"obj-29::obj-30::obj-196" : [ "live.dial[11]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-79" : [ "live.dial[15]", "live.dial", 0 ],
+			"obj-14::obj-33" : [ "NKslider1[3]", "NKslider1", 0 ],
+			"obj-14::obj-105" : [ "NK2m4", "NK2m4", 0 ],
+			"obj-14::obj-62" : [ "NKpot2[1]", "NKpot2", 0 ],
+			"obj-29::obj-30::obj-107" : [ "live.dial[12]", "live.dial", 0 ],
 			"obj-29::obj-30::obj-151" : [ "live.text[4]", "live.text", 0 ],
-			"obj-14::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
+			"obj-28::obj-1::obj-42" : [ "pan[2]", "pan", 0 ],
+			"obj-34::obj-85" : [ "NK2s1[1]", "NK2s1", 0 ],
+			"obj-14::obj-192" : [ "NK2stop", "NK2stop", 0 ],
+			"obj-14::obj-74" : [ "NK2s4", "NK2s4", 0 ],
+			"obj-22::obj-16" : [ "PhBpot7", "PhBpot7", 0 ],
 			"obj-14::obj-31" : [ "NKslider2[1]", "NKslider2", 0 ],
 			"obj-14::obj-59" : [ "NKpot8[1]", "NKpot8", 0 ],
-			"obj-29::obj-30::obj-166" : [ "live.dial[9]", "live.dial", 0 ],
-			"obj-14::obj-20" : [ "NKslider1[4]", "NKslider1", 0 ],
-			"obj-14::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
-			"obj-14::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
-			"obj-29::obj-30::obj-136" : [ "live.dial[6]", "live.dial", 0 ],
-			"obj-28::obj-1::obj-61" : [ "volume-L", "volume-L", 0 ],
-			"obj-14::obj-76" : [ "NK2s3", "NK2s3", 0 ],
-			"obj-29::obj-30::obj-122" : [ "live.text[3]", "live.text", 0 ],
-			"obj-29::obj-30::obj-93" : [ "live.text[2]", "live.text", 0 ],
-			"obj-33.2::obj-13::obj-21" : [ "live.dial[18]", "live.dial", 0 ],
-			"obj-14::obj-42" : [ "NK2r3[1]", "NK2r3", 0 ],
-			"obj-14::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
-			"obj-22::obj-27" : [ "NKpot1[8]", "NKpot1", 0 ],
-			"obj-29::obj-30::obj-137" : [ "live.dial[7]", "live.dial", 0 ],
-			"obj-14::obj-44" : [ "NK2r2[1]", "NK2r2", 0 ],
-			"obj-14::obj-109" : [ "NK2m2", "NK2m2", 0 ],
-			"obj-14::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
-			"obj-22::obj-18" : [ "PhBpot13", "PhBpot13", 0 ],
 			"obj-29::obj-30::obj-108" : [ "live.dial[13]", "live.dial", 0 ],
-			"obj-22::obj-14" : [ "PhBpot5", "PhBpot5", 0 ],
-			"obj-29::obj-30::obj-162" : [ "live.slider[9]", "live.slider", 0 ],
-			"obj-14::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
-			"obj-14::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
-			"obj-29::obj-30::obj-72" : [ "live.slider[2]", "live.slider[1]", 0 ],
-			"obj-28::obj-1::obj-42" : [ "pan[2]", "pan", 0 ],
-			"obj-14::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
-			"obj-14::obj-82" : [ "NK2s6", "NK2s6", 0 ],
-			"obj-29::obj-30::obj-192" : [ "live.slider[11]", "live.slider", 0 ],
-			"obj-29::obj-30::obj-133" : [ "live.slider[7]", "live.slider", 0 ],
-			"obj-29::obj-30::obj-104" : [ "live.slider[5]", "live.slider", 0 ],
-			"obj-14::obj-98" : [ "NK2next1[1]", "NK2next1", 0 ],
-			"obj-28::obj-1::obj-36" : [ "toggle[2]", "live.slider", 0 ],
-			"obj-14::obj-103" : [ "NK2m5", "NK2m6", 0 ],
-			"obj-33.6::obj-13::obj-21" : [ "live.dial[22]", "live.dial", 0 ],
-			"obj-14::obj-182" : [ "NK2back", "NK2back", 0 ],
-			"obj-22::obj-24" : [ "PhBpot8", "PhBpot8", 0 ],
-			"obj-28::obj-1::obj-37" : [ "volume-L[2]", "volume-L", 0 ],
-			"obj-29::obj-30::obj-159" : [ "live.slider[8]", "live.slider[1]", 0 ],
-			"obj-29::obj-30::obj-26" : [ "live.slider[1]", "live.slider[1]", 0 ],
-			"obj-29::obj-30::obj-240" : [ "live.text[6]", "live.text", 0 ],
-			"obj-14::obj-7" : [ "NK2s1", "NK2s1", 0 ],
-			"obj-29::obj-30::obj-64" : [ "live.text[1]", "live.text", 0 ],
-			"obj-29::obj-30::obj-189" : [ "live.slider[10]", "live.slider[1]", 0 ],
-			"obj-14::obj-97" : [ "NK2m8", "NK2m8", 0 ],
+			"obj-34::obj-10" : [ "NK2s2[2]", "NK2s2", 0 ],
+			"obj-14::obj-57" : [ "NKpot7[1]", "NKpot7", 0 ],
+			"obj-14::obj-20" : [ "NKslider1[4]", "NKslider1", 0 ],
+			"obj-28::obj-1::obj-1" : [ "volume-L[6]", "volume-L", 0 ],
+			"obj-34::obj-59" : [ "NKpot8[2]", "NKpot8", 0 ],
+			"obj-34::obj-51" : [ "NKpot4[2]", "NKpot4", 0 ],
+			"obj-14::obj-55" : [ "NKpot6[1]", "NKpot6", 0 ],
+			"obj-29::obj-30::obj-75" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-14::obj-99" : [ "NK2m7", "NK2m7", 0 ],
 			"obj-29::obj-30::obj-101" : [ "live.slider[4]", "live.slider[1]", 0 ],
-			"obj-29::obj-30::obj-130" : [ "live.slider[6]", "live.slider[1]", 0 ],
-			"obj-14::obj-192" : [ "NK2stop", "NK2stop", 0 ],
-			"obj-22::obj-20" : [ "PhBpot11", "PhBpot11", 0 ],
-			"obj-22::obj-22" : [ "PhBpot1", "PhBpot1", 0 ],
-			"obj-22::obj-12" : [ "PhBpot3", "PhBpot3", 0 ],
-			"obj-33.4::obj-13::obj-21" : [ "live.dial[20]", "live.dial", 0 ],
+			"obj-28::obj-1::obj-37" : [ "volume-L[2]", "volume-L", 0 ],
+			"obj-33.5::obj-13::obj-21" : [ "live.dial[21]", "live.dial", 0 ],
+			"obj-14::obj-53" : [ "NKpot5[1]", "NKpot5", 0 ],
+			"obj-14::obj-80" : [ "NK2s7", "NK2s7", 0 ],
+			"obj-22::obj-21" : [ "PhBpot10", "PhBpot10", 0 ],
+			"obj-22::obj-11" : [ "PhBpot2", "PhBpot2", 0 ],
+			"obj-29::obj-30::obj-104" : [ "live.slider[5]", "live.slider", 0 ],
+			"obj-28::obj-1::obj-62" : [ "toggle[4]", "live.slider", 0 ],
+			"obj-14::obj-51" : [ "NKpot4[1]", "NKpot4", 0 ],
 			"obj-28::obj-1::obj-31" : [ "pan[1]", "pan", 0 ],
-			"obj-28::obj-1::obj-53" : [ "pan[3]", "pan", 0 ],
-			"obj-14::obj-74" : [ "NK2s4", "NK2s4", 0 ],
-			"obj-28::obj-1::obj-75" : [ "toggle[5]", "live.slider", 0 ],
+			"obj-14::obj-22" : [ "NKpot1[1]", "NKpot1", 0 ],
+			"obj-29::obj-30::obj-189" : [ "live.slider[10]", "live.slider[1]", 0 ],
+			"obj-22::obj-27" : [ "NKpot1[8]", "NKpot1", 0 ],
+			"obj-34::obj-82" : [ "NK2s6[1]", "NK2s6", 0 ],
+			"obj-29::obj-30::obj-136" : [ "live.dial[6]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-192" : [ "live.slider[11]", "live.slider", 0 ],
+			"obj-28::obj-1::obj-60" : [ "pan", "pan", 0 ],
+			"obj-14::obj-109" : [ "NK2m2", "NK2m2", 0 ],
+			"obj-22::obj-18" : [ "PhBpot13", "PhBpot13", 0 ],
+			"obj-29::obj-30::obj-162" : [ "live.slider[9]", "live.slider", 0 ],
+			"obj-14::obj-10" : [ "NK2s2", "NK2s2", 0 ],
+			"obj-22::obj-14" : [ "PhBpot5", "PhBpot5", 0 ],
+			"obj-28::obj-1::obj-26" : [ "volume-L[1]", "volume-L", 0 ],
+			"obj-28::obj-1::obj-61" : [ "volume-L", "volume-L", 0 ],
+			"obj-14::obj-182" : [ "NK2back", "NK2back", 0 ],
+			"obj-14::obj-98" : [ "NK2next1[1]", "NK2next1", 0 ],
+			"obj-29::obj-30::obj-8" : [ "live.dial[17]", "live.dial", 0 ],
+			"obj-34::obj-7" : [ "NK2s1[2]", "NK2s1", 0 ],
 			"obj-28::obj-1::obj-47" : [ "toggle[3]", "live.slider", 0 ],
+			"obj-34::obj-57" : [ "NKpot7[2]", "NKpot7", 0 ],
+			"obj-34::obj-22" : [ "NKpot1[2]", "NKpot1", 0 ],
+			"obj-14::obj-96" : [ "NK2cycle[1]", "NK2cycle", 0 ],
+			"obj-14::obj-15" : [ "NK2r8[1]", "NK2r8", 0 ],
+			"obj-29::obj-30::obj-26" : [ "live.slider[1]", "live.slider[1]", 0 ],
+			"obj-14::obj-103" : [ "NK2m5", "NK2m6", 0 ],
+			"obj-29::obj-30::obj-53" : [ "live.text", "live.text", 0 ],
+			"obj-34::obj-83" : [ "NK2s2[1]", "NK2s2", 0 ],
+			"obj-14::obj-196" : [ "NK2rec", "NK2rec", 0 ],
+			"obj-14::obj-16" : [ "NK2r7[1]", "NK2r7", 0 ],
+			"obj-14::obj-84" : [ "NK2s5", "NK2s5", 0 ],
+			"obj-22::obj-24" : [ "PhBpot8", "PhBpot8", 0 ],
+			"obj-28::obj-1::obj-76" : [ "volume-L[5]", "volume-L", 0 ],
+			"obj-14::obj-18" : [ "NK2r6[1]", "NK2r6", 0 ],
+			"obj-33.4::obj-13::obj-21" : [ "live.dial[20]", "live.dial", 0 ],
+			"obj-14::obj-34" : [ "NK2r5[1]", "NK2r5", 0 ],
+			"obj-29::obj-30::obj-72" : [ "live.slider[2]", "live.slider[1]", 0 ],
+			"obj-14::obj-38" : [ "NK2r4[1]", "NK2r4", 0 ],
+			"obj-14::obj-97" : [ "NK2m8", "NK2m8", 0 ],
+			"obj-29::obj-30::obj-93" : [ "live.text[2]", "live.text", 0 ],
+			"obj-28::obj-1::obj-36" : [ "toggle[2]", "live.slider", 0 ],
+			"obj-28::obj-1::obj-81" : [ "pan[5]", "pan", 0 ],
+			"obj-14::obj-78" : [ "NK2s8", "NK2s8", 0 ],
+			"obj-22::obj-20" : [ "PhBpot11", "PhBpot11", 0 ],
+			"obj-29::obj-30::obj-166" : [ "live.dial[9]", "live.dial", 0 ],
+			"obj-14::obj-42" : [ "NK2r3[1]", "NK2r3", 0 ],
+			"obj-14::obj-64" : [ "NKpot3[1]", "NKpot3", 0 ],
+			"obj-22::obj-12" : [ "PhBpot3", "PhBpot3", 0 ],
+			"obj-29::obj-30::obj-18" : [ "live.slider", "live.slider", 0 ],
+			"obj-33.3::obj-13::obj-21" : [ "live.dial[19]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-122" : [ "live.text[3]", "live.text", 0 ],
+			"obj-34::obj-74" : [ "NK2s4[1]", "NK2s4", 0 ],
+			"obj-14::obj-44" : [ "NK2r2[1]", "NK2r2", 0 ],
+			"obj-33.6::obj-13::obj-21" : [ "live.dial[22]", "live.dial", 0 ],
+			"obj-34::obj-80" : [ "NK2s7[1]", "NK2s7", 0 ],
+			"obj-34::obj-64" : [ "NKpot3[2]", "NKpot3", 0 ],
+			"obj-29::obj-30::obj-130" : [ "live.slider[6]", "live.slider[1]", 0 ],
+			"obj-29::obj-30::obj-181" : [ "live.text[5]", "live.text", 0 ],
+			"obj-28::obj-1::obj-18" : [ "toggle", "live.slider", 0 ],
+			"obj-34::obj-55" : [ "NKpot6[2]", "NKpot6", 0 ],
+			"obj-14::obj-46" : [ "NK2r1[1]", "NK2r1", 0 ],
+			"obj-29::obj-30::obj-240" : [ "live.text[6]", "live.text", 0 ],
+			"obj-29::obj-30::obj-133" : [ "live.slider[7]", "live.slider", 0 ],
 			"obj-14::obj-107" : [ "NK2m3", "NK2m3", 0 ],
-			"obj-28::obj-1::obj-60" : [ "pan", "pan", 0 ]
+			"obj-29::obj-30::obj-159" : [ "live.slider[8]", "live.slider[1]", 0 ],
+			"obj-14::obj-104" : [ "NK2next2[1]", "NK2next2", 0 ],
+			"obj-14::obj-76" : [ "NK2s3", "NK2s3", 0 ],
+			"obj-14::obj-188" : [ "NK2fast", "NK2fast", 0 ],
+			"obj-22::obj-15" : [ "PhBpot6", "PhBpot6", 0 ],
+			"obj-33.1::obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
+			"obj-28::obj-1::obj-25" : [ "toggle[1]", "live.slider", 0 ],
+			"obj-28::obj-1::obj-68" : [ "pan[4]", "pan", 0 ],
+			"obj-14::obj-95" : [ "NK2prev2", "NK2prev2", 0 ],
+			"obj-14::obj-186" : [ "NK2play", "NK2play", 0 ],
+			"obj-29::obj-30::obj-12" : [ "live.dial[16]", "live.dial", 0 ],
+			"obj-29::obj-30::obj-235" : [ "live.slider[12]", "live.slider[1]", 0 ],
+			"obj-14::obj-101" : [ "NK2m6", "NK2m6", 0 ],
+			"obj-34::obj-81" : [ "NK2s3[1]", "NK2s3", 0 ],
+			"obj-14::obj-82" : [ "NK2s6", "NK2s6", 0 ],
+			"obj-22::obj-23" : [ "PhBpot9", "PhBpot9", 0 ],
+			"obj-28::obj-1::obj-75" : [ "toggle[5]", "live.slider", 0 ],
+			"obj-22::obj-22" : [ "PhBpot1", "PhBpot1", 0 ],
+			"obj-28::obj-1::obj-63" : [ "volume-L[4]", "volume-L", 0 ],
+			"obj-34::obj-76" : [ "NK2s3[2]", "NK2s3", 0 ],
+			"obj-34::obj-62" : [ "NKpot2[2]", "NKpot2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Poly-ImproDualSVP.st.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Pick.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-OracleCollect.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-SearchWin.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Region.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1409,134 +1327,141 @@
 			}
 , 			{
 				"name" : "OMax.Impro-Taboo.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Energy.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Context.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Weight.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Player.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Switch.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Player.st.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Control.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioOut-Stereo.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nanoKONTROL2.maxpat",
-				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
 				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sr.maxpat",
-				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
 				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Extend.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fr.maxpat",
-				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
 				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Follow.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PhatBoy.maxpat",
-				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
 				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.TouchOSC.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tOSC-dbtap.maxpat",
-				"bootpath" : "/Users/BenCello/Documents/Max/Utiles",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
 				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Mira.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LPD8.maxpat",
+				"bootpath" : "/Users/blevy/Documents/Max/Utiles",
+				"patcherrelativepath" : "../../../../Documents/Max/Utiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}

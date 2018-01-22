@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 399.0, 44.0, 335.0, 404.0 ],
+		"rect" : [ 399.0, 45.0, 335.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,64 @@
 		"tags" : "",
 		"globalpatchername" : "player0",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-145",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 316.0, 455.0, 71.0, 20.0 ],
+					"text" : "r LPD8pots"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-140",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 335.5, 481.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 335.5, 484.0, 0.0, 0.0 ],
+					"text" : "thru"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-142",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 355.0, 513.0, 32.5, 20.0 ],
+					"text" : "+ 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-144",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 316.0, 539.0, 58.0, 20.0 ],
+					"text" : "route 1 5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -71,7 +129,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u512012575"
+					"varname" : "u374004122"
 				}
 
 			}
@@ -1230,15 +1288,15 @@
 					"fontsize" : 18.0,
 					"framecolor" : [ 0.0, 1.0, 0.0, 0.0 ],
 					"id" : "obj-11",
-					"items" : "<empty>",
+					"items" : "Dual1",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 298.5, -60.560242, 98.0, 28.0 ],
+					"patching_rect" : [ 298.5, -60.560242, 98.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.0, 7.0, 126.0, 28.0 ]
+					"presentation_rect" : [ 186.0, 7.0, 126.0, 24.0 ]
 				}
 
 			}
@@ -1417,7 +1475,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x64"
 						}
 ,
@@ -1879,6 +1937,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ 40.0 ],
 					"bgmode" : 1,
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
@@ -2399,6 +2458,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2912,10 +2980,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-142", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-142", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-144", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-144", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-145", 0 ]
 				}
 
 			}
@@ -4246,42 +4368,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Impro-Pick.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-OracleCollect.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-SearchWin.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Region.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4295,70 +4417,70 @@
 			}
 , 			{
 				"name" : "OMax.Impro-Taboo.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Energy.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Context.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Weight.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Player.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Switch.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Player.st.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Control.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioOut-Stereo.maxpat",
-				"bootpath" : "/Users/BenCello/Projects/OMax/OMax5/patches",
+				"bootpath" : "/Users/blevy/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
