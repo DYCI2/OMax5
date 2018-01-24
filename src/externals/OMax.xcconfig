@@ -5,8 +5,8 @@ PRODUCT_NAME = $(PROJECT_NAME)
 // Paths
 //MAX_SDK = ~/Max5/MaxSDK-5.1.7
 //MAX_SDK = ~/Max6/MaxSDK-6.0.4
-MAX_SDK = /Users/blevy/Documents/Max/MaxSDK-6.1.4
-C74SUPPORT = $(MAX_SDK)/c74support
+MAX_SDK = /Users/blevy/Documents/Max 7/max-sdk-7.3.3
+C74SUPPORT = $(MAX_SDK)/source/c74support
 HEADER_SEARCH_PATHS = "$(C74SUPPORT)/max-includes" //"/Developer/Headers/FlatCarbon"
 FRAMEWORK_SEARCH_PATHS = "$(C74SUPPORT)/max-includes"
 DSTROOT = $(SRCROOT)/../../build
@@ -33,8 +33,7 @@ ARCHS = i386 x86_64
 // Xcode 4.3+
 //SDKROOT = macosx10.9
 
-MACOSX_DEPLOYMENT_TARGET = 10.6
-
+MACOSX_DEPLOYMENT_TARGET = 10.7
 
 // Complilation
 //GCC_VERSION = 4.2
@@ -53,13 +52,12 @@ WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas
 DEPLOYMENT_LOCATION = YES
 GENERATE_PKGINFO_FILE = YES
 
-
-
 // Flags to enforce some build-time checks for the symbols used while not actually performing a hard link
-C74_SYM_LINKER_FLAGS = @$(C74SUPPORT)/max-includes/c74_linker_flags.txt
+C74_SYM_LINKER_FLAGS = "@$(C74SUPPORT)/max-includes/c74_linker_flags.txt"
 OTHER_LDFLAGS= $(C74_SYM_LINKER_FLAGS)
 
 
 // hide all symbols by default
-// mark a function to be exported with the C74_EXPORT macro -- most likely this will only apply to the main() function
+// mark a function to be exported with the C74_EXPORT macro
+// most likely this will only apply to the ext_main() function which we've already prototyped for you
 OTHER_CFLAGS = -fvisibility=hidden
