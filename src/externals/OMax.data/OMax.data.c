@@ -348,7 +348,7 @@ void OMax_data_reset(t_OMax_data *x)
         }
     }
 //    x->data.reset_D2S();
-//    x->data.reset_S2D();
+    x->data.reset_Ref2States();
     ATOMIC_DECREMENT(&x->wflag);
     outlet_int(x->out0,(long)x->data.get_size());
 }
