@@ -688,7 +688,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 7,
 					"outlettype" : [ "bang", "", "list", "list", "list", "", "int" ],
 					"patching_rect" : [ 134.25, 293.0, 100.0, 20.0 ],
@@ -787,7 +787,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 1 ]
