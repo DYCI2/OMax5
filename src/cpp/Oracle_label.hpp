@@ -24,23 +24,23 @@ class O_label
 {
 protected:
 	/// Time reference in the buffer in ms
-	int bufferef;
+	long bufferef;
 	/// Number of the state in the sequence
-	int statenb;
+	long statenb;
 	/// Duration of the state in ms
-	int duration;
+	long duration;
 	/// Number of the phrase the state belongs to
-	int phrase;
+	long phrase;
 	/// Number of the section the state belongs to
-	int section;
+	long section;
 	/// Phase (rhythm) information of the state
 	double phase;
 	/// Tempo information of the state
 	double tempo;
 	/// Additional rhythm information for the state
-	int binfo1;
+	long binfo1;
 	/// Additional rhythm information for the state
-	int binfo2;
+	long binfo2;
 	/// Extra info structure for the state
 	list<float> extras;
 
@@ -54,7 +54,7 @@ public:
 	/// Default constructor
 	O_label();
 	/// Create a state from data
-	O_label(int, int = 0, int = 0, int = 0, int = 0, double = 0., double = 0., int = 0, int = 0);
+	O_label(long, long = 0, long = 0, long = 0, long = 0, double = 0., double = 0., long = 0, long = 0);
 	/// Copy constructor
 	O_label(const O_label & labelin);
 	/// Standard destructor
@@ -64,25 +64,25 @@ public:
 	///@name Set & Get
 	//@{
 	/// Return the number of the state in the sequence
-	int get_statenb();
+	long get_statenb();
 	/// Set the number of the state in the sequence
-	void set_statenb(int);
+	void set_statenb(long);
 	/// Return the time reference in the buffer the state is pointing to (in ms)
-	int get_bufferef();
+	long get_bufferef();
 	/// Set the time reference in the buffer of the state (in ms)
-	void set_bufferef(int);
+	void set_bufferef(long);
 	/// Return the duration of the state (in ms)
-	int get_duration();
+	long get_duration();
 	/// Set the duration of the state (in ms)
-	void set_duration(int);
+	void set_duration(long);
 	/// Return the number of the phrase the state belongs to
-	int get_phrase();
+	long get_phrase();
 	/// Set the number of the phrase the state belongs to
-	void set_phrase(int);
+	void set_phrase(long);
 	/// Return the number of the section the state belongs to
-	int get_section();
+	long get_section();
 	/// Set the number of the section the state belongs to
-	void set_section(int);
+	void set_section(long);
 	/// Set the phase of the state
 	void set_phase(double);
 	/// Return the phase of the state
@@ -92,13 +92,13 @@ public:
 	/// Return the tempo of the state
 	double get_tempo();
 	/// Set the first additional info of the state
-	void set_binfo1(int);
+	void set_binfo1(long);
 	/// Return the first additional info of the state
-	int get_binfo1();
+	long get_binfo1();
 	/// Set the second additional info of the state
-	void set_binfo2(int);
+	void set_binfo2(long);
 	/// Return the second additional info of the state
-	int get_binfo2();
+	long get_binfo2();
 	/// Set the extra info list of the state
 	void set_extras(list<float>);
 	/// Return the extra info list of the state (list)
@@ -155,9 +155,9 @@ public:
 class O_pitch : public O_label
 {
 protected:
-	int pitch;		///< MIDI pitch
-	int velocity;	///< MIDI velocity
-	int channel;	///< MIDI channel
+	long pitch;		///< MIDI pitch
+	long velocity;	///< MIDI velocity
+	long channel;	///< MIDI channel
 
 	/// Specialized output function
 	virtual void print(ostream &) const;
@@ -168,7 +168,7 @@ public:
 	/// Default constructor
 	O_pitch();
 	/// Create a monophonic MIDI state from data
-	O_pitch(int, int = 0, int = 0, int = 0, int = 0, int = 0, int = 0);
+	O_pitch(long, long = 0, long = 0, long = 0, long = 0, long = 0, long = 0);
 	/// Copy constructor
 	O_pitch(const O_pitch &);
 	/// Standard destructor
@@ -178,19 +178,19 @@ public:
 	///@name Set & Get
 	//@{
 	/// Return the pitch of the state
-	int get_pitch();
+	long get_pitch();
 	/// Set the pitch of the state
-	void set_pitch(int);
+	void set_pitch(long);
 	/// Return the velocity of the state
-	int get_velocity();
+	long get_velocity();
 	/// Set the velocity of the state
-	void set_velocity(int);
+	void set_velocity(long);
 	/// Return the channel of the state
-	int get_channel();
+	long get_channel();
 	/// Set the velocity of the state
-	void set_channel(int);
-	/// Get data of the state in an int array
-	int* get_data(int*);
+	void set_channel(long);
+	/// Get data of the state in an long array
+	long* get_data(long*);
 	//@}
 
 	///@name Operators Overload
@@ -204,7 +204,7 @@ public:
 class O_spectral : public O_label
 {
 protected:
-	int pitch;			///< Instantaneous pitch
+	long pitch;			///< Instantaneous pitch
 	float energy;		///< Overall energy of the slice (first MFCC coefficient)
 	list<float> coeffs; ///< List of spectral coefficients
 
@@ -217,7 +217,7 @@ public:
 	/// Default constructor
 	O_spectral();
 	/// Create a spectral state from data
-	O_spectral(int, list<float> &, int = 0, int = 0, int = 0, int = 0, int = 0);
+	O_spectral(long, list<float> &, long = 0, long = 0, long = 0, long = 0, long = 0);
 	/// Copy constructor
 	O_spectral(const O_spectral &);
 	/// Standard destructor
@@ -227,9 +227,9 @@ public:
 	///@name Set & Get
 	//@{
 	/// Return the pitch of the state
-	int get_pitch();
+	long get_pitch();
 	/// Set the pitch of the state
-	void set_pitch (int);
+	void set_pitch (long);
 	/// Return the energy of the state
 	float get_energy ();
 	/// Set the energy of the state
@@ -258,11 +258,11 @@ public:
 class O_MIDI_note
 {
 protected:
-	int pitch;		///< MIDI Pitch
-	int velocity;	///< MIDI velocity
-	int channel;	///< MIDI channel
-	int offset;		///< Offset in the slice (ms)
-	int duration;	///< @brief Duration (ms)
+	long pitch;		///< MIDI Pitch
+	long velocity;	///< MIDI velocity
+	long channel;	///< MIDI channel
+	long offset;	///< Offset in the slice (ms)
+	long duration;	///< @brief Duration (ms)
 	///< @details Negativ if the note is still pending
 
 	/// Specialized output function
@@ -276,7 +276,7 @@ public:
 	/// Copy constructor
 	O_MIDI_note(const O_MIDI_note &);
 	/// Create a note from data
-	O_MIDI_note(int=60,int=0,int=128,int=0,int=0);
+	O_MIDI_note(long=60,long=0,long=128,long=0,long=0);
 	/// Standard destructor
 	~O_MIDI_note(){};
 	//@}
@@ -284,29 +284,29 @@ public:
 	///@name Set & Get
 	//@{
 	/// Return the pitch of the note
-	int get_pitch();
+	long get_pitch();
 	/// Set the pitch of the note
-	void set_pitch(int);
+	void set_pitch(long);
 	/// Return the velocity of the note
-	int get_velocity();
+	long get_velocity();
 	/// Set the velocity of the note
-	void set_velocity(int);
+	void set_velocity(long);
 	/// Return the channel of the note
-	int get_channel();
+	long get_channel();
 	/// Set the channel of the note
-	void set_channel(int);
+	void set_channel(long);
 	/// Return the offset of the note
-	int get_offset();
+	long get_offset();
 	/// Set the offset of the note
-	void set_offset(int);
+	void set_offset(long);
 	/// Return the duration of the note
-	int get_duration();
+	long get_duration();
 	/// Set the duration of the note
-	void set_duration(int);
-	/// Return all parameters of the note at once in an int array
-	int* get_note(int*);
+	void set_duration(long);
+	/// Return all parameters of the note at once in an long array
+	long* get_note(long*);
 	/// Set all parameters of the note at once
-	void set_note(int=60,int=0,int=128,int=0, int=0);
+	void set_note(long=60,long=0,long=128,long=0, long=0);
 	//@}
 
 	///@name Operators Overload
@@ -341,7 +341,7 @@ public:
 	/// Copy constructor
 	O_MIDI(const O_MIDI &);
 	/// Create a MIDI state from list of notes and data
-	O_MIDI(list<O_MIDI_note>&, int=0, int=0, int=0, int=0, int=0);
+	O_MIDI(list<O_MIDI_note>&, long=0, long=0, long=0, long=0, long=0);
 	/// Standard destructor
 	~O_MIDI(){};
 	//@}
@@ -350,14 +350,14 @@ public:
 	//@{
 	/// Return the list of notes in the frame
 	list<O_MIDI_note> get_notes();
-	/// Return the notes in the frame in an int array
-	int* get_notes(int*);
+	/// Return the notes in the frame in an long array
+	long* get_notes(long*);
 	/// Set the list of notes in the frame
 	void set_notes(list<O_MIDI_note>);
 	/// Set the list of notes from separate notes
 	void set_notes(O_MIDI_note*, ...);
 	/// Get all the pitches of the frame
-	list<int> get_pitches() const;
+	list<long> get_pitches() const;
 	/// Return virtual fundamental
 	float get_vpitch() const;
 	/// Set virtual fundamental

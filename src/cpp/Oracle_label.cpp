@@ -26,7 +26,7 @@ O_label::O_label()
 }
 
 ///@details State number is set to @b statenbin. If given, the state is pointing to @b bufferefin, duration is @b durationnin and the state belongs to phrase @b phrasein and section @b sectionin
-O_label::O_label(int statenbin, int bufferefin, int durationin, int phrasein, int sectionin, double phasein, double tempoin, int binfo1in, int binfo2in)
+O_label::O_label(long statenbin, long bufferefin, long durationin, long phrasein, long sectionin, double phasein, double tempoin, long binfo1in, long binfo2in)
 {
 	statenb = statenbin;
 	bufferef = bufferefin;
@@ -53,52 +53,52 @@ O_label::O_label(const O_label & labelin)
     extras = list<float>(labelin.extras);
 }
 
-int O_label::get_statenb()
+long O_label::get_statenb()
 {
 	return statenb;
 }
 
-void O_label::set_statenb(int statnbin)
+void O_label::set_statenb(long statnbin)
 {
 	statenb = statnbin;
 }
 
-int O_label::get_bufferef()
+long O_label::get_bufferef()
 {
 	return bufferef;
 }
 
-void O_label::set_bufferef(int bufferefin)
+void O_label::set_bufferef(long bufferefin)
 {
 	bufferef = bufferefin;
 }
 
-int O_label::get_duration()
+long O_label::get_duration()
 {
 	return duration;
 }
 
-void O_label::set_duration(int durationin)
+void O_label::set_duration(long durationin)
 {
 	duration = durationin;
 }
 
-int O_label::get_phrase()
+long O_label::get_phrase()
 {
 	return phrase;
 }
 
-void O_label::set_phrase(int phrasein)
+void O_label::set_phrase(long phrasein)
 {
 	phrase = phrasein;
 }
 
-int O_label::get_section()
+long O_label::get_section()
 {
 	return section;
 }
 
-void O_label::set_section(int sectionin)
+void O_label::set_section(long sectionin)
 {
 	section = sectionin;
 }
@@ -123,22 +123,22 @@ void O_label::set_tempo(double tempoin)
 	tempo = tempoin;
 }
 
-int O_label::get_binfo1()
+long O_label::get_binfo1()
 {
 	return binfo1;
 }
 
-void O_label::set_binfo1(int binfoin)
+void O_label::set_binfo1(long binfoin)
 {
 	binfo1 = binfoin;
 }
 
-int O_label::get_binfo2()
+long O_label::get_binfo2()
 {
 	return binfo2;
 }
 
-void O_label::set_binfo2(int binfoin)
+void O_label::set_binfo2(long binfoin)
 {
 	binfo2 = binfoin;
 }
@@ -247,7 +247,7 @@ O_pitch::O_pitch() : O_label()
 
 ///@details Pitch is set to @b pitchin. If given, @b velocity is set to @b veloictyin.
 ///@remarks All the following arguments are passed to the O_label constructor.
-O_pitch::O_pitch(int pitchin, int velocityin, int statenbin, int bufferefin, int durationin, int phrasein, int sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
+O_pitch::O_pitch(long pitchin, long velocityin, long statenbin, long bufferefin, long durationin, long phrasein, long sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
 {
 	pitch = pitchin;
 	velocity = velocityin;
@@ -260,41 +260,41 @@ O_pitch::O_pitch(const O_pitch & midin) : O_label(midin)
 	channel = midin.channel;
 }
 
-int O_pitch::get_pitch()
+long O_pitch::get_pitch()
 {
 	return pitch;
 }
 
-void O_pitch::set_pitch(int pitchin)
+void O_pitch::set_pitch(long pitchin)
 {
 	pitch = pitchin;
 }
 
-int O_pitch::get_velocity()
+long O_pitch::get_velocity()
 {
 	return velocity;
 }
 
-void O_pitch::set_velocity(int velocityin)
+void O_pitch::set_velocity(long velocityin)
 {
 	velocity = velocityin;
 }
 
-int O_pitch::get_channel()
+long O_pitch::get_channel()
 {
 	return channel;
 }
 
-void O_pitch::set_channel(int chanin)
+void O_pitch::set_channel(long chanin)
 {
 	channel = chanin;
 }
 
 ///@remarks If passed NULL, allocates memory
-int* O_pitch::get_data(int* dataout)
+long* O_pitch::get_data(long* dataout)
 {
 	if (dataout == NULL)
-		dataout = (int*)malloc(3*sizeof(int));
+		dataout = (long*)malloc(3*sizeof(long));
 	dataout[0]=pitch;
 	dataout[1]=velocity;
 	dataout[2]=channel;
@@ -332,7 +332,7 @@ O_spectral::O_spectral() : O_label()
 
 ///@details Pitch is set to @b pitchin, if a non-empty list is given, @b energy is set to the first float of the list and @b coeffs is a copy of the input list (including the first coeff).
 ///@remarks All the following arguments are passed to the O_label constructor
-O_spectral::O_spectral(int pitchin, list<float> & coeffin, int statenbin, int bufferefin, int durationin, int phrasein, int sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
+O_spectral::O_spectral(long pitchin, list<float> & coeffin, long statenbin, long bufferefin, long durationin, long phrasein, long sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
 {
 	pitch = pitchin;
 	if (!coeffin.empty())
@@ -349,12 +349,12 @@ O_spectral::O_spectral(const O_spectral & spectralin) : O_label (spectralin)
 	coeffs = spectralin.coeffs;
 }
 
-int O_spectral::get_pitch()
+long O_spectral::get_pitch()
 {
 	return pitch;
 }
 
-void O_spectral::set_pitch(int pitchin)
+void O_spectral::set_pitch(long pitchin)
 {
 	pitch = pitchin;
 }
@@ -456,7 +456,7 @@ O_MIDI_note::O_MIDI_note(const O_MIDI_note & notein)
 	duration = notein.duration;
 }
 
-O_MIDI_note::O_MIDI_note(int pitchin, int velocityin, int channelin, int offsetin, int durationin)
+O_MIDI_note::O_MIDI_note(long pitchin, long velocityin, long channelin, long offsetin, long durationin)
 {
 	pitch = pitchin;
 	velocity = velocityin;
@@ -465,62 +465,62 @@ O_MIDI_note::O_MIDI_note(int pitchin, int velocityin, int channelin, int offseti
 	duration = durationin;
 }
 
-int O_MIDI_note::get_pitch()
+long O_MIDI_note::get_pitch()
 {
 	return pitch;
 }
 
-void O_MIDI_note::set_pitch(int pitchin)
+void O_MIDI_note::set_pitch(long pitchin)
 {
 	pitch = pitchin;
 }
 
-int O_MIDI_note::get_velocity()
+long O_MIDI_note::get_velocity()
 {
 	return velocity;
 }
 
-void O_MIDI_note::set_velocity(int velocityin)
+void O_MIDI_note::set_velocity(long velocityin)
 {
 	velocity = velocityin;
 }
 
-int O_MIDI_note::get_channel()
+long O_MIDI_note::get_channel()
 {
 	return channel;
 }
 
-void O_MIDI_note::set_channel(int channelin)
+void O_MIDI_note::set_channel(long channelin)
 {
 	channel = channelin;
 }
 
-int O_MIDI_note::get_offset()
+long O_MIDI_note::get_offset()
 {
 	return offset;
 }
 
-void O_MIDI_note::set_offset(int offsetin)
+void O_MIDI_note::set_offset(long offsetin)
 {
 	offset = offsetin;
 }
 
-int O_MIDI_note::get_duration()
+long O_MIDI_note::get_duration()
 {
 	return duration;
 }
 
-void O_MIDI_note::set_duration(int durationin)
+void O_MIDI_note::set_duration(long durationin)
 {
 	duration = durationin;
 }
 
 
 ///@remarks If passed NULL, allocates memory
-int* O_MIDI_note::get_note(int* noteout)
+long* O_MIDI_note::get_note(long* noteout)
 {
 	if (noteout == NULL)
-		noteout = (int*)malloc(5*sizeof(int));
+		noteout = (long*)malloc(5*sizeof(long));
 	noteout[0]=pitch;
 	noteout[1]=velocity;
 	noteout[2]=channel;
@@ -530,7 +530,7 @@ int* O_MIDI_note::get_note(int* noteout)
 	return noteout;
 }
 
-void O_MIDI_note::set_note(int pitchin, int velocityin, int channelin, int offsetin, int durationin)
+void O_MIDI_note::set_note(long pitchin, long velocityin, long channelin, long offsetin, long durationin)
 {
 	pitch = pitchin;
 	velocity = velocityin;
@@ -580,7 +580,7 @@ O_MIDI::O_MIDI(const O_MIDI & framein) : O_label(framein)
 
 ///@details The virtual fondamental pitch @b vpitch is computed on the notes as well as the mean velocity
 ///@remarks All the following arguments are passed to the O_label constructor
-O_MIDI::O_MIDI(list<O_MIDI_note> & notesin, int statenbin, int bufferefin, int durationin, int phrasein, int sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
+O_MIDI::O_MIDI(list<O_MIDI_note> & notesin, long statenbin, long bufferefin, long durationin, long phrasein, long sectionin) : O_label(statenbin, bufferefin, durationin, phrasein, sectionin)
 {
 	notes = notesin;
 }
@@ -592,12 +592,12 @@ list<O_MIDI_note> O_MIDI::get_notes()
 	return notes;
 }
 
-int* O_MIDI::get_notes(int* notesout)
+long* O_MIDI::get_notes(long* notesout)
 {
 	int i;
 	i = notes.size();
 	if (notesout == NULL)
-		notesout = (int*)malloc(i*4*sizeof(int));
+		notesout = (long*)malloc(i*4*sizeof(long));
 	i = 0;
 	list<O_MIDI_note>::iterator noteit;
 	for (noteit = notes.begin(); noteit!= notes.end(); noteit++)
@@ -630,9 +630,9 @@ void O_MIDI::set_notes(O_MIDI_note* note1,...)
 	notes.sort();
 }
 
-list<int> O_MIDI::get_pitches() const
+list<long> O_MIDI::get_pitches() const
 {
-	list<int> pitches;
+	list<long> pitches;
 	list<O_MIDI_note>::const_iterator noteit;
 	for (noteit = notes.begin(); noteit!= notes.end(); noteit++)
 		pitches.push_back(noteit->pitch);
