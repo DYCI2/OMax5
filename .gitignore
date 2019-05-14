@@ -26,9 +26,10 @@ xcuserdata/
 project.xcworkspace/
 xcuserdata/
 
+### Manually added
+
 # Max externals #
 *.mxo
-
 
 # Yacc generated file #
 DOT.yy.h
@@ -36,3 +37,5 @@ DOT.yy.h
 *.zip
 /src/parser/parser
 Icon
+
+z_miettes
