@@ -1153,7 +1153,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
 					"patching_rect" : [ 193.75, 700.0, 399.0, 22.0 ],
-					"text" : "poly~ OMax.Impro-SVP-Play.st 4 @args 20 @parallel 1"
+					"text" : "poly~ OMax.SVP-Play.st 4 @args 20 @parallel 1"
 				}
 
 			}
@@ -1967,7 +1967,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OMax.Impro-SVP-Play.st.maxpat",
+				"name" : "OMax.SVP-Play.st.maxpat",
 				"bootpath" : "~/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
