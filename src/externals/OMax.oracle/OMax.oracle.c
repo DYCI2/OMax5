@@ -395,7 +395,7 @@ using namespace std;
 		if (!err)
 		{
 		sysfile_geteof(fh,&size);
-		buffer = sysmem_newptr(size);
+		buffer = sysmem_newptrclear(size+4);
 		if (buffer == NULL)
 			object_error((t_object *)x, "file too big to read");
 		else
@@ -438,12 +438,14 @@ using namespace std;
 	void OMax_oracle_parsefile(t_OMax_oracle *x, char *buffer, long size)
 	{
 		int err = -1;
-		
 		YY_BUFFER_STATE scan_buffer;
+        
         if (x->oracle.get_size())
             OMax_oracle_reset(x);
+        
 		scan_buffer = yy_scan_string(buffer);
 		err = yyparse(&x->oracle);
+        
 		if (err)
 			object_error((t_object*)x, "Error %d parsing file",err);
 		else

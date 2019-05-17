@@ -18,9 +18,12 @@ int main(int argc, char **argv)
   }
 
   O_oracle NewOracle;
-	yyparse(&NewOracle);
+    int err = -1;
+    
+    err = yyparse(&NewOracle);
 	cout <<"_____________________________"<<endl<<endl;
 	cout << NewOracle;
+    cout <<endl<<"err = "<<err<<endl<<endl;
 
-  return 0;
+  return err;
 }
