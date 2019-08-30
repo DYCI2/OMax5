@@ -1,7 +1,7 @@
 /* main */
 
 #include "main.hpp"
-#include "Oracle_classes.hpp"
+#include "../cpp/Oracle_classes.hpp"
 
 using namespace std;
 

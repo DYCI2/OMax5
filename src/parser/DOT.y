@@ -7,10 +7,14 @@
 
 %{
 #include <stdio.h>
-#include "Oracle_classes.hpp"
+#include "../cpp/Oracle_classes.hpp"
 int yylex(void);
 int yyerror(O_oracle*,const char*);
 %}
+
+%code requires {
+#include "../cpp/Oracle_classes.hpp"
+}
 
 %union
 {
@@ -173,7 +177,7 @@ trans_link:		NUMBER LINK NUMBER O_SQBRACKET attr_list C_SQBRACKET
 int yyerror(O_oracle*, const char *s)
 {
   extern int yylineno;	/* defined and maintained in lex.c */
-  extern char *yytext;	/* defined and maintained in lex.c */
+  extern char yytext[];	/* defined and maintained in lex.c */
   
   printf("ERROR: %s at symbol \"%s\"",s,yytext);
   printf("\" on line %d\n",yylineno);
