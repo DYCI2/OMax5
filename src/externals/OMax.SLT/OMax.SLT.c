@@ -11,8 +11,8 @@
 #ifndef __OMax_SLT_MAX_API_
 #define __OMAX_SLT_MAX_API_
 
-#include "Oracle_classes.hpp"
-#include "OMax.oracle.h"
+#include "../../cpp/Oracle_classes.hpp"
+#include "../OMax.oracle/OMax.oracle.h"
 
 extern "C"
 {
@@ -258,7 +258,7 @@ extern "C"
 					
 					O_state * root = state->rec_upSLT(&path, x->context);
 					
-					t_atom_long pathvals[path.size()];
+					t_atom_long* pathvals = new t_atom_long[path.size()];
 					t_atom * pathout = NULL;
 					for (pathit = path.begin(); pathit!=path.end(); pathit++)
 					{
@@ -272,6 +272,7 @@ extern "C"
 						/// Output the path from the input state to the root
 						outlet_list(x->out_path, NULL, (short)path.size(), pathout);
 					}
+					delete pathvals;
 					sysmem_freeptr(pathout);
 					
 					
@@ -325,7 +326,7 @@ extern "C"
 					/// Follow suffix links up to the root of the tree
 					O_state * root = state->rec_upSLT(&path, x->context);
 					
-					t_atom_long pathvals[path.size()];
+					t_atom_long* pathvals = new t_atom_long[path.size()];
 					t_atom * pathout = NULL;
 					for (pathit = path.begin(); pathit!=path.end(); pathit++)
 					{
@@ -339,6 +340,7 @@ extern "C"
 						/// Output the path from the input state to the root
 						outlet_list(x->out_path, NULL, (short)path.size(), pathout);
 					}
+					delete pathvals;
 					sysmem_freeptr(pathout);
 					
 					/// Output the root of the tree
@@ -371,7 +373,7 @@ extern "C"
 					/// Follow suffix links up to the root of the tree with  @link t_OMax_SLT::context minimal context @endlink set to 0
 					O_state * root = state->rec_upSLT(&path, 0);
 					
-					t_atom_long pathvals[path.size()];
+					t_atom_long* pathvals = new t_atom_long[path.size()];
 					t_atom * pathout = NULL;
 					for (pathit = path.begin(); pathit!=path.end(); pathit++)
 					{
@@ -385,6 +387,7 @@ extern "C"
 						/// Output the whole path
 						outlet_list(x->out_path, NULL, (short)path.size(), pathout);
 					}
+					delete pathvals;
 					sysmem_freeptr(pathout);
 					
 					/// Output the root (0)

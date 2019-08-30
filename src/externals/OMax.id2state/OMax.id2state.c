@@ -11,7 +11,7 @@
 #ifndef __OMax_id2state_MAX_API_
 #define __OMax_id2state_MAX_API_
 
-#include "Oracle_classes.hpp"
+#include "../../cpp/Oracle_classes.hpp"
 
 extern "C"
 {
@@ -21,7 +21,7 @@ extern "C"
 #include "jpatcher_api.h"		// required for the color
 #include "jgraphics.h"			// required for the color
 	
-#include "OMax.oracle.h"
+#include "../OMax.oracle/OMax.oracle.h"
 	
 	/**@ingroup label
 	 * @nosubgrouping

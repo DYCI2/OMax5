@@ -8,8 +8,8 @@
 #ifndef __OMAX_DATA_MAX_API__
 #define __OMAX_DATA_MAX_API__
 
-#include "Oracle_label.hpp"
-#include "Oracle_data.hpp"
+#include "../../cpp/Oracle_label.hpp"
+#include "../../cpp/Oracle_data.hpp"
 
 #include <string.h>
 
@@ -856,7 +856,7 @@ void OMax_data_dowrite(t_OMax_data *x, t_symbol *s, long argc, t_atom* argv)
 void OMax_data_writefile(t_OMax_data *x, char *filename, short path)
 {
     char err;
-    int* note_data = NULL;
+    long* note_data = NULL;
     float* sp_data = NULL;
     int extras_nb = 0;
     float* extras_data = (float*)malloc(MAX_EXTRAS*sizeof(float));

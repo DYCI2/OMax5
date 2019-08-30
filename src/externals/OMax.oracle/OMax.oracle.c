@@ -14,13 +14,13 @@
 
 using namespace std;
 
-#include "Oracle_classes.hpp"
+#include "../../cpp/Oracle_classes.hpp"
 
 //extern "C"
 //{
 	#include "OMax.oracle.h"		// object structure
 	
-	#include "DOT.yy.h"				// Lexer header
+	#include "../../parser/DOT.yy.h"				// Lexer header
 	extern int yyparse (O_oracle* NewOracle); // Parser prototype
 //    extern void yy_delete_buffer (YY_BUFFER_STATE b  );
 //    extern YY_BUFFER_STATE yy_scan_string (yyconst char *yy_str  );

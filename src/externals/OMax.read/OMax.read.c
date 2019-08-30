@@ -11,8 +11,8 @@
 #ifndef __OMax_read_MAX_API_
 #define __OMax_read_MAX_API_
 
-#include "Oracle_classes.hpp"
-#include "OMax.oracle.h"
+#include "../../cpp/Oracle_classes.hpp"
+#include "../OMax.oracle/OMax.oracle.h"
 
 extern "C"
 {
@@ -250,7 +250,7 @@ extern "C"
 					// transitions
 					list<O_state*> trans = state.get_trans();
 					list<O_state*>::iterator it;
-					t_atom_long vals[trans.size()];
+					t_atom_long * vals = new t_atom_long[trans.size()];
 					t_atom * trans_list = NULL;
 					for (it = trans.begin(); it!=trans.end(); it++)
 					{
@@ -263,6 +263,7 @@ extern "C"
 						atom_setlong_array((long)trans.size(),trans_list,(long)trans.size(),vals);
 						outlet_list(x->out_trans, NULL, (short)trans.size(), trans_list); // output
 					}
+					delete vals;
 					sysmem_freeptr(trans_list);
 					
 					// suffix
