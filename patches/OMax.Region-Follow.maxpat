@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -282,8 +282,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.75, 330.0, 19.0, 22.0 ],
-					"text" : "fr"
+					"patching_rect" : [ 207.75, 330.0, 35.0, 22.0 ],
+					"text" : "bnl.fr"
 				}
 
 			}
@@ -300,7 +300,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-63",
-					"items" : "Dual1_Buffer",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -463,7 +463,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 674.0, 299.0, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 0,
+						"precision" : 6
 					}
 ,
 					"text" : "coll Buffers"
@@ -1282,14 +1283,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "fr.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 

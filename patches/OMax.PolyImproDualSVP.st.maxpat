@@ -343,8 +343,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.333312999999976, 363.0, 57.0, 22.0 ],
-					"text" : "s Master"
+					"patching_rect" : [ 370.0, 359.0, 90.0, 22.0 ],
+					"text" : "s OMax.Master"
 				}
 
 			}
