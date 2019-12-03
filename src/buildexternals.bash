@@ -1,3 +1,2 @@
 #! /bin/bash
-find ./externals/ ./yin+\ \&\ co/ -name "*.xcodeproj" -exec xcodebuild -project {} \;
-
+find ./externals/ -name "*.xcodeproj" -exec xcodebuild -project {} \;
