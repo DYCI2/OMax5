@@ -28,9 +28,6 @@ xcuserdata/
 
 ### Manually added
 
-# Max externals #
-*.mxo
-
 # Yacc generated file #
 DOT.yy.h
 
@@ -40,3 +37,4 @@ Icon
 
 z_miettes
 .vs
+bnl.max.xcconfig
