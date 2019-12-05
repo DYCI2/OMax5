@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.316985999999986, 462.076964999999916, 45.306579999999997, 29.0 ],
+					"patching_rect" : [ 416.316985999999986, 462.076964999999916, 49.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.363646984100342, 32.5, 72.0, 18.0 ],
 					"text" : "Running Pitch"
@@ -69,6 +69,7 @@
 					"patching_rect" : [ 382.0, 461.076964999999973, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.363646984100342, 47.0, 31.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"triscale" : 0.5,
 					"varname" : "Tuning[1]"
@@ -117,6 +118,7 @@
 					"patching_rect" : [ 207.0, 381.529968000000054, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.363646984100342, 14.0, 31.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Tuning"
 				}
@@ -309,18 +311,18 @@
 					"patching_rect" : [ 521.0, 106.0, 59.5, 22.0 ],
 					"restore" : 					{
 						"Level" : [ 50 ],
-						"Pitch" : [ 1 ],
+						"Pitch" : [ 0 ],
 						"Proba" : [ 0.56 ],
 						"Quality" : [ 0.5 ],
 						"Tuning" : [ 440 ],
 						"Tuning[1]" : [ 66 ],
-						"Window" : [ 55 ],
+						"Window" : [ 0 ],
 						"YinFreq" : [ 100 ],
 						"YinSampl" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u119001957"
+					"varname" : "u462007041"
 				}
 
 			}
@@ -466,7 +468,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -719,7 +721,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1047,8 +1049,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 193.0, 194.0, 75.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 44.0, 68.0, 20.0 ],
 					"text" : "yin~ 1 100 1.",
 					"varname" : "Yin"
 				}
@@ -1105,7 +1105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.778931000000057, 461.076964999999973, 50.0, 33.0 ],
+					"patching_rect" : [ 272.778931000000057, 461.076964999999973, 53.0, 33.0 ],
 					"text" : "Velocity Clip"
 				}
 
@@ -1131,15 +1131,17 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-50",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.347594999999998, 113.566192999999998, 14.272728000000001, 14.272728000000001 ],
+					"patching_rect" : [ 44.0, 95.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.363646984100342, 6.272705078125, 13.727272987365723, 13.727272987365723 ],
+					"presentation_rect" : [ 6.363646984100342, 6.272705078125, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "Pitch"
 				}
 
@@ -1208,6 +1210,7 @@
 					"patching_rect" : [ 369.213622999999984, 376.0, 33.049042, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 24.0, 36.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Proba"
 				}
@@ -1227,6 +1230,7 @@
 					"patching_rect" : [ 361.508667000000003, 319.529967999999997, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 43.0, 26.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Window"
 				}
@@ -1261,6 +1265,7 @@
 					"patching_rect" : [ 223.105713000000009, 93.404419000000004, 31.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 4.272705078125, 26.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Level"
 				}
@@ -1281,6 +1286,7 @@
 					"patching_rect" : [ 265.778931, 353.999999999999943, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 23.0, 36.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Quality"
 				}

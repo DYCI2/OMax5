@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -218,6 +218,7 @@
 					"patching_rect" : [ 67.0, 233.0, 49.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 19.0, 44.0, 20.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5
 				}
 

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -300,7 +300,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 947.5, 520.0, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 0,
+						"precision" : 6
 					}
 ,
 					"text" : "coll Buffers"
@@ -556,8 +557,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1244,7 +1245,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-8",
 					"ignoreclick" : 1,
 					"maxclass" : "toggle",
@@ -1252,10 +1253,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.146667000000008, 108.161681999999999, 34.0, 34.0 ],
+					"patching_rect" : [ 190.146667000000008, 108.161681999999999, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.357460021972656, 5.273842811584473, 15.220538139343262, 15.220538139343262 ],
-					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
+					"presentation_rect" : [ 5.357460021972656, 5.273842811584473, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"varname" : "Record"
 				}
 
 			}
@@ -2142,6 +2144,7 @@
 					"patching_rect" : [ 405.0, 444.0, 37.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.064510345458984, 19.472953796386719, 22.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
@@ -2164,6 +2167,7 @@
 					"patching_rect" : [ 391.0, 498.0, 37.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.216583251953125, 19.472953796386719, 22.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}

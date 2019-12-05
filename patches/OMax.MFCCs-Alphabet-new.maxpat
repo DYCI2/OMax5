@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 340.0, 251.0, 856.0, 744.0 ],
+		"rect" : [ 340.0, 225.0, 856.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -166,6 +166,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"hint" : "allow αβ growing",
 					"id" : "obj-36",
 					"maxclass" : "toggle",
@@ -173,9 +174,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 950.0, 152.0, 20.0, 20.0 ],
+					"patching_rect" : [ 950.0, 152.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 25.0, 14.0, 14.0 ]
+					"presentation_rect" : [ 7.0, 25.0, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"varname" : "SPαβ"
 				}
 
 			}
@@ -239,6 +242,7 @@
 					"patching_rect" : [ 861.0, 669.5, 26.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 128.0, 22.0, 30.0, 19.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -273,6 +277,7 @@
 					"patching_rect" : [ 747.0, 404.0, 28.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 22.0, 31.448005676269531, 19.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Dmax"
 				}
@@ -438,8 +443,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1016,8 +1021,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

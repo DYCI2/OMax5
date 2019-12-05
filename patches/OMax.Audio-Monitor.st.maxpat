@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 78.0, 1019.0, 727.0 ],
+		"rect" : [ 261.0, 78.0, 887.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -104,6 +104,7 @@
 					"patching_rect" : [ 695.0, 46.0, 31.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.601852416992188, 45.0, 29.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ]
 				}
 
@@ -140,6 +141,7 @@
 					"patching_rect" : [ 487.0, 46.0, 31.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.701950073242188, 45.0, 29.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ]
 				}
 
@@ -507,15 +509,18 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-226",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.0, 54.0, 14.0, 14.0 ],
+					"patching_rect" : [ 53.0, 38.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 14.0, 14.0 ]
+					"presentation_rect" : [ 5.0, 5.0, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"varname" : "Monitor"
 				}
 
 			}
@@ -530,7 +535,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.571228000000019, 19.086243, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.332103729248047, 2.120434045791626, 53.0, 20.0 ],
+					"presentation_rect" : [ 17.332103729248047, 3.120434045791626, 53.0, 20.0 ],
 					"text" : "Monitor"
 				}
 

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -94,7 +94,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u660003901"
+					"varname" : "u648010225"
 				}
 
 			}
@@ -133,8 +133,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -454,8 +454,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -710,9 +710,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.75, 268.0, 31.0, 19.0 ],
+					"patching_rect" : [ 279.75, 268.0, 32.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.105712890625, 4.4044189453125, 26.0, 19.0 ],
+					"presentation_rect" : [ 96.105712890625, 4.4044189453125, 24.0, 19.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Thresh"
 				}
@@ -785,15 +786,17 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-174",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.5, 20.066223000000001, 20.272728000000001, 20.272728000000001 ],
+					"patching_rect" : [ 162.5, 20.066223000000001, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.363646984100342, 5.56622314453125, 13.727272987365723, 13.727272987365723 ],
+					"presentation_rect" : [ 7.363647, 5.566223, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "Spectral"
 				}
 
@@ -930,8 +933,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 3,
+							"minor" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
