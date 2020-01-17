@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -52,7 +52,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u726007781"
+					"varname" : "u017012047"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 332.0, 159.120483000000007, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 22.0, 103.0, 20.0 ],
+					"presentation_rect" : [ 162.0, 22.0, 137.0, 20.0 ],
 					"text" : "#1_Time"
 				}
 
@@ -155,18 +155,19 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 148.0, 374.120482999999979, 50.0, 22.0 ],
+					"patching_rect" : [ 148.0, 374.120482999999979, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 41.5, 43.0, 22.0 ],
+					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
+					"triscale" : 0.7,
 					"varname" : "window"
 				}
 
@@ -187,18 +188,19 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 141.0, 280.240967000000012, 50.0, 22.0 ],
+					"patching_rect" : [ 141.0, 280.240967000000012, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 22.5, 43.0, 22.0 ],
+					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
+					"triscale" : 0.7,
 					"varname" : "overhead"
 				}
 
@@ -219,25 +221,27 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 170.120483000000007, 50.0, 22.0 ],
+					"patching_rect" : [ 137.0, 170.120483000000007, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.25, 5.0, 43.0, 22.0 ],
+					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
+					"triscale" : 0.7,
 					"varname" : "continuity"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -246,7 +250,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.5, 66.120482999999993, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 6.0, 14.0, 14.0 ]
+					"presentation_rect" : [ 6.0, 6.0, 14.0, 14.0 ],
+					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ]
 				}
 
 			}
@@ -516,6 +521,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
+					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"id" : "obj-105",

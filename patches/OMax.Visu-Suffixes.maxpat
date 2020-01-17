@@ -489,7 +489,7 @@
 					"patching_rect" : [ 617.0, 548.0, 98.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.75, 3.0, 87.25, 19.0 ],
-					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
+					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
 					"truncate" : 2
 				}
 
@@ -615,7 +615,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u570005371"
+					"varname" : "u214006811"
 				}
 
 			}
@@ -638,7 +638,7 @@
 					}
 ,
 					"text" : "pattrstorage pattrstorage @autorestore 0 @savemode 2",
-					"varname" : "u750005488"
+					"varname" : "pattrstorage"
 				}
 
 			}
@@ -726,7 +726,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-151",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -736,6 +737,7 @@
 					"patching_rect" : [ 359.0, 691.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 5.0, 15.0, 15.0 ],
+					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
 					"varname" : "Enable"
 				}
 

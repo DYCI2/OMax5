@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 63.0, 350.0, 152.0 ],
+		"rect" : [ 15.0, 51.0, 351.0, 152.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -229,17 +229,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 352.75, 373.605956999999989, 39.0, 22.0 ],
 					"text" : "zl join"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 0,
-					"patching_rect" : [ 607.5, 323.871154999999987, 49.0, 22.0 ],
-					"text" : "noteout"
 				}
 
 			}
@@ -1543,13 +1532,6 @@
 					"midpoints" : [ 418.899999999999977, 306.435577499999965, 473.833333333333485, 306.435577499999965 ],
 					"order" : 1,
 					"source" : [ "obj-59", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-59", 5 ]
 				}
 
 			}

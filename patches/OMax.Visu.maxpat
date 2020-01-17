@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 103.0, 984.0, 591.0 ],
+		"rect" : [ 155.0, 288.0, 109.0, 190.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 206.0, 40.5, 22.0 ],
+					"patching_rect" : [ 374.0, 206.0, 41.0, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -265,7 +265,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-78",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -274,7 +275,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 234.5, 147.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.137633800506592, 5.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 7.137633800506592, 5.0, 20.0, 20.0 ],
+					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ]
 				}
 
 			}
@@ -297,7 +299,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1_sp", "#2" ],
+					"args" : [ "#1_midi", "#2" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 0,
