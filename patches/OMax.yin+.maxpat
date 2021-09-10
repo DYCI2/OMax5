@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,21 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 44.0, 55.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -69,7 +83,6 @@
 					"patching_rect" : [ 382.0, 461.076964999999973, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.363646984100342, 47.0, 31.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"triscale" : 0.5,
 					"varname" : "Tuning[1]"
@@ -118,7 +131,6 @@
 					"patching_rect" : [ 207.0, 381.529968000000054, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.363646984100342, 14.0, 31.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Tuning"
 				}
@@ -311,12 +323,12 @@
 					"patching_rect" : [ 521.0, 106.0, 59.5, 22.0 ],
 					"restore" : 					{
 						"Level" : [ 50 ],
-						"Pitch" : [ 0 ],
+						"Pitch" : [ 1 ],
 						"Proba" : [ 0.56 ],
 						"Quality" : [ 0.5 ],
 						"Tuning" : [ 440 ],
 						"Tuning[1]" : [ 66 ],
-						"Window" : [ 0 ],
+						"Window" : [ 55 ],
 						"YinFreq" : [ 100 ],
 						"YinSampl" : [ 1 ]
 					}
@@ -337,10 +349,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 521.0, 61.0, 223.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 67, 153, 461, 322 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 766, 56, 1220, 314 ]
+						"storage_rect" : [ 794, -709, 1244, -510 ]
 					}
 ,
 					"text" : "pattrstorage pattrstorage @savemode 0",
@@ -468,7 +480,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -501,6 +513,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -721,7 +734,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -754,6 +767,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1049,6 +1063,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 193.0, 194.0, 75.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 90.0, 44.0, 68.0, 20.0 ],
 					"text" : "yin~ 1 100 1.",
 					"varname" : "Yin"
 				}
@@ -1210,7 +1226,6 @@
 					"patching_rect" : [ 369.213622999999984, 376.0, 33.049042, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 24.0, 36.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Proba"
 				}
@@ -1230,7 +1245,6 @@
 					"patching_rect" : [ 361.508667000000003, 319.529967999999997, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 43.0, 26.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Window"
 				}
@@ -1265,7 +1279,6 @@
 					"patching_rect" : [ 223.105713000000009, 93.404419000000004, 31.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 4.272705078125, 26.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Level"
 				}
@@ -1286,7 +1299,6 @@
 					"patching_rect" : [ 265.778931, 353.999999999999943, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 23.0, 36.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Quality"
 				}
@@ -1717,6 +1729,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 420.0, 78.0, 892.0, 766.0 ],
+		"rect" : [ 256.0, 78.0, 718.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,26 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.862745, 0.862745, 0.862745, 0.0 ],
+					"degrees" : 300,
+					"id" : "obj-3",
+					"ignoreclick" : 1,
+					"maxclass" : "dial",
+					"needlecolor" : [ 0.258823529411765, 0.458823529411765, 0.843137254901961, 1.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"outlinecolor" : [ 0.780392, 0.780392, 0.780392, 0.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 448.0, 322.5, 32.0, 32.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 57.0, 4.0, 32.0, 32.0 ],
+					"size" : 100.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -246,13 +266,13 @@
 					"presentation_rect" : [ 51.0, 6.0, 44.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 5,
+							"parameter_longname" : "live.dial",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 50 ],
 							"parameter_shortname" : "live.dial",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 5,
-							"parameter_longname" : "live.dial"
+							"parameter_type" : 0
 						}
 
 					}
@@ -273,26 +293,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 448.0, 293.5, 42.0, 22.0 ],
 					"text" : "* 100."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.862745, 0.862745, 0.862745, 0.0 ],
-					"degrees" : 300,
-					"id" : "obj-3",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"outlinecolor" : [ 0.780392, 0.780392, 0.780392, 0.0 ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 448.0, 322.5, 32.0, 32.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 4.0, 32.0, 32.0 ],
-					"size" : 100.0
 				}
 
 			}

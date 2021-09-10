@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-111",
@@ -135,13 +136,14 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OMax.MFCCs-Alphabet-new.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "float" ],
 					"patching_rect" : [ 941.0, 363.0, 165.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 204.0, 165.0, 69.0 ],
+					"varname" : "OMax.MFCCs-Alphabet-new",
 					"viewvisibility" : 1
 				}
 
@@ -160,7 +162,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 251.0, 159.0, 22.0 ],
 					"text" : "OMax.Dual-Visu Dual1 Vizu",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "OMax.Dual-Visu"
 				}
 
@@ -204,14 +205,14 @@
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ -22.598424999999999 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_initial_enable" : 1
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1107,14 +1108,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 718.227295000000026, 505.0, 87.0, 49.0 ],
-					"restore" : [ 7 ],
+					"restore" : [ 10 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattr @bindto OMax.MFCCs-pure::Thresh",
-					"varname" : "u303001139"
+					"varname" : "u054004949"
 				}
 
 			}
@@ -1255,7 +1256,6 @@
 					"patching_rect" : [ 848.0, 598.0, 28.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.0, 135.0, 28.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -1703,7 +1703,6 @@
 					"patching_rect" : [ 862.0, 689.0, 28.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 215.0, 251.0, 28.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -1741,7 +1740,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 1 ],
+					"args" : [ 1, 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2710,7 +2709,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"order" : 3,
+					"source" : [ "obj-60", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
 					"order" : 1,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 3,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -2910,7 +2925,7 @@
 					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
 					"destination" : [ "obj-29", 1 ],
 					"hidden" : 1,
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -2930,7 +2945,7 @@
 					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
 					"destination" : [ "obj-8", 1 ],
 					"hidden" : 1,
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -3056,7 +3071,7 @@
 					"color" : [ 0.8, 0.4, 1.0, 0.5 ],
 					"destination" : [ "obj-12", 2 ],
 					"hidden" : 1,
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -3066,7 +3081,7 @@
 					"color" : [ 0.8, 0.4, 1.0, 0.5 ],
 					"destination" : [ "obj-29", 3 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -3076,7 +3091,7 @@
 					"color" : [ 0.8, 0.4, 1.0, 0.5 ],
 					"destination" : [ "obj-8", 3 ],
 					"hidden" : 1,
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -3174,7 +3189,8 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
