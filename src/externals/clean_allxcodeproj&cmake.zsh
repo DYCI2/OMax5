@@ -8,5 +8,8 @@ do
   xcodebuild -project $project clean
   rm -rf $(find $project/../ -d 1 -iname "*cmake*" ! -name CMakeLists.txt)
   rm -rf $(find $project/../ -d 1 -iname "*build*")
+  rm -rf $(find $project/../ -d 1 -iname "parser.*")
+  rm -rf $(find $project/../ -d 1 -iname "lexer.*")
+  rm -rf $(find $project/../ -d 1 -iname "DOT.yy.h")
   rm -rf $project
 done
