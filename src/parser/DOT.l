@@ -7,7 +7,7 @@
 
 %{
 #include <stdio.h>
-#include "y.tab.h"
+#include "parser.hpp"
 int yyerror(char *s);
 %}
 
