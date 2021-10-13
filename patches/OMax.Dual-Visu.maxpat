@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 120.0, 347.0, 111.0, 266.0 ],
+		"rect" : [ 0.0, 345.0, 805.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -305,6 +306,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OMax.Visu-Suffixes.maxpat",
 					"numinlets" : 3,
@@ -313,7 +315,7 @@
 					"patching_rect" : [ 206.5, 404.0, 190.0, 68.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.501281976699829, 193.0, 105.0, 70.0 ],
-					"varname" : "Visu-Suffixes[1]",
+					"varname" : "Visu-Suffixes_b",
 					"viewvisibility" : 1
 				}
 
@@ -356,6 +358,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-36",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OMax.Visu-Suffixes.maxpat",
 					"numinlets" : 3,
@@ -364,7 +367,7 @@
 					"patching_rect" : [ 412.0, 404.0, 190.0, 68.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.501281976699829, 53.0, 105.0, 70.0 ],
-					"varname" : "Visu-Suffixes",
+					"varname" : "Visu-Suffixes_t",
 					"viewvisibility" : 1
 				}
 
@@ -379,6 +382,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-26",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "OMax.Visu-Timeline.maxpat",
 					"numinlets" : 3,
@@ -618,7 +622,8 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 1.0, 1.0 ]
 	}
 
 }

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 78.0, 887.0, 727.0 ],
+		"rect" : [ 261.0, 79.0, 887.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
@@ -681,7 +682,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 1.0, 0.1 ],
+					"bgcolor" : [ 0.843137254901961, 0.866666666666667, 0.894117647058824, 0.149019607843137 ],
 					"clip_size" : 1,
 					"id" : "obj-22",
 					"ignoreclick" : 1,
@@ -693,13 +694,19 @@
 					"patching_rect" : [ 117.0, 145.81205700000001, 128.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 34.0, 63.0, 11.0 ],
-					"slidercolor" : [ 0.0, 0.0, 1.0, 0.1 ]
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_output_curve_color"
+						}
+
+					}
+
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 1.0, 0.1 ],
+					"bgcolor" : [ 0.843137254901961, 0.866666666666667, 0.894117647058824, 0.149019607843137 ],
 					"clip_size" : 1,
 					"id" : "obj-35",
 					"ignoreclick" : 1,
@@ -711,7 +718,13 @@
 					"patching_rect" : [ 100.399901999999997, 187.0, 128.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 22.0, 63.0, 11.0 ],
-					"slidercolor" : [ 0.0, 0.0, 1.0, 0.1 ]
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_output_curve_color"
+						}
+
+					}
+
 				}
 
 			}
