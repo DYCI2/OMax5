@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 2,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 237.0, 56.0, 710.0, 800.0 ],
+		"rect" : [ 237.0, 79.0, 710.0, 800.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -168,7 +169,15 @@
 					"patching_rect" : [ 555.5, 111.0, 102.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 66.0, 18.0 ],
-					"text" : "#1"
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"text" : "#1",
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ]
 				}
 
 			}

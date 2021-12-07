@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 0,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "signal: scaled channel 8",
@@ -178,10 +179,11 @@
 					"restore" : 					{
 						"channel-L" : [ 1 ],
 						"channel-R" : [ 2 ],
+						"enable" : [ 1 ],
 						"link" : [ 1 ],
 						"pan" : [ 64 ],
-						"volume-L" : [ 0 ],
-						"volume-R" : [ 0 ]
+						"volume-L" : [ 128 ],
+						"volume-R" : [ 128 ]
 					}
 ,
 					"text" : "autopattr",
@@ -437,8 +439,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -471,6 +473,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -861,8 +864,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -895,6 +898,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1716,7 +1720,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 78.899901999999997, 129.0, 14.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 14.0, 14.0 ]
+					"presentation_rect" : [ 5.0, 5.0, 14.0, 14.0 ],
+					"varname" : "enable"
 				}
 
 			}
@@ -1876,6 +1881,13 @@
 					"patching_rect" : [ 114.5, 218.0, 25.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 33.0, 16.0, 64.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"slidercolor" : [ 0.0, 0.0, 1.0, 0.1 ]
 				}
 
@@ -1894,6 +1906,13 @@
 					"patching_rect" : [ 197.0, 218.0, 25.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.040634155273438, 33.0, 16.0, 64.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"slidercolor" : [ 0.0, 0.0, 1.0, 0.1 ]
 				}
 

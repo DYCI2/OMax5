@@ -28,13 +28,14 @@ xcuserdata/
 
 ### Manually added
 
+*/externals/**/*.xcodeproj
+
 # Yacc generated file #
 DOT.yy.h
 
 *.zip
 /src/parser/parser
-Icon
-
 z_miettes
 .vs
 bnl.max.xcconfig
+Icon

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 591.0, 120.0, 797.0, 719.0 ],
+		"rect" : [ 591.0, 120.0, 798.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,36 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 307.0, 93.404419000000004, 41.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 98.0, 71.0, 41.0, 18.0 ],
+					"text" : "↓ samp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 409.0, 95.0, 48.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 71.0, 48.0, 18.0 ],
+					"text" : "min Freq"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-9",
@@ -80,12 +110,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 382.0, 461.076964999999973, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.363646984100342, 47.0, 31.0, 20.0 ],
 					"triangle" : 0,
-					"triscale" : 0.5,
-					"varname" : "Tuning[1]"
+					"triscale" : 0.5
 				}
 
 			}
@@ -327,7 +357,6 @@
 						"Proba" : [ 0.56 ],
 						"Quality" : [ 0.5 ],
 						"Tuning" : [ 440 ],
-						"Tuning[1]" : [ 66 ],
 						"Window" : [ 55 ],
 						"YinFreq" : [ 100 ],
 						"YinSampl" : [ 1 ]
@@ -349,7 +378,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 521.0, 61.0, 223.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 67, 153, 461, 322 ],
+						"client_rect" : [ 67, 153, 507, 479 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 794, -709, 1244, -510 ]
@@ -479,8 +508,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -733,8 +762,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -979,8 +1008,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-260",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -988,15 +1018,19 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 367.0, 95.0, 41.0, 22.0 ],
+					"patching_rect" : [ 367.0, 95.0, 37.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 55.0, 70.0, 37.0, 20.0 ],
+					"triscale" : 0.5,
 					"varname" : "YinFreq"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-259",
 					"maxclass" : "number",
 					"maximum" : 3,
@@ -1005,7 +1039,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.0, 69.0, 26.000340000000001, 22.0 ],
+					"patching_rect" : [ 323.0, 69.0, 25.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 139.0, 70.0, 25.0, 20.0 ],
+					"triscale" : 0.5,
 					"varname" : "YinSampl"
 				}
 
@@ -1064,7 +1101,7 @@
 					"outlettype" : [ "float", "float", "float" ],
 					"patching_rect" : [ 193.0, 194.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 44.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 90.0, 44.0, 66.0, 20.0 ],
 					"text" : "yin~ 1 100 1.",
 					"varname" : "Yin"
 				}
@@ -1226,6 +1263,14 @@
 					"patching_rect" : [ 369.213622999999984, 376.0, 33.049042, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 24.0, 36.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Proba"
 				}
@@ -1245,6 +1290,14 @@
 					"patching_rect" : [ 361.508667000000003, 319.529967999999997, 32.316986, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 43.0, 26.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Window"
 				}
@@ -1279,6 +1332,14 @@
 					"patching_rect" : [ 223.105713000000009, 93.404419000000004, 31.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 4.272705078125, 26.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Level"
 				}
@@ -1299,6 +1360,14 @@
 					"patching_rect" : [ 265.778931, 353.999999999999943, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.363646984100342, 23.0, 36.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Quality"
 				}

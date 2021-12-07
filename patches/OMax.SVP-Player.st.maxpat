@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 78.0, 892.0, 990.0 ],
+		"rect" : [ 34.0, 79.0, 892.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,9 +122,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 43.0, 748.0, 56.0, 22.0 ],
 					"restore" : 					{
+						"restart" : [ 0.0 ],
 						"speed" : [ 0.0 ],
 						"transp" : [ 0.0 ],
-						"xfade" : [ 30 ]
+						"xfade" : [ 50 ]
 					}
 ,
 					"text" : "autopattr",
@@ -461,7 +462,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.25, 103.0, 44.0, 18.0 ],
+					"patching_rect" : [ 193.75, 104.0, 44.0, 18.0 ],
 					"text" : "restart"
 				}
 
@@ -496,7 +497,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 173.25, 103.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.5, 4.0, 14.0, 14.0 ]
+					"presentation_rect" : [ 63.5, 4.0, 14.0, 14.0 ],
+					"varname" : "restart"
 				}
 
 			}
@@ -789,8 +791,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 498.75, 36.0, 83.0, 22.0 ],
-					"text" : "loadmess 100"
+					"patching_rect" : [ 498.75, 36.0, 77.0, 22.0 ],
+					"text" : "loadmess 50"
 				}
 
 			}
