@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -134,7 +134,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -456,7 +456,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -704,8 +704,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
 					"maxclass" : "number",
@@ -713,10 +711,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.75, 268.0, 32.0, 19.0 ],
+					"patching_rect" : [ 279.75, 268.0, 29.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.105712890625, 4.4044189453125, 24.0, 19.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"presentation_rect" : [ 96.105712890625, 4.4044189453125, 21.0, 19.0 ],
 					"triscale" : 0.5,
 					"varname" : "Thresh"
 				}
@@ -788,8 +785,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-174",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -799,7 +794,6 @@
 					"patching_rect" : [ 162.5, 20.066223000000001, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.363647, 5.566223, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "Spectral"
 				}
 
@@ -936,7 +930,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1211,20 +1205,17 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"color" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.25, 143.0, 140.0, 20.0 ],
+					"patching_rect" : [ 240.25, 143.0, 138.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 24.0, 140.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 7.0, 24.0, 127.0, 31.0 ],
 					"text" : "OMax.MFCCs-zsa 4096 4 #1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mfccs-zsa"
 				}
 
@@ -1233,8 +1224,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-68",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1242,7 +1234,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.0, 134.0, 100.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 160.0, 45.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 160.0, 45.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
@@ -1513,14 +1512,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OMax.MFCCs-zsa.maxpat",
+				"name" : "OMax.MFCCs-zsa.core.maxpat",
 				"bootpath" : "~/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.MFCCs-zsa.core.maxpat",
+				"name" : "OMax.MFCCs-zsa.maxpat",
 				"bootpath" : "~/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

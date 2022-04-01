@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 418.0, 78.0, 780.0, 613.0 ],
+		"rect" : [ 418.0, 79.0, 780.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -277,8 +278,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-50",
 					"ignoreclick" : 1,
 					"maxclass" : "toggle",
@@ -289,7 +288,6 @@
 					"patching_rect" : [ 170.5, 51.868988000000002, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 5.0, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "SPdata"
 				}
 
@@ -571,8 +569,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-6",
 					"ignoreclick" : 1,
@@ -581,9 +578,20 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 261.0, 560.0, 47.0, 20.0 ],
+					"patching_rect" : [ 261.0, 560.0, 46.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 19.5, 42.0, 20.0 ],
+					"presentation_rect" : [ 6.0, 19.5, 40.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0
 				}
@@ -608,9 +616,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.301961, 1.0, 0.14902, 1.0 ],
+					"bordercolor" : [ 0.254901960784314, 0.847058823529412, 0.125490196078431, 1.0 ],
 					"id" : "obj-100",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -618,7 +626,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.0, 410.0, 237.0, 85.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 100.0, 40.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 100.0, 40.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

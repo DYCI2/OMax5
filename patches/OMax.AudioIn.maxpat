@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 95.0, 178.0, 699.0, 689.0 ],
+		"rect" : [ 574.0, 153.0, 528.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,8 +72,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -87,8 +85,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -98,7 +94,6 @@
 					"patching_rect" : [ 125.0, 499.54547100000002, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 68.54547100000002, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "stereo"
 				}
 
@@ -156,7 +151,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"elementcolor" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.0 ],
 					"id" : "obj-7",
-					"knobcolor" : [ 0.2, 0.2, 0.2, 0.1 ],
+					"knobcolor" : [ 0.2, 0.2, 0.2, 0.2 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -189,7 +184,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"elementcolor" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.0 ],
 					"id" : "obj-2",
-					"knobcolor" : [ 0.2, 0.2, 0.2, 0.1 ],
+					"knobcolor" : [ 0.2, 0.2, 0.2, 0.2 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -212,11 +207,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 0.89, 0.09, 1.0 ],
+					"outlinecolor" : [ 0.847058823529412, 0.752941176470588, 0.074509803921569, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 427.272582999999997, 62.066910000000021, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.298049926757812, 18.211639404296875, 10.0, 10.0 ]
+					"presentation_rect" : [ 60.298049926757812, 18.211639404296875, 10.0, 10.0 ]
 				}
 
 			}
@@ -292,10 +287,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"htricolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-3",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -303,20 +295,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.502350000000007, 144.545441000000011, 29.0, 22.0 ],
+					"patching_rect" : [ 165.502350000000007, 144.545441000000011, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.361251831054688, 45.0, 26.000339508056641, 22.0 ],
-					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ],
+					"presentation_rect" : [ 46.361251831054688, 45.0, 27.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "chB"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"htricolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -324,10 +313,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.181824000000006, 144.545441000000011, 30.0, 22.0 ],
+					"patching_rect" : [ 106.181824000000006, 144.545441000000011, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.361251831054688, 24.999996185302734, 26.000339508056641, 22.0 ],
-					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.5 ],
+					"presentation_rect" : [ 46.361251831054688, 24.999996185302734, 27.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "chA"
 				}
 
@@ -412,8 +401,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -423,7 +410,6 @@
 					"patching_rect" : [ 31.000000000000004, 232.54547100000002, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 7.0, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "enable"
 				}
 
@@ -528,15 +514,13 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 25.0, 46.0, 20.0 ],
+					"patching_rect" : [ 68.0, 25.0, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 4.0, 41.0, 20.0 ],
+					"presentation_rect" : [ 21.0, 4.0, 45.0, 20.0 ],
 					"text" : "Input"
 				}
 
@@ -559,6 +543,10 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
+						}
+,
+						"slidercolor" : 						{
+							"expression" : ""
 						}
 
 					}
@@ -586,6 +574,10 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
+,
+						"slidercolor" : 						{
+							"expression" : ""
+						}
 
 					}
 ,
@@ -597,8 +589,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -606,7 +599,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 11.0, 261.0, 323.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 70.0, 65.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 70.0, 65.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

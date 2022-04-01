@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -206,8 +207,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "number",
@@ -215,10 +214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 233.0, 49.0, 20.0 ],
+					"patching_rect" : [ 67.0, 233.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 19.0, 44.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"presentation_rect" : [ 5.0, 19.0, 43.0, 20.0 ],
 					"triscale" : 0.5
 				}
 
@@ -283,8 +281,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -292,7 +291,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 224.0, 161.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 70.0, 40.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 70.0, 40.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

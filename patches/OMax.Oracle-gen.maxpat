@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 471.0, 78.0, 752.0, 647.0 ],
+		"rect" : [ 471.0, 79.0, 752.0, 647.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -309,13 +310,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.5, 512.0, 53.0, 18.0 ],
+					"patching_rect" : [ 47.5, 512.0, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 77.5, 22.5, 20.0, 18.0 ],
 					"text" : "αβ"
@@ -324,9 +324,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"cantchange" : 1,
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
 					"maxclass" : "number",
@@ -334,10 +333,21 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 512.0, 28.0, 20.0 ],
+					"patching_rect" : [ 15.0, 512.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.5, 42.5, 30.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"presentation_rect" : [ 67.5, 42.5, 29.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -605,23 +615,21 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 545.0, 53.0, 18.0 ],
+					"patching_rect" : [ 115.5, 545.0, 49.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 42.5, 39.0, 18.0 ],
+					"presentation_rect" : [ 30.0, 42.5, 38.0, 18.0 ],
 					"text" : "Hi Ctxt"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-75",
 					"ignoreclick" : 1,
@@ -630,10 +638,21 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 545.0, 28.0, 20.0 ],
+					"patching_rect" : [ 180.0, 545.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 42.5, 25.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"presentation_rect" : [ 7.0, 42.5, 24.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -683,13 +702,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.863631999999996, 469.0, 30.0, 18.0 ],
+					"patching_rect" : [ 143.863631999999996, 469.0, 28.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 22.5, 28.0, 18.0 ],
 					"text" : "Size"
@@ -698,8 +716,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"ignoreclick" : 1,
@@ -708,10 +725,21 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.863631999999996, 447.0, 47.0, 20.0 ],
+					"patching_rect" : [ 142.863631999999996, 447.0, 46.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 22.5, 42.0, 20.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"presentation_rect" : [ 7.0, 22.5, 40.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -874,8 +902,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"checkedcolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"id" : "obj-50",
 					"ignoreclick" : 1,
 					"maxclass" : "toggle",
@@ -886,7 +912,6 @@
 					"patching_rect" : [ 195.076477000000011, 183.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 5.5, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"varname" : "Oracle"
 				}
 
@@ -937,9 +962,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.301961, 1.0, 0.14902, 1.0 ],
+					"bordercolor" : [ 0.254901960784314, 0.847058823529412, 0.125490196078431, 1.0 ],
 					"id" : "obj-100",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -947,7 +972,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 300.0, 190.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 100.0, 65.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 100.0, 65.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
