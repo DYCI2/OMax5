@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -469,22 +469,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-119",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 82.5, 45.335571000000002, 74.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 3.0, 58.0, 19.0 ],
-					"text" : "SVP #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
 					"blinkcolor" : [ 1.0, 0.89, 0.09, 1.0 ],
 					"hint" : "restart from beginning",
@@ -493,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 0.89, 0.09, 1.0 ],
+					"outlinecolor" : [ 0.847058823529412, 0.752941176470588, 0.074509803921569, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 173.25, 103.0, 20.0, 20.0 ],
 					"presentation" : 1,
@@ -581,7 +565,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "list", "bang" ],
+					"outlettype" : [ "list", "float" ],
 					"patching_rect" : [ 343.75, 170.0, 89.0, 22.0 ],
 					"text" : "when #1_Time"
 				}
@@ -1188,8 +1172,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-186",
 					"maxclass" : "number",
@@ -1197,9 +1179,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 498.75, 77.0, 35.0, 20.0 ],
+					"patching_rect" : [ 498.75, 77.0, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 47.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 6.0, 47.0, 30.0, 20.0 ],
 					"triscale" : 0.5,
 					"varname" : "xfade"
 				}
@@ -1236,7 +1218,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1265,10 +1246,27 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-119",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 82.5, 45.335571000000002, 74.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 18.0, 3.0, 58.0, 19.0 ],
+					"text" : "SVP #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.784313725490196, 0.145098039215686, 0.023529411764706, 1.0 ],
 					"id" : "obj-96",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1277,7 +1275,14 @@
 					"patching_rect" : [ 177.0, 670.5, 453.5, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 78.0, 42.0 ],
-					"rounded" : 12
+					"rounded" : 12,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
@@ -1977,14 +1982,14 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "supervp.scrub~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "supervp.scrub~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,

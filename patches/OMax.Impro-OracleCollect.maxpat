@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 393.0, 79.0, 782.0, 730.0 ],
+		"rect" : [ 536.0, 198.0, 493.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -159,7 +159,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -167,11 +166,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.25, 268.5, 52.0, 22.0 ],
+					"patching_rect" : [ 235.25, 268.5, 55.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 19.0, 31.0, 22.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"triscale" : 0.7
 				}
 
@@ -309,56 +306,38 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontface" : 0,
 					"fontsize" : 10.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 467.5, 679.0, 20.25, 18.0 ],
+					"patching_rect" : [ 467.5, 679.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.5, 21.0, 17.0, 18.0 ],
+					"presentation_rect" : [ 127.5, 23.5, 17.0, 18.0 ],
 					"text" : ")"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontface" : 0,
 					"fontsize" : 10.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.25, 679.0, 20.25, 18.0 ],
+					"patching_rect" : [ 259.25, 679.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.75, 21.0, 17.0, 18.0 ],
+					"presentation_rect" : [ 79.75, 23.5, 17.0, 18.0 ],
 					"text" : "("
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-57",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 368.5, 679.0, 20.25, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 96.5, 21.0, 17.0, 18.0 ],
-					"text" : ","
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"cantchange" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-44",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -366,22 +345,24 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 285.25, 679.0, 47.0, 20.0 ],
+					"patching_rect" : [ 285.25, 679.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 84.5, 22.0, 20.0, 20.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"triangle" : 0,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+					"presentation_rect" : [ 84.5, 21.5, 20.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"triangle" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"cantchange" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-43",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -389,12 +370,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 411.5, 679.0, 47.0, 20.0 ],
+					"patching_rect" : [ 411.5, 679.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.5, 22.0, 36.0, 20.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"triangle" : 0,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+					"presentation_rect" : [ 101.5, 21.5, 36.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"triangle" : 0
 				}
 
 			}
@@ -682,13 +668,14 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgfillcolor_color1" : [ 0.823529, 0.823529, 0.823529, 1 ],
-					"bgfillcolor_color2" : [ 0.8, 0.8, 0.8, 1 ],
+					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-50",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -698,8 +685,14 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 517.0, 496.0, 98.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 2.0, 100.0, 22.0 ],
-					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
+					"presentation_rect" : [ 65.0, 2.0, 97.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
@@ -821,8 +814,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -832,7 +823,6 @@
 					"patching_rect" : [ 28.0, 56.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 5.0, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
 					"varname" : "enable"
 				}
 
@@ -854,30 +844,26 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.0, 496.0, 58.0, 20.0 ],
+					"patching_rect" : [ 618.0, 496.0, 65.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 2.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 17.0, 2.0, 54.0, 20.0 ],
 					"text" : "Oracle:"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-89",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.5, 269.5, 63.0, 20.0 ],
+					"patching_rect" : [ 360.5, 269.5, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 21.0, 54.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 22.5, 54.0, 20.0 ],
 					"text" : "Min Ctxt"
 				}
 
@@ -901,19 +887,23 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-32",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 203.0, 432.0, 22.0, 22.0 ],
+					"patching_rect" : [ 203.0, 432.0, 24.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.75, 19.0, 22.0, 22.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"presentation_rect" : [ 136.75, 21.5, 22.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
 					"triangle" : 0
 				}
 
@@ -1126,10 +1116,26 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 10.0,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 368.5, 679.0, 23.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 97.5, 23.5, 17.0, 18.0 ],
+					"text" : ","
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.105882352941176, 0.847058823529412, 0.019607843137255, 1.0 ],
 					"id" : "obj-90",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1138,7 +1144,14 @@
 					"patching_rect" : [ 62.0, 254.0, 376.0, 230.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 160.0, 42.0 ],
-					"rounded" : 12
+					"rounded" : 12,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
@@ -1833,13 +1846,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OMax.Impro-Collect.maxpat",
 				"bootpath" : "~/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
@@ -1847,22 +1853,29 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"name" : "OMax.Impro-Win2States.maxpat",
+				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.id2state.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "OMax.SLT.mxo",
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "OMax.id2state.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,

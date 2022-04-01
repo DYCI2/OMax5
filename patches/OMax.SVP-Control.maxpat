@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -181,21 +181,17 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 224.0, 68.0, 20.0 ],
+					"patching_rect" : [ 223.0, 224.0, 66.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 22.0, 35.0, 20.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 43.0, 22.0, 33.0, 20.0 ],
 					"triscale" : 0.7
 				}
 
@@ -258,11 +254,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "flonum",
 					"minimum" : 0.1,
@@ -270,10 +263,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 222.0, 68.0, 20.0 ],
+					"patching_rect" : [ 90.0, 222.0, 66.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 4.0, 35.0, 20.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 43.0, 4.0, 33.0, 20.0 ],
 					"triscale" : 0.7
 				}
 
@@ -374,8 +366,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 1.0, 0.0, 0.101960784313725, 0.698039215686274 ],
 					"id" : "obj-96",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -384,7 +377,14 @@
 					"patching_rect" : [ 78.0, 45.0, 228.5, 281.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 78.0, 42.0 ],
-					"rounded" : 12
+					"rounded" : 12,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

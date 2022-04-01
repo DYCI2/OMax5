@@ -713,7 +713,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 279.75, 268.0, 29.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.105712890625, 4.4044189453125, 21.0, 19.0 ],
+					"presentation_rect" : [ 96.0, 4.0, 25.0, 19.0 ],
 					"triscale" : 0.5,
 					"varname" : "Thresh"
 				}
@@ -1213,8 +1213,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 240.25, 143.0, 138.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 7.0, 24.0, 127.0, 31.0 ],
+					"presentation_rect" : [ 7.0, 24.0, 140.0, 20.0 ],
 					"text" : "OMax.MFCCs-zsa 4096 4 #1",
 					"varname" : "mfccs-zsa"
 				}

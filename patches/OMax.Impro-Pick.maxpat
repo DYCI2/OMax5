@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 52.5, 557.75, 43.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "zlclear"
 				}
 
@@ -580,7 +579,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"id" : "obj-108",
 					"maxclass" : "panel",
@@ -590,7 +589,14 @@
 					"patching_rect" : [ 16.5, 32.0, 469.0, 725.75 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 79.0, 42.0 ],
-					"rounded" : 12
+					"rounded" : 12,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

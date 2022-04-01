@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 78.0, 718.0, 766.0 ],
+		"rect" : [ 256.0, 79.0, 718.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.862745, 0.862745, 0.862745, 0.0 ],
@@ -265,14 +266,26 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 51.0, 6.0, 44.0, 37.0 ],
 					"saved_attribute_attributes" : 					{
+						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_unitstyle" : 5,
-							"parameter_longname" : "live.dial",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
 							"parameter_initial" : [ 50 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.dial",
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.dial",
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 5
 						}
 
 					}
@@ -362,7 +375,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 413.5, 70.0, 25.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 21.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 37.0, 22.0, 18.0, 20.0 ],
 					"text" : "s"
 				}
 
@@ -425,9 +438,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
 					"id" : "obj-73",
 					"maxclass" : "flonum",
@@ -435,7 +445,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 363.5, 70.0, 50.0, 22.0 ],
+					"patching_rect" : [ 363.5, 70.0, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 20.0, 35.0, 22.0 ]
 				}
@@ -569,7 +579,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -775,7 +784,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 53.25, 53.5, 466.25, 546.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 160.0, 42.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 160.0, 42.0 ],
+					"proportion" : 0.5
 				}
 
 			}
@@ -1332,7 +1342,8 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

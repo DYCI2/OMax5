@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -155,18 +156,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 148.0, 374.120482999999979, 53.0, 22.0 ],
+					"patching_rect" : [ 148.0, 374.120482999999979, 56.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 41.5, 43.0, 22.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"triscale" : 0.7,
 					"varname" : "window"
 				}
@@ -188,18 +186,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 141.0, 280.240967000000012, 53.0, 22.0 ],
+					"patching_rect" : [ 141.0, 280.240967000000012, 56.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 22.5, 43.0, 22.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"triscale" : 0.7,
 					"varname" : "overhead"
 				}
@@ -221,18 +216,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 170.120483000000007, 53.0, 22.0 ],
+					"patching_rect" : [ 137.0, 170.120483000000007, 56.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.25, 5.0, 43.0, 22.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"tricolor" : [ 0.262745098039216, 0.462745098039216, 0.847058823529412, 1.0 ],
 					"triscale" : 0.7,
 					"varname" : "continuity"
 				}
@@ -240,8 +232,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -250,20 +240,17 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.5, 66.120482999999993, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 6.0, 14.0, 14.0 ],
-					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ]
+					"presentation_rect" : [ 6.0, 6.0, 14.0, 14.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-88",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 170.120483000000007, 31.0, 20.0 ],
+					"patching_rect" : [ 187.0, 170.120483000000007, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 138.75, 5.0, 24.0, 20.0 ],
 					"text" : "ms"
@@ -307,30 +294,27 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-119",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.25, 54.120483, 82.0, 20.0 ],
+					"patching_rect" : [ 152.25, 54.120483, 94.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.25, 3.120482921600342, 69.0, 20.0 ],
+					"presentation_rect" : [ 18.25, 3.120482921600342, 76.0, 20.0 ],
 					"text" : "Continuity"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-117",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 374.120482999999979, 74.0, 18.0 ],
+					"patching_rect" : [ 195.0, 374.120482999999979, 65.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.25, 43.5, 72.0, 18.0 ],
+					"presentation_rect" : [ 47.25, 43.5, 65.0, 18.0 ],
 					"text" : "window (ms)"
 				}
 
@@ -379,14 +363,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.4, 0.8, 1.0, 0.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-113",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 280.240967000000012, 85.0, 18.0 ],
+					"patching_rect" : [ 191.0, 280.240967000000012, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 47.25, 24.5, 73.0, 18.0 ],
 					"text" : "overhead (ms)"
@@ -430,7 +412,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "list", "bang" ],
+					"outlettype" : [ "list", "float" ],
 					"patching_rect" : [ 46.25, 280.240967000000012, 89.0, 22.0 ],
 					"text" : "when #1_Time"
 				}
@@ -522,8 +504,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-105",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -532,7 +515,14 @@
 					"patching_rect" : [ 10.0, 41.0, 294.0, 513.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 160.0, 65.0 ],
-					"rounded" : 12
+					"rounded" : 12,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
