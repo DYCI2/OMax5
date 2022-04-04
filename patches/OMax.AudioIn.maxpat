@@ -78,7 +78,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 501.54547100000002, 42.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 65.54547100000002, 42.0, 20.0 ],
+					"presentation_rect" : [ 21.0, 62.54547100000002, 42.0, 20.0 ],
 					"text" : "stereo"
 				}
 
@@ -93,7 +93,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 125.0, 499.54547100000002, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 68.54547100000002, 14.0, 14.0 ],
+					"presentation_rect" : [ 7.0, 65.54547100000002, 14.0, 14.0 ],
 					"varname" : "stereo"
 				}
 
@@ -160,7 +160,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 294.0, 185.545441000000011, 87.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 57.0, 16.0 ],
+					"presentation_rect" : [ 2.0, 26.0, 55.0, 16.0 ],
 					"size" : 158.0
 				}
 
@@ -193,7 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 409.0, 144.545441000000011, 87.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 47.0, 57.0, 16.0 ],
+					"presentation_rect" : [ 2.0, 45.0, 55.0, 16.0 ],
 					"size" : 158.0
 				}
 
@@ -211,7 +211,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 427.272582999999997, 62.066910000000021, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.298049926757812, 18.211639404296875, 10.0, 10.0 ]
+					"presentation_rect" : [ 60.298049926757812, 16.211639404296875, 10.0, 10.0 ]
 				}
 
 			}
@@ -298,7 +298,6 @@
 					"patching_rect" : [ 165.502350000000007, 144.545441000000011, 32.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.361251831054688, 45.0, 27.0, 22.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "chB"
 				}
 
@@ -316,7 +315,6 @@
 					"patching_rect" : [ 106.181824000000006, 144.545441000000011, 32.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.361251831054688, 24.999996185302734, 27.0, 22.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "chA"
 				}
 
@@ -589,7 +587,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-16",
@@ -599,7 +597,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 11.0, 261.0, 323.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 70.0, 65.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 70.0, 84.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
 							"expression" : "themecolor.theme_locked_bgcolor"
