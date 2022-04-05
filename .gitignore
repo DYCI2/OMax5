@@ -33,9 +33,12 @@ xcuserdata/
 # Yacc generated file #
 DOT.yy.h
 
+#various files
 *.zip
 /src/parser/parser
 z_miettes
-.vs
-bnl.max.xcconfig
-Icon
+#.vs
+#bnl.max.xcconfig
+*notari*.zsh
+Icon
+
