@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 372.0, 456.0, 703.0, 212.0 ],
+		"rect" : [ 472.0, 456.0, 703.0, 212.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -426,7 +426,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 169.5, 709.0, 67.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 172.5, 70.0, 27.0 ],
+					"presentation_rect" : [ 10.0, 172.5, 70.0, 27.0 ],
 					"text" : "CPU"
 				}
 
@@ -470,7 +470,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 71.5, 710.0, 96.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 173.5, 61.0, 25.0 ],
+					"presentation_rect" : [ 60.0, 173.5, 61.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -629,7 +629,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 616.5, 354.0, 59.5, 22.0 ],
 					"restore" : 					{
-						"live.numbox" : [ 2.0 ],
+						"live.numbox" : [ 0.0 ],
 						"master" : [ 127 ],
 						"panic" : [ 0.0 ]
 					}
@@ -874,7 +874,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 228.379516999999964, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 26.0, 46.0, 22.0 ],
+					"presentation_rect" : [ 16.0, 26.0, 46.0, 22.0 ],
 					"text" : "Stop!"
 				}
 
@@ -892,7 +892,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 163.0, 227.379516999999964, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 9.0, 58.0, 58.0 ],
+					"presentation_rect" : [ 7.0, 9.0, 58.0, 58.0 ],
 					"varname" : "panic"
 				}
 
@@ -913,14 +913,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.509804, 0.509804, 0.509804, 0.0 ],
 					"id" : "obj-2",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.5, 353.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 91.5, 58.0, 58.0 ]
+					"presentation_rect" : [ 10.0, 91.5, 58.0, 58.0 ]
 				}
 
 			}
@@ -1178,10 +1177,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -1206,10 +1201,6 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
-						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
 						}
 
 					}
@@ -1236,10 +1227,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -1264,10 +1251,6 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
-						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
 						}
 
 					}
@@ -1294,10 +1277,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -1322,10 +1301,6 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
-						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
 						}
 
 					}
@@ -1352,10 +1327,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -1380,10 +1351,6 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
-						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
 						}
 
 					}
@@ -2057,13 +2024,6 @@
 , 			{
 				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bnl.fr.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "supervp.scrub~.mxo",

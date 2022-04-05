@@ -782,13 +782,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 571.0, 30.0, 18.0 ],
+					"patching_rect" : [ 310.0, 571.0, 30.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 20.5, 28.0, 18.0 ],
-					"text" : "Size"
+					"presentation_rect" : [ 5.0, 21.5, 31.0, 18.0 ],
+					"text" : "Size:"
 				}
 
 			}
@@ -805,7 +806,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 571.0, 46.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 19.5, 40.0, 20.0 ],
+					"presentation_rect" : [ 38.0, 20.5, 52.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_locked_bgcolor"

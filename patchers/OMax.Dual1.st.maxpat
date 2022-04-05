@@ -41,6 +41,313 @@
 		"globalpatchername" : "OMax.Dual1",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ 1, 2 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-60",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "OMax.AudioIn.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 37.5, 25.5, 75.0, 91.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 44.0, 74.0, 88.0 ],
+					"varname" : "OMax.AudioIn",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-93",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "OMax.Load.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang", "", "", "" ],
+					"patching_rect" : [ 1174.5, 345.605957000000046, 73.0, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 53.0, 74.0, 70.0 ],
+					"varname" : "load",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "OMax.AudioIn-File.st.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "int" ],
+					"patching_rect" : [ 126.0, 25.5, 74.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 53.0, 74.0, 69.0 ],
+					"varname" : "filein",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 0,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 181.5, 135.08337499999999, 31.0, 22.0 ],
+									"text" : "load"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 140.5, 135.08337499999999, 33.0, 22.0 ],
+									"text" : "filein"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 50.0, 100.0, 200.0, 22.0 ],
+									"text" : "sel 0 1 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 135.08337499999999, 85.0, 22.0 ],
+									"text" : "OMax.AudioIn"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 85.0, 188.287780999999995, 118.0, 22.0 ],
+									"text" : "script bringtofront $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-54",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-55",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 85.0, 270.287780999999995, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"source" : [ "obj-46", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-46", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 227.447033000000033, 48.170864724058646, 57.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p toFront"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 227.447033000000033, 81.723843724058639, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 8.0,
+					"id" : "obj-44",
+					"maxclass" : "tab",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 227.447033000000033, 25.5, 100.5, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 31.0, 74.0, 13.0 ],
+					"spacing_x" : 2.0,
+					"tabs" : [ "input", "file", "load" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -451,7 +758,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.060669000000019, 584.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 65.5, 42.0, 18.0 ],
+					"presentation_rect" : [ 288.0, 63.5, 42.0, 18.0 ],
 					"text" : "mod 12"
 				}
 
@@ -466,7 +773,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 269.060669000000019, 488.696995000000015, 17.272728000000001, 17.272728000000001 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 273.0, 68.0, 13.0, 13.0 ],
+					"presentation_rect" : [ 273.0, 66.0, 13.0, 13.0 ],
 					"varname" : "Mod12"
 				}
 
@@ -508,7 +815,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 752.0, 679.26519775390625, 20.0, 140.0 ],
+					"patching_rect" : [ 752.0, 679.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 171.0, 15.0, 98.0 ],
 					"size" : 100.0
@@ -542,28 +849,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"color" : [ 0.898039215686275, 0.898039215686275, 1.0, 1.0 ],
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 950.0, 121.489041724058637, 168.0, 22.0 ],
+					"patching_rect" : [ 950.0, 121.489041724058637, 171.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 275.0, 159.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.theme_bgcolor"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-
-					}
-,
 					"text" : "OMax.Dual-Visu Dual1 Vizu",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "OMax.Dual-Visu"
 				}
 
@@ -707,9 +1001,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.560668999999962, 46.5, 81.0, 27.0 ],
+					"patching_rect" : [ 583.227295000000026, 18.0, 81.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 2.0, 81.0, 27.0 ],
+					"presentation_rect" : [ 7.0, 3.0, 81.0, 27.0 ],
 					"text" : "Dual1"
 				}
 
@@ -814,28 +1108,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"color" : [ 0.898039215686275, 0.898039215686275, 1.0, 1.0 ],
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 950.0, 157.754239724058635, 158.0, 22.0 ],
+					"patching_rect" : [ 950.0, 157.754239724058635, 161.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 210.0, 275.0, 158.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.theme_bgcolor"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-
-					}
-,
 					"text" : "OMax.4Regions Dual1 Vizu",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "OMax.4Regions"
 				}
 
@@ -852,7 +1133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 686.727295000000026, 679.265198000000055, 20.0, 140.0 ],
+					"patching_rect" : [ 686.0, 679.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 171.0, 15.0, 98.0 ],
 					"size" : 100.0
@@ -1274,7 +1555,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 653.227295000000026, 679.265198000000055, 20.0, 140.0 ],
+					"patching_rect" : [ 653.0, 679.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 171.0, 15.0, 98.0 ],
 					"size" : 100.0
@@ -1314,7 +1595,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1178.5, 746.0, 202.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 67, 153, 507, 479 ],
+						"client_rect" : [ 67, 153, 461, 322 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 794, -709, 1244, -510 ]
@@ -1405,7 +1686,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -1463,7 +1744,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 696.22729500000014, 94.0, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 10.0, 46.0, 20.0 ],
+					"presentation_rect" : [ 189.5, 10.0, 46.0, 20.0 ],
 					"text" : "Reset"
 				}
 
@@ -1479,7 +1760,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 583.227295000000026, 94.0, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 10.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 116.0, 10.0, 49.0, 20.0 ],
 					"text" : "Enable"
 				}
 
@@ -1494,7 +1775,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 638.227295000000026, 89.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.6363525390625, 10.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 96.6363525390625, 10.0, 20.0, 20.0 ],
 					"varname" : "Enable"
 				}
 
@@ -1817,7 +2098,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 40.800000000000011, 635.234801999999945, 183.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 188.5, 74.0, 70.0 ],
+					"presentation_rect" : [ 2.0, 202.5, 74.0, 70.0 ],
 					"varname" : "Record",
 					"viewvisibility" : 1
 				}
@@ -1841,7 +2122,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 168.0, 201.265197999999998, 74.0, 69.734802000000002 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 119.0, 74.0, 69.5 ],
+					"presentation_rect" : [ 2.0, 133.0, 74.0, 69.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -1868,7 +2149,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -1886,7 +2167,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 739.0, 86.5, 35.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.1363525390625, 10.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 170.1363525390625, 10.0, 20.0, 20.0 ],
 					"varname" : "Reset"
 				}
 
@@ -1902,77 +2183,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 81.5, 137.0, 45.0, 18.0 ],
 					"text" : "analysis"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1, 2 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-60",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 37.5, 25.5, 75.0, 91.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 30.0, 74.0, 88.0 ],
-					"varname" : "OMax.AudioIn",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-93",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "OMax.Load.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang", "", "", "" ],
-					"patching_rect" : [ 1174.5, 345.605957000000046, 73.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 39.0, 74.0, 70.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn-File.st.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 126.0, 25.5, 74.0, 69.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 39.0, 74.0, 69.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -2294,7 +2504,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2326,7 +2536,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2630,6 +2840,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -2667,6 +2884,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -3225,126 +3449,126 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.4Regions.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ActivityDel.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Monitor.st.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn-File.st.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.AudioIn.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-PITCH.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Data-SP.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Dual-Visu.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Load.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-Alphabet.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.core.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Oracle-gen.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Record.st.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Write.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3355,14 +3579,14 @@
 			}
 , 			{
 				"name" : "OMax.inExtend.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.inFollow.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3381,7 +3605,7 @@
 			}
 , 			{
 				"name" : "OMax.seg.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3392,14 +3616,14 @@
 			}
 , 			{
 				"name" : "OMax.yin+.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.yinstats.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

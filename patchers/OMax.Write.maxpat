@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -207,8 +207,15 @@
 					"patching_rect" : [ 429.0, 19.0, 46.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 45.0, 40.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
 					"text" : "click",
-					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ]
 				}
 
 			}
@@ -224,8 +231,15 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 4.0, 23.0, 68.0, 29.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
 					"text" : "drop a folder or",
-					"textcolor" : [ 0.298039, 0.298039, 0.298039, 1.0 ]
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ]
 				}
 
 			}
@@ -583,8 +597,8 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-165",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -592,7 +606,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 19.0, 379.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 70.0, 65.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 70.0, 65.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}

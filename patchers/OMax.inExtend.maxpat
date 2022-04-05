@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 78.0, 139.0, 1067.0, 750.0 ],
+		"rect" : [ 78.0, 139.0, 772.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -598,7 +598,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "region"
 				}
 
@@ -675,14 +674,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 2,
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -699,7 +690,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -981,14 +972,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "bnl.fr.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-68", "obj-70", "obj-67", "obj-69", "obj-65", "obj-18", "obj-61", "obj-16" ]
