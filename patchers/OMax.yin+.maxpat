@@ -42,11 +42,10 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.0, 93.404419000000004, 35.0, 29.0 ],
+					"patching_rect" : [ 307.0, 93.404419000000004, 41.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.0, 71.0, 41.0, 18.0 ],
 					"text" : "↓ samp"
@@ -543,7 +542,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 81.0, 21.0, 72.0, 20.0 ],
+									"patching_rect" : [ 81.0, 21.0, 72.0, 22.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -557,7 +556,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 162.0, 34.0, 20.0 ],
+									"patching_rect" : [ 93.0, 162.0, 34.0, 22.0 ],
 									"text" : "gate"
 								}
 
@@ -571,7 +570,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 66.0, 122.0, 46.0, 20.0 ],
+									"patching_rect" : [ 66.0, 122.0, 46.0, 22.0 ],
 									"text" : "t 1 0 0"
 								}
 
@@ -585,7 +584,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 31.0, 206.0, 32.5, 20.0 ],
+									"patching_rect" : [ 31.0, 206.0, 32.5, 22.0 ],
 									"text" : "i 55"
 								}
 
@@ -599,7 +598,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 31.0, 92.0, 54.0, 20.0 ],
+									"patching_rect" : [ 31.0, 92.0, 54.0, 22.0 ],
 									"text" : "togedge"
 								}
 
@@ -1089,7 +1088,7 @@
 					"patching_rect" : [ 193.0, 194.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 44.0, 68.0, 20.0 ],
-					"text" : "yin~ 1 100 1.",
+					"text" : "yin~ 1 416 1.",
 					"varname" : "Yin"
 				}
 
@@ -1225,7 +1224,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.041260000000023, 292.529967999999997, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.3636474609375, 44.0, 44.0, 18.0 ],
+					"presentation_rect" : [ 33.3636474609375, 44.0, 44.0, 18.0 ],
 					"text" : "Window"
 				}
 
@@ -1236,6 +1235,8 @@
 					"format" : 6,
 					"id" : "obj-42",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1253,13 +1254,14 @@
 					"fontsize" : 10.0,
 					"id" : "obj-43",
 					"maxclass" : "number",
+					"minimum" : 10,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 361.508667000000003, 319.529967999999997, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.363646984100342, 43.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 6.363646984100342, 43.0, 29.0, 20.0 ],
 					"triscale" : 0.5,
 					"varname" : "Window"
 				}
@@ -1269,13 +1271,12 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-37",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.105713000000009, 65.404419000000004, 30.0, 29.0 ],
+					"patching_rect" : [ 239.105713000000009, 65.404419000000004, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 4.272705078125, 35.0, 18.0 ],
+					"presentation_rect" : [ 117.0, 4.272705078125, 35.0, 18.0 ],
 					"text" : "Level"
 				}
 
@@ -1285,13 +1286,15 @@
 					"fontsize" : 10.0,
 					"id" : "obj-38",
 					"maxclass" : "number",
+					"maximum" : 157,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 223.105713000000009, 93.404419000000004, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 4.272705078125, 25.0, 20.0 ],
+					"presentation_rect" : [ 90.0, 4.272705078125, 29.0, 20.0 ],
 					"triscale" : 0.5,
 					"varname" : "Level"
 				}
@@ -1303,6 +1306,8 @@
 					"format" : 6,
 					"id" : "obj-39",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1760,7 +1765,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OMax.yinstats.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -210,6 +210,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "number",
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],

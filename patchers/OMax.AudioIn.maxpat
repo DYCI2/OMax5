@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 405.0, 324.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"chA" : [ 1 ],
+						"chA" : [ 165 ],
 						"chB" : [ 1 ],
 						"enable" : [ 0 ],
 						"stereo" : [ 0 ]
@@ -288,6 +288,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontsize" : 10.0,
 					"id" : "obj-3",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -295,9 +296,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.502350000000007, 144.545441000000011, 32.0, 22.0 ],
+					"patching_rect" : [ 165.502350000000007, 144.545441000000011, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.361251831054688, 44.0, 27.0, 22.0 ],
+					"presentation_rect" : [ 45.361251831054688, 44.0, 32.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor"
@@ -306,6 +307,7 @@
 					}
 ,
 					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"triscale" : 0.7,
 					"varname" : "chB"
 				}
 
@@ -313,6 +315,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontsize" : 10.0,
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -320,9 +323,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.181824000000006, 144.545441000000011, 32.0, 22.0 ],
+					"patching_rect" : [ 106.181824000000006, 144.545441000000011, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.361251831054688, 23.999996185302734, 27.0, 22.0 ],
+					"presentation_rect" : [ 45.361251831054688, 23.999996185302734, 32.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor"
@@ -331,6 +334,7 @@
 					}
 ,
 					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"triscale" : 0.7,
 					"varname" : "chA"
 				}
 
@@ -558,6 +562,10 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
+,
+						"slidercolor" : 						{
+							"expression" : ""
+						}
 
 					}
 ,
@@ -583,6 +591,10 @@
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
+						}
+,
+						"slidercolor" : 						{
+							"expression" : ""
 						}
 
 					}

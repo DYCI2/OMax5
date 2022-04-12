@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 126.184081999999989, 173.0, 35.0, 22.0 ],
+					"text" : "set 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "toggle: Start/Stop",
 					"id" : "obj-4",
 					"index" : 0,
@@ -80,7 +92,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.684081999999989, 197.0, 45.0, 45.0 ],
+					"patching_rect" : [ 152.684081999999989, 207.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.389136999999998, 17.804008, 28.237078, 28.237078 ]
 				}
@@ -241,6 +253,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-34", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"order" : 1,
 					"source" : [ "obj-35", 0 ]
@@ -252,6 +271,14 @@
 					"destination" : [ "obj-4", 0 ],
 					"order" : 0,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 135.684081999999989, 205.0, 26.934081999999989, 205.0, 26.934081999999989, 43.179442999999999, 50.184081999999997, 43.179442999999999 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

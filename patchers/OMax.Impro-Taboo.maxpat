@@ -369,6 +369,7 @@
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "number",
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -763,7 +764,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
 					"id" : "obj-96",
 					"maxclass" : "panel",

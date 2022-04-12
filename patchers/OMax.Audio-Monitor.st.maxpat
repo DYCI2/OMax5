@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 627.0, 273.0, 677.0, 727.0 ],
+		"rect" : [ 627.0, 266.0, 677.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,6 @@
 					"fontsize" : 9.0,
 					"id" : "obj-36",
 					"maxclass" : "number",
-					"maximum" : 28,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -105,7 +104,6 @@
 					"fontsize" : 9.0,
 					"id" : "obj-42",
 					"maxclass" : "number",
-					"maximum" : 28,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -760,7 +758,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-123",
