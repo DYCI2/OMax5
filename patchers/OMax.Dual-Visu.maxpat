@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -145,7 +145,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.75, 13.0, 97.0, 22.0 ],
+					"patching_rect" : [ 120.75, 13.0, 106.0, 22.0 ],
 					"text" : "r #2-Active-Input"
 				}
 
@@ -159,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 162.0, 77.0, 22.0 ],
+					"patching_rect" : [ 23.0, 162.0, 95.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -211,11 +211,11 @@
 				"box" : 				{
 					"comment" : "toggle: Enable // bang: Reset",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 206.5, 55.0, 25.0, 25.0 ]
 				}
 
@@ -266,7 +266,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
 					"id" : "obj-78",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -288,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 1.0, 0.89, 0.09, 1.0 ],
+					"outlinecolor" : [ 0.847058823529412, 0.752941176470588, 0.074509803921569, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 325.25, 155.5, 35.0, 35.0 ],
 					"presentation" : 1,
@@ -599,30 +598,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.state2id.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OMax.read.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 1.0, 1.0 ]
 	}
 

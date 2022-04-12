@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 280.0, 78.0, 1036.0, 849.0 ],
+		"rect" : [ 648.0, 102.0, 509.0, 849.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-50",
@@ -473,9 +474,12 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgfillcolor_color1" : [ 0.823529, 0.823529, 0.823529, 1 ],
-					"bgfillcolor_color2" : [ 0.8, 0.8, 0.8, 1 ],
+					"bgfillcolor_color1" : [ 0.823529, 0.823529, 0.823529, 1.0 ],
+					"bgfillcolor_color2" : [ 0.8, 0.8, 0.8, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Arial Gras",
 					"fontsize" : 11.0,
@@ -488,8 +492,15 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 617.0, 548.0, 98.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.75, 3.0, 87.25, 19.0 ],
-					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"presentation_rect" : [ 19.75, 4.0, 83.25, 19.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"truncate" : 2
 				}
 
@@ -726,8 +737,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"checkedcolor" : [ 0.180392156862745, 0.32156862745098, 0.588235294117647, 1.0 ],
 					"id" : "obj-151",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -737,7 +746,6 @@
 					"patching_rect" : [ 359.0, 691.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 5.0, 15.0, 15.0 ],
-					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
 					"varname" : "Enable"
 				}
 
@@ -934,7 +942,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960849761963, 0.901960849761963, 0.901960730552673, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-37",
@@ -947,6 +954,17 @@
 					"patching_rect" : [ 346.0, 153.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 22.0, 25.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.theme_bgcolor"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor_inverse"
+						}
+
+					}
+,
 					"triscale" : 0.5,
 					"varname" : "MinCtxt"
 				}
@@ -1204,7 +1222,14 @@
 					"patching_rect" : [ 357.0, 560.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 44.0, 25.0, 20.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "White"
@@ -1227,6 +1252,14 @@
 					"patching_rect" : [ 272.0, 560.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 53.0, 44.0, 25.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Black"
@@ -1597,8 +1630,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1631,6 +1664,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2338,8 +2372,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2347,7 +2382,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.030457000000013, 107.484558000000007, 334.27276599999999, 717.54547100000002 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 100.0, 65.0 ]
+					"presentation_rect" : [ 2.0, 2.0, 100.0, 65.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.theme_locked_bgcolor"
+						}
+
+					}
+
 				}
 
 			}
@@ -3219,11 +3261,11 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "OMax.state2id.mxo",
+				"name" : "OMax.read.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "OMax.read.mxo",
+				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
 			}
  ],
