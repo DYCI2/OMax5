@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 472.0, 456.0, 703.0, 212.0 ],
+		"rect" : [ 472.0, 469.0, 703.0, 212.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2024,6 +2024,13 @@
 , 			{
 				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bnl.fr.maxpat",
+				"bootpath" : "~/Projets/OMax/OMax5/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "supervp.scrub~.mxo",
