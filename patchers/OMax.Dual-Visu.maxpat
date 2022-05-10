@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 372.0, 258.0, 108.0, 264.0 ],
+		"rect" : [ 372.0, 258.0, 109.0, 265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 170.136353000000014, 371.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -211,11 +223,11 @@
 				"box" : 				{
 					"comment" : "toggle: Enable // bang: Reset",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.5, 55.0, 25.0, 25.0 ]
 				}
 
@@ -328,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 170.136353000000014, 370.0, 43.0, 22.0 ],
+					"patching_rect" : [ 183.136353000000014, 340.0, 43.0, 22.0 ],
 					"text" : "sel 32"
 				}
 
@@ -342,7 +354,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 170.136353000000014, 342.0, 59.5, 22.0 ],
+					"patching_rect" : [ 183.136353000000014, 312.0, 59.5, 22.0 ],
 					"text" : "key"
 				}
 
@@ -474,6 +486,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 2 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -530,7 +549,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 2 ],
+					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -545,8 +564,17 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
+					"destination" : [ "obj-12", 0 ],
+					"order" : 0,
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
 					"destination" : [ "obj-26", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -555,7 +583,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
 					"destination" : [ "obj-36", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -564,7 +592,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.501961, 0.501961, 0.5 ],
 					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -598,6 +626,30 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "OMax.Visu-Suffixes.maxpat",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OMax.Visu-Timeline.maxpat",
+				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OMax.read.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "OMax.state2id.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 1.0, 1.0 ]
 	}
 
