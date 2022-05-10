@@ -1085,10 +1085,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 193.0, 194.0, 75.0, 20.0 ],
+					"patching_rect" : [ 193.0, 194.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 44.0, 68.0, 20.0 ],
-					"text" : "yin~ 1 416 1.",
+					"text" : "yin~ 1 100 1.",
 					"varname" : "Yin"
 				}
 
@@ -1382,7 +1382,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-46",
