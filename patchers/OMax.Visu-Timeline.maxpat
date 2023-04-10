@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -113,7 +113,7 @@
 				"box" : 				{
 					"comment" : "symbol: Input Name",
 					"id" : "obj-92",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -227,7 +227,7 @@
 				"box" : 				{
 					"comment" : "bang: Zoom=All",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -618,7 +618,7 @@
 					"patching_rect" : [ 530.0, 411.0, 115.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.334930419921875, 16.0, 96.0, 20.0 ],
-					"text" : "#2"
+					"text" : "Vizu"
 				}
 
 			}
@@ -656,11 +656,11 @@
 				"box" : 				{
 					"comment" : "bang: clear // toggle: enable",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 147.0, 20.0, 25.0, 25.0 ]
 				}
 
@@ -796,8 +796,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 54.0, 560.0, 483.0, 21.0 ],
-					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @layer 3"
+					"patching_rect" : [ 54.0, 560.0, 408.0, 21.0 ],
+					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @layer 3"
 				}
 
 			}
@@ -805,7 +805,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-63",
@@ -1205,8 +1205,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898039, 0.898039, 1.0, 1.0 ]
 	}
 

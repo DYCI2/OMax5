@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 648.0, 102.0, 509.0, 849.0 ],
+		"rect" : [ 648.0, 102.0, 1101.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -87,7 +87,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 181.0, 74.0, 22.0 ],
+					"patching_rect" : [ 724.0, 181.0, 85.0, 22.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -171,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 724.0, 223.0, 32.5, 22.0 ],
+					"patching_rect" : [ 724.0, 223.0, 59.0, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -395,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 567.0, 106.0, 32.5, 22.0 ],
+					"patching_rect" : [ 567.0, 106.0, 59.0, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -500,7 +500,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"truncate" : 2
 				}
 
@@ -642,7 +641,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.0, 359.5, 143.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 67, 153, 461, 322 ],
+						"client_rect" : [ 67, 153, 507, 479 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 794, -709, 1244, -510 ]
@@ -759,7 +758,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 628.0, 74.0, 22.0 ],
+					"patching_rect" : [ 122.0, 628.0, 85.0, 22.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -788,7 +787,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 239.0, 72.0, 22.0 ],
+					"patching_rect" : [ 8.0, 239.0, 83.0, 22.0 ],
 					"text" : "r #0-redraw"
 				}
 
@@ -802,7 +801,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 397.0, 248.0, 74.0, 22.0 ],
+					"patching_rect" : [ 397.0, 248.0, 85.0, 22.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -1229,7 +1228,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "White"
@@ -1259,7 +1257,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.5,
 					"varname" : "Black"
@@ -1348,7 +1345,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 638.0, 74.0, 22.0 ],
+					"patching_rect" : [ 294.0, 638.0, 85.0, 22.0 ],
 					"text" : "s #0-redraw"
 				}
 
@@ -1426,8 +1423,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 243.5, 793.0, 550.0, 21.0 ],
-					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @pushstate 0 @displaylist 1 @layer 2"
+					"patching_rect" : [ 243.5, 793.0, 408.0, 21.0 ],
+					"text" : "jit.gl.sketch #2 @auto_material 0 @depth_enable 0 @two_sided 0 @layer 2"
 				}
 
 			}
@@ -1630,14 +1627,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 421.0, 49.0, 701.0, 568.0 ],
+						"rect" : [ 421.0, 87.0, 701.0, 568.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1687,7 +1684,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 227.0, 304.0, 54.5, 20.0 ],
+									"patching_rect" : [ 227.0, 304.0, 54.5, 22.0 ],
 									"text" : "* 1."
 								}
 
@@ -1714,7 +1711,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 561.0, 198.0, 49.0, 20.0 ],
+									"patching_rect" : [ 561.0, 198.0, 49.0, 22.0 ],
 									"text" : "unpack"
 								}
 
@@ -1728,7 +1725,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 161.0, 436.0, 103.0, 20.0 ],
+									"patching_rect" : [ 161.0, 436.0, 103.0, 22.0 ],
 									"text" : "pack 0. 0. 0. 0. 1."
 								}
 
@@ -1742,7 +1739,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 532.0, 229.0, 92.0, 20.0 ],
+									"patching_rect" : [ 532.0, 229.0, 92.0, 22.0 ],
 									"text" : "scale 3 10 1. 0."
 								}
 
@@ -1756,7 +1753,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 275.0, 103.0, 20.0 ],
+									"patching_rect" : [ 287.0, 275.0, 103.0, 22.0 ],
 									"text" : "pack 0. 0. 0. 0. 1."
 								}
 
@@ -1770,7 +1767,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 183.0, 298.0, 35.0, 20.0 ],
+									"patching_rect" : [ 183.0, 298.0, 35.0, 22.0 ],
 									"text" : "* 0.5"
 								}
 
@@ -1784,7 +1781,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 183.0, 327.0, 32.5, 20.0 ],
+									"patching_rect" : [ 183.0, 327.0, 32.5, 22.0 ],
 									"text" : "+ 0."
 								}
 
@@ -1798,8 +1795,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 303.0, 392.0, 18.0 ],
-									"text" : "strokeparam slices 6, strokeparam color $2 $3 $4 $5, strokepoint $1 0 0"
+									"patching_rect" : [ 287.0, 303.0, 329.0, 22.0 ],
+									"text" : "strokeparam slices 6, glcolor $2 $3 $4 $5, strokepoint $1 0 0"
 								}
 
 							}
@@ -1812,7 +1809,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "float" ],
-									"patching_rect" : [ 183.0, 140.0, 32.5, 20.0 ],
+									"patching_rect" : [ 183.0, 140.0, 32.5, 22.0 ],
 									"text" : "t b f"
 								}
 
@@ -1826,7 +1823,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 183.0, 178.0, 74.5, 20.0 ],
+									"patching_rect" : [ 183.0, 178.0, 74.5, 22.0 ],
 									"text" : "f 0."
 								}
 
@@ -1840,7 +1837,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 183.0, 242.0, 32.5, 20.0 ],
+									"patching_rect" : [ 183.0, 242.0, 32.5, 22.0 ],
 									"text" : "t f f"
 								}
 
@@ -1854,7 +1851,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 183.0, 359.0, 116.0, 20.0 ],
+									"patching_rect" : [ 183.0, 359.0, 116.0, 22.0 ],
 									"text" : "pack 0. 0. 0. 0. 0. 1."
 								}
 
@@ -1868,7 +1865,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 139.0, 493.0, 63.0, 18.0 ],
+									"patching_rect" : [ 139.0, 493.0, 63.0, 22.0 ],
 									"text" : "endstroke"
 								}
 
@@ -1882,7 +1879,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 161.0, 464.0, 106.0, 18.0 ],
+									"patching_rect" : [ 161.0, 464.0, 106.0, 22.0 ],
 									"text" : "strokepoint $1 0 0"
 								}
 
@@ -1896,7 +1893,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 227.0, 278.0, 39.0, 20.0 ],
+									"patching_rect" : [ 227.0, 278.0, 39.0, 22.0 ],
 									"text" : "* -0.4"
 								}
 
@@ -1910,7 +1907,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 183.0, 212.0, 32.5, 20.0 ],
+									"patching_rect" : [ 183.0, 212.0, 32.5, 22.0 ],
 									"text" : "- 0."
 								}
 
@@ -1924,7 +1921,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "bang", "bang", "float", "float", "float" ],
-									"patching_rect" : [ 117.0, 102.0, 107.0, 20.0 ],
+									"patching_rect" : [ 117.0, 102.0, 107.0, 22.0 ],
 									"text" : "t b b f f f"
 								}
 
@@ -1938,7 +1935,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "float", "float", "bang", "float", "bang" ],
-									"patching_rect" : [ 239.0, 102.0, 211.0, 20.0 ],
+									"patching_rect" : [ 239.0, 102.0, 211.0, 22.0 ],
 									"text" : "t f f b f b"
 								}
 
@@ -1952,7 +1949,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 383.0, 196.0, 87.0, 18.0 ],
+									"patching_rect" : [ 383.0, 196.0, 87.0, 22.0 ],
 									"text" : "moveto $1 0 0"
 								}
 
@@ -1966,7 +1963,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 183.0, 394.0, 113.0, 18.0 ],
+									"patching_rect" : [ 183.0, 394.0, 113.0, 22.0 ],
 									"text" : "strokepoint $1 $2 0"
 								}
 
@@ -1980,7 +1977,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 335.0, 232.0, 95.0, 18.0 ],
+									"patching_rect" : [ 335.0, 232.0, 95.0, 22.0 ],
 									"text" : "beginstroke line"
 								}
 
@@ -1994,7 +1991,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "int" ],
-									"patching_rect" : [ 117.0, 59.0, 262.0, 20.0 ],
+									"patching_rect" : [ 117.0, 59.0, 262.0, 22.0 ],
 									"text" : "unpack 0. 0. 0"
 								}
 
@@ -2372,7 +2369,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-63",
