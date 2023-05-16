@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 372.0, 53.0, 338.0, 387.0 ],
+		"rect" : [ 372.0, 65.0, 339.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,8 +98,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -411,8 +411,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2253,7 +2253,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 2 ],
+					"args" : [ 1, 2, 4, 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2263,8 +2263,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioOut-Stereo.maxpat",
-					"numinlets" : 7,
+					"name" : "OMax.AudioOut-4ch.maxpat",
+					"numinlets" : 6,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
@@ -2386,10 +2386,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 49.999998000000005, 607.138550000000009, 30.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 4.0, 30.0, 30.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "play",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "play",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"varname" : "play"
 				}
 
@@ -2553,8 +2564,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3159,8 +3170,7 @@
 						}
 
 					}
-,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ]
+
 				}
 
 			}
@@ -3716,7 +3726,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 6 ],
+					"destination" : [ "obj-65", 5 ],
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -4832,7 +4842,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 3 ],
+					"destination" : [ "obj-65", 2 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -5425,8 +5435,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-12" : [ "play", "play", 0 ],
 			"obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
 			"obj-200::obj-45" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-43::obj-9" : [ "restart", "restart", 0 ],
+			"obj-65::obj-60" : [ "pan", "pan", 0 ],
+			"obj-65::obj-61" : [ "volume-L", "volume-L", 0 ],
+			"obj-95::obj-12" : [ "speed", "speed", 0 ],
+			"obj-95::obj-24" : [ "transp", "transp", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -5435,99 +5451,99 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OMax.AudioOut-Stereo.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"name" : "OMax.AudioOut-4ch.maxpat",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Context.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-CtxtDec.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-EndofRec.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Energy.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-OracleCollect.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Pick.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Region.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-SearchWin.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Taboo.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Weight.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Region-Switch.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5538,28 +5554,28 @@
 			}
 , 			{
 				"name" : "OMax.SVP-Control.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Player.st.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Player.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patchers",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5575,6 +5591,13 @@
 , 			{
 				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pan4S.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "supervp.scrub~.mxo",
