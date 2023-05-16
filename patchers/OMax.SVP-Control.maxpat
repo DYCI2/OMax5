@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 191.0, 281.0, 418.0, 370.0 ],
+		"rect" : [ 441.0, 210.0, 427.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,8 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.5, 65.0, 50.0, 22.0 ],
-					"varname" : "speed"
+					"patching_rect" : [ 13.5, 65.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -74,8 +73,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 136.0, 50.0, 22.0 ],
-					"varname" : "transp"
+					"patching_rect" : [ 223.0, 136.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -90,8 +88,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 207.0, 13.0, 59.5, 22.0 ],
 					"restore" : 					{
-						"speed" : [ 0.0 ],
-						"transp" : [ 63.0 ]
+						"speed" : [ 1.0 ],
+						"transp" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -185,14 +183,28 @@
 					"format" : 6,
 					"id" : "obj-24",
 					"maxclass" : "flonum",
+					"maximum" : 100.0,
+					"minimum" : -100.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 223.0, 224.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 22.0, 33.0, 20.0 ],
-					"triscale" : 0.7
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "transp",
+							"parameter_mmax" : 100.0,
+							"parameter_mmin" : -100.0,
+							"parameter_shortname" : "transp",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"triscale" : 0.7,
+					"varname" : "transp"
 				}
 
 			}
@@ -258,15 +270,28 @@
 					"format" : 6,
 					"id" : "obj-12",
 					"maxclass" : "flonum",
+					"maximum" : 10.0,
 					"minimum" : 0.1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 90.0, 222.0, 66.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 4.0, 33.0, 20.0 ],
-					"triscale" : 0.7
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "speed",
+							"parameter_mmax" : 10.0,
+							"parameter_mmin" : 0.1,
+							"parameter_shortname" : "speed",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"triscale" : 0.7,
+					"varname" : "speed"
 				}
 
 			}
@@ -366,7 +391,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 1.0, 0.0, 0.101960784313725, 0.698039215686274 ],
 					"id" : "obj-96",
@@ -521,6 +546,21 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "speed", "speed", 0 ],
+			"obj-24" : [ "transp", "transp", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.8, 0.4, 0.0, 0.5 ]
