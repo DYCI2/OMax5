@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 405.0, 324.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"chA" : [ 165 ],
+						"chA" : [ 1 ],
 						"chB" : [ 1 ],
 						"enable" : [ 0 ],
 						"stereo" : [ 0 ]
@@ -306,7 +306,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.7,
 					"varname" : "chB"
 				}
@@ -333,7 +333,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.7,
 					"varname" : "chA"
 				}
@@ -562,10 +562,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -592,10 +588,6 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_display_scale_text"
 						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
 
 					}
 ,
@@ -607,7 +599,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-16",

@@ -346,7 +346,7 @@
 					"args" : [ 5, 5 ],
 					"id" : "obj-60",
 					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn.maxpat",
+					"name" : "OMax.AudioIn-st.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
@@ -877,7 +877,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.AudioIn.maxpat",
+				"name" : "OMax.AudioIn-st.maxpat",
 				"bootpath" : "/Users/blevy/Projets/OMax/git2svn/patches/experimental",
 				"patcherrelativepath" : "",
 				"type" : "JSON",

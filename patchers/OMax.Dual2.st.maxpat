@@ -51,7 +51,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioIn.maxpat",
+					"name" : "OMax.AudioIn-st.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -3511,7 +3511,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax.AudioIn.maxpat",
+				"name" : "OMax.AudioIn-st.maxpat",
 				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
