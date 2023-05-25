@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 372.0, 65.0, 339.0, 388.0 ],
+		"rect" : [ 372.0, 66.0, 338.0, 387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1009,6 +1009,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.529409764705861, 1702.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 8"
 				}
 
@@ -1022,6 +1026,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.739493798319359, 1728.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 7"
 				}
 
@@ -1035,6 +1043,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.949577831932771, 1702.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 6"
 				}
 
@@ -1048,6 +1060,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 145.159661865546241, 1728.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 5"
 				}
 
@@ -1061,6 +1077,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.369745899159682, 1702.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 4"
 				}
 
@@ -1074,6 +1094,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.579829932773123, 1728.435485999999855, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 3"
 				}
 
@@ -2028,10 +2052,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 73.789913966386564, 1702.435485999999855, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -2045,10 +2065,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.999998000000005, 1728.435485999999855, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -2253,7 +2269,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 1, 2, 4, 3 ],
+					"args" : [ 1, 2 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2263,8 +2279,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "OMax.AudioOut-4ch.maxpat",
-					"numinlets" : 6,
+					"name" : "OMax.AudioOut-Stereo.maxpat",
+					"numinlets" : 7,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
@@ -3726,7 +3742,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 5 ],
+					"destination" : [ "obj-65", 6 ],
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -4842,7 +4858,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 2 ],
+					"destination" : [ "obj-65", 3 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -5439,6 +5455,7 @@
 			"obj-13::obj-21" : [ "live.dial", "live.dial", 0 ],
 			"obj-200::obj-45" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-43::obj-9" : [ "restart", "restart", 0 ],
+			"obj-65::obj-49" : [ "volume-R", "volume-R", 0 ],
 			"obj-65::obj-60" : [ "pan", "pan", 0 ],
 			"obj-65::obj-61" : [ "volume-L", "volume-L", 0 ],
 			"obj-95::obj-12" : [ "speed", "speed", 0 ],
@@ -5451,7 +5468,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OMax.AudioOut-4ch.maxpat",
+				"name" : "OMax.AudioOut-Stereo.maxpat",
 				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -5591,13 +5608,6 @@
 , 			{
 				"name" : "OMax.state2id.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pan4S.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "supervp.scrub~.mxo",
