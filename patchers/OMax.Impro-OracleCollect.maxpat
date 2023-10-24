@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 536.0, 198.0, 493.0, 730.0 ],
+		"rect" : [ 265.0, 109.0, 1114.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.0, 496.0, 71.0, 22.0 ],
+					"patching_rect" : [ 638.5, 496.0, 71.0, 22.0 ],
 					"text" : "s #0-enable"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 648.5, 449.0, 22.0, 22.0 ],
+					"patching_rect" : [ 638.5, 462.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 676.0, 449.0, 22.0, 22.0 ],
+					"patching_rect" : [ 676.0, 462.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -286,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 180.0, 32.5, 22.0 ],
+					"patching_rect" : [ 643.25, 180.0, 32.5, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -493,7 +493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 624.0, 137.0, 46.0, 22.0 ],
+					"patching_rect" : [ 643.25, 137.0, 46.0, 22.0 ],
 					"text" : "t b b s"
 				}
 
@@ -549,7 +549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 503.0, 302.0, 167.0, 22.0 ],
+					"patching_rect" : [ 503.0, 302.0, 186.25, 22.0 ],
 					"text" : "route"
 				}
 
@@ -577,7 +577,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 53.0, 25.0, 25.0 ]
+					"patching_rect" : [ 643.25, 53.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -848,7 +848,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.0, 496.0, 65.0, 20.0 ],
+					"patching_rect" : [ 565.0, 473.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 2.0, 54.0, 20.0 ],
 					"text" : "Oracle:"
@@ -1527,7 +1527,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -1535,7 +1535,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -1543,7 +1543,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -1558,7 +1558,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-50", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 0,
 					"source" : [ "obj-50", 1 ]
 				}
 
@@ -1768,7 +1776,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -1777,14 +1784,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-80", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"order" : 0,
-					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -1847,14 +1846,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Win2States.maxpat",
-				"bootpath" : "~/Projets/OMax/OMax5/patches",
+				"bootpath" : "~/Work/OMax/OMax5/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
