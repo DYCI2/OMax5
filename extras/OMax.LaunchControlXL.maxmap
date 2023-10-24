@@ -8,20 +8,6 @@
 				"flags" : 3
 			}
 ,
-			"volume-L[5]" : 			{
-				"srcname" : "1.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R[5]" : 			{
-				"srcname" : "1.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
 			"transp[5]" : 			{
 				"srcname" : "21.ctrl.0.chan.12.port.midi",
 				"min" : -12.19,
@@ -44,13 +30,6 @@
 				"flags" : 3
 			}
 ,
-			"pan[5]" : 			{
-				"srcname" : "11.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
-			}
-,
 			"master" : 			{
 				"srcname" : "8.ctrl.0.chan.12.port.midi",
 				"min" : 0.0,
@@ -63,27 +42,6 @@
 				"min" : 0.0,
 				"max" : 1.0,
 				"flags" : 3
-			}
-,
-			"volume-L" : 			{
-				"srcname" : "2.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R" : 			{
-				"srcname" : "2.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"pan" : 			{
-				"srcname" : "12.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
 			}
 ,
 			"restart" : 			{
@@ -123,27 +81,6 @@
 				"flags" : 3
 			}
 ,
-			"volume-L[1]" : 			{
-				"srcname" : "3.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R[1]" : 			{
-				"srcname" : "3.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"pan[1]" : 			{
-				"srcname" : "13.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
-			}
-,
 			"restart[1]" : 			{
 				"srcname" : "50.note.0.chan.12.port.midi",
 				"min" : 0.0,
@@ -173,27 +110,6 @@
 				"flags" : 3
 			}
 ,
-			"volume-L[2]" : 			{
-				"srcname" : "4.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R[2]" : 			{
-				"srcname" : "4.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"pan[2]" : 			{
-				"srcname" : "14.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
-			}
-,
 			"restart[2]" : 			{
 				"srcname" : "51.note.0.chan.12.port.midi",
 				"min" : 0.0,
@@ -221,27 +137,6 @@
 				"min" : 0.0,
 				"max" : 1.0,
 				"flags" : 3
-			}
-,
-			"volume-L[3]" : 			{
-				"srcname" : "5.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R[3]" : 			{
-				"srcname" : "5.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"pan[3]" : 			{
-				"srcname" : "15.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
 			}
 ,
 			"restart[3]" : 			{
@@ -280,27 +175,6 @@
 				"flags" : 3
 			}
 ,
-			"volume-L[4]" : 			{
-				"srcname" : "6.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"volume-R[4]" : 			{
-				"srcname" : "6.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 156.0,
-				"flags" : 2
-			}
-,
-			"pan[4]" : 			{
-				"srcname" : "16.ctrl.0.chan.12.port.midi",
-				"min" : 0.0,
-				"max" : 100.0,
-				"flags" : 2
-			}
-,
 			"speed[4]" : 			{
 				"srcname" : "36.ctrl.0.chan.12.port.midi",
 				"min" : 0.1,
@@ -313,6 +187,90 @@
 				"srcname" : "26.ctrl.0.chan.12.port.midi",
 				"min" : -12.19,
 				"max" : 12.0,
+				"flags" : 2
+			}
+,
+			"volume-L[5]" : 			{
+				"srcname" : "1.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"volume-L" : 			{
+				"srcname" : "2.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"volume-L[1]" : 			{
+				"srcname" : "3.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"volume-L[2]" : 			{
+				"srcname" : "4.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"volume-L[3]" : 			{
+				"srcname" : "5.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"volume-L[4]" : 			{
+				"srcname" : "6.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 156.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control" : 			{
+				"srcname" : "11.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control[1]" : 			{
+				"srcname" : "12.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control[2]" : 			{
+				"srcname" : "13.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control[3]" : 			{
+				"srcname" : "14.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control[4]" : 			{
+				"srcname" : "15.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
+				"flags" : 2
+			}
+,
+			"azimuth_control[5]" : 			{
+				"srcname" : "16.ctrl.0.chan.12.port.midi",
+				"min" : 0.0,
+				"max" : 150.0,
 				"flags" : 2
 			}
 
