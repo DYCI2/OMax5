@@ -20,7 +20,7 @@ using namespace std;
 //{
 	#include "OMax.oracle.h"		// object structure
 	
-	#include "../../parser/DOT.yy.h"				// Lexer header
+	#include "../build/OMax.oracle/DOT.yy.h"				// Lexer header
 	extern int yyparse (O_oracle* NewOracle); // Parser prototype
 //    extern void yy_delete_buffer (YY_BUFFER_STATE b  );
 //    extern YY_BUFFER_STATE yy_scan_string (yyconst char *yy_str  );

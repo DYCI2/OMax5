@@ -7,7 +7,7 @@
 
 %{
 #include <stdio.h>
-#include "../../cpp/Oracle_classes.hpp"
+#include "../../../cpp/Oracle_classes.hpp"
 //#include "Oracle_classes.hpp"
 int yylex(void);
 int yyerror(O_oracle*,const char*);
