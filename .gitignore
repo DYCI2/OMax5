@@ -35,11 +35,10 @@ DOT.yy.h
 
 #various files
 *.zip
-/src/parser/parser
-z_miettes
-#.vs
-#bnl.max.xcconfig
-*notari*.zsh
+src/parser/parser
+externals/*.mxo
+externals/*.dmg
 
 #Icon
-Icon
+Icon
+
