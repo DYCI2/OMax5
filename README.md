@@ -44,11 +44,11 @@ OMax5.x (c) Ircam, CAMS (EHESS) 2009-2024
 
 OMax was created by [Gérard Assayag](https://www.ircam.fr/person/gerard-assayag),
 [Marc Chemillier](https://www.ehess.fr/fr/personne/marc-chemillier),
-[Georges Bloch](https://creaa.unistra.fr/le-creaa/gream/organisation/membres/chercheurs/georges-bloch/) in collaboration with [Shlomo Dubnov](https://music-cms.ucsd.edu/people/faculty/regular_faculty/shlomo-dubnov/index.html).
+[Georges Bloch](http://repmus.ircam.fr/bloch) in collaboration with [Shlomo Dubnov](https://music-cms.ucsd.edu/people/faculty/regular_faculty/shlomo-dubnov/index.html).
 
 OMax5 was developed by [Benjamin Levy] 
 
-version OMax5.5 is by [Georges Bloch](https://creaa.unistra.fr/le-creaa/gream/organisation/membres/chercheurs/georges-bloch/), with the help of
+version OMax5.5 is by [Georges Bloch](http://repmus.ircam.fr/bloch), with the help of
 [Mikhail Malt](https://www.ircam.fr/person/mikhail-malt), [Marco Fiorini](https://www.ircam.fr/person/marco-fiorini)
 
 [IRCAM REACH Project](https://www.ircam.fr/projects/pages/reach-project)
