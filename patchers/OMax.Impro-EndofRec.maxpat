@@ -2,41 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, 150.0, 612.0, 667.0 ],
-		"bglocked" : 0,
+		"rect" : [ 566.0, 136.0, 612.0, 667.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-67",
@@ -140,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 444.75, 198.0, 56.0, 22.0 ],
+					"patching_rect" : [ 452.0, 165.5, 56.0, 22.0 ],
 					"restore" : 					{
 						"anticipation" : [ 75 ],
 						"enable" : [ 1 ]
@@ -162,8 +138,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.75, 64.75, 64.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 4.0, 63.0, 18.0 ],
-					"text" : "End of Rec"
+					"presentation_rect" : [ 15.0, 1.0, 63.0, 18.0 ],
+					"text" : "End of Rec",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -181,18 +158,36 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 383.0, 231.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 23.0, 44.0, 15.0 ],
+					"presentation_rect" : [ -1.0, 19.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 2,
 							"parameter_longname" : "live.numbox",
 							"parameter_mmax" : 10000.0,
-							"parameter_shortname" : "live.numbox"
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
 						}
 
 					}
 ,
+					"textcolor" : [ 0.337254901960784, 0.337254901960784, 0.337254901960784, 1.0 ],
 					"varname" : "live.numbox"
 				}
 
@@ -284,6 +279,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.258823529411765, 0.458823529411765, 0.843137254901961, 0.8 ],
 					"id" : "obj-49",
 					"knobcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
@@ -296,7 +292,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 341.0, 169.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 23.0, 79.0, 16.0 ],
+					"presentation_rect" : [ -1.0, 19.0, 79.0, 16.0 ],
 					"size" : 101.0,
 					"varname" : "anticipation"
 				}
@@ -515,7 +511,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "list", "bang" ],
+					"outlettype" : [ "list", "float" ],
 					"patching_rect" : [ 37.0, 172.0, 87.0, 22.0 ],
 					"text" : "when #1_Time"
 				}
@@ -546,7 +542,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 37.0, 59.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 6.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 14.0, 14.0 ],
 					"uncheckedcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
 					"varname" : "enable"
 				}
@@ -616,7 +612,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "list", "bang" ],
+					"outlettype" : [ "list", "float" ],
 					"patching_rect" : [ 140.0, 172.0, 87.0, 22.0 ],
 					"text" : "when #2_Time"
 				}
@@ -663,7 +659,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.75, 545.094541757898014, 130.25, 76.375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 79.0, 42.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 79.0, 35.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
@@ -680,9 +676,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 52.125, 492.25, 456.375 ],
+					"patching_rect" : [ 22.0, 49.0, 492.25, 456.375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 79.0, 42.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 79.0, 35.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
@@ -1126,12 +1122,14 @@
 
 			}
  ],
+		"originid" : "pat-8790",
 		"parameters" : 		{
 			"obj-45" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

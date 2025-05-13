@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 188.0, 82.0, 1004.0, 588.0 ],
+		"rect" : [ 49.0, -848.0, 1010.0, 588.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,33 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 81.0, 293.0, 50.0, 49.0 ],
+					"text" : "0. 10. -0.1657 0.1657"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 717.5, 295.0, 195.0, 22.0 ],
+					"text" : "glpolygonemode fill, glbegin quads"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -112,7 +139,7 @@
 				"box" : 				{
 					"comment" : "toggle: activate",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -293,11 +320,11 @@
 				"box" : 				{
 					"comment" : "bang: clear // toggle: enable",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 23.5, 300.5, 25.0, 25.0 ]
 				}
 
@@ -311,7 +338,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 67.0, 67.0, 22.0 ],
+					"patching_rect" : [ 56.0, 67.0, 75.0, 22.0 ],
 					"text" : "s #1-query"
 				}
 
@@ -368,7 +395,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.0, 383.0, 114.0, 22.0 ],
-					"text" : "glcolor 0. 1. 0. 0.25"
+					"text" : "glcolor 1. 0. 1. 0.45"
 				}
 
 			}
@@ -410,7 +437,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.5, 134.0, 65.0, 22.0 ],
+					"patching_rect" : [ 263.5, 134.0, 72.0, 22.0 ],
 					"text" : "r #1-zoom"
 				}
 
@@ -461,7 +488,7 @@
 				"box" : 				{
 					"comment" : "pair: start & end date of region",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -536,8 +563,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.5, 359.0, 186.0, 22.0 ],
-					"text" : "glpolygonmode fill, glbegin quads"
+					"patching_rect" : [ 182.5, 359.0, 83.0, 22.0 ],
+					"text" : "glbegin quads"
 				}
 
 			}
@@ -621,7 +648,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 196.0, 497.0, 510.0, 22.0 ],
+					"patching_rect" : [ 196.0, 497.0, 519.0, 22.0 ],
 					"text" : "jit.gl.sketch #1 @auto_material 0 @depth_enable 0 @two_sided 0 @blend_enable 1 @layer 3"
 				}
 
@@ -680,7 +707,7 @@
 					"patching_rect" : [ 415.583373999999992, 106.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.0, 3.0, 26.0, 20.0 ],
-					"text" : "#2"
+					"text" : "4"
 				}
 
 			}
@@ -868,7 +895,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.5, 15.0, 98.0, 22.0 ],
+					"patching_rect" : [ 260.5, 15.0, 106.0, 22.0 ],
 					"text" : "loadmess set #1"
 				}
 
@@ -884,7 +911,7 @@
 					"patching_rect" : [ 260.5, 67.0, 115.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.334930000000014, 19.0, 96.0, 20.0 ],
-					"text" : "#1"
+					"text" : "Vizu"
 				}
 
 			}
@@ -892,7 +919,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.0, 1.0, 0.0, 0.25 ],
+					"bgcolor" : [ 1.0, 0.0, 1.0, 0.2 ],
 					"border" : 1,
 					"id" : "obj-118",
 					"maxclass" : "panel",
@@ -916,6 +943,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 1 ],
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1460,9 +1496,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

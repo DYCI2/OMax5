@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 756.0, 246.0, 690.0, 543.0 ],
+		"rect" : [ 156.0, 215.0, 690.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -151,7 +151,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 564.0, 20.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 24.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 59.5, 19.0, 14.0, 14.0 ],
 					"varname" : "infinite"
 				}
 
@@ -253,7 +253,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 28.0, 94.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.25, 5.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 2.25, 2.0, 14.0, 14.0 ],
 					"varname" : "enable"
 				}
 
@@ -332,7 +332,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 450.0, 58.25, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 5.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 59.0, 3.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -360,13 +360,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.375, 212.0, 47.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 2.0, 47.0, 20.0 ],
+					"presentation_rect" : [ 16.0, 0.0, 43.5, 20.0 ],
 					"text" : "Taboo"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-54",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -374,9 +375,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 429.0, 239.0, 52.0, 22.0 ],
+					"patching_rect" : [ 429.0, 239.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.25, 19.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 2.25, 16.0, 52.25, 20.0 ],
 					"varname" : "length"
 				}
 
@@ -773,7 +774,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 53.0, 200.0, 187.0, 256.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 78.0, 42.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 74.0, 36.0 ],
 					"rounded" : 12,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{

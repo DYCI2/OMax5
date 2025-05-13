@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 594.0, 104.0, 540.0, 822.0 ],
-		"bglocked" : 0,
+		"rect" : [ 757.0, 103.0, 540.0, 822.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -45,7 +20,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 210.055724999999967, 139.0, 22.0 ],
+					"patching_rect" : [ 272.0, 269.0, 139.0, 22.0 ],
 					"text" : "bgfillcolor 0.96 0.96 0.69"
 				}
 
@@ -76,6 +51,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-26",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -83,9 +59,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 253.000000000000057, 53.0, 22.0 ],
+					"patching_rect" : [ 133.0, 253.000000000000057, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 18.5, 21.0, 22.0 ],
+					"presentation_rect" : [ 46.0, 16.5, 20.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -183,7 +159,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 194.25, 434.120482999999979, 56.0, 22.0 ],
 					"restore" : 					{
-						"enable" : [ 1 ],
+						"enable" : [ 0 ],
 						"engage" : [ 3 ]
 					}
 ,
@@ -208,6 +184,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-18",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -215,9 +192,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.5, 200.055724999999967, 55.0, 22.0 ],
+					"patching_rect" : [ 164.5, 200.055724999999967, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 18.5, 31.0, 22.0 ],
+					"presentation_rect" : [ 3.0, 16.5, 30.0, 20.0 ],
 					"triscale" : 0.7,
 					"varname" : "engage"
 				}
@@ -253,15 +230,16 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-107",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 56.870482999999922, 82.0, 20.0 ],
+					"patching_rect" : [ 159.0, 56.870482999999922, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 2.0, 73.0, 20.0 ],
-					"text" : "Ctxt Dec"
+					"presentation_rect" : [ 18.0, 0.0, 53.25, 18.0 ],
+					"text" : "Ctxt Dec",
+					"textcolor" : [ 0.337254901960784, 0.337254901960784, 0.337254901960784, 1.0 ]
 				}
 
 			}
@@ -288,7 +266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.0, 60.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 5.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 5.0, 2.0, 14.0, 14.0 ],
 					"varname" : "enable"
 				}
 
@@ -310,7 +288,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
+					"bgcolor" : [ 0.96, 0.96, 0.69, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.541176470588235, 0.815686274509804, 0.913725490196078, 1.0 ],
 					"id" : "obj-108",
@@ -320,16 +298,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 47.745482999999922, 231.25, 325.75 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 79.0, 42.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 71.25, 36.5 ],
 					"proportion" : 0.5,
-					"rounded" : 12,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : "themecolor.theme_locked_bgcolor"
-						}
-
-					}
-
+					"rounded" : 12
 				}
 
 			}
@@ -493,6 +464,7 @@
 
 			}
  ],
+		"originid" : "pat-8716",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

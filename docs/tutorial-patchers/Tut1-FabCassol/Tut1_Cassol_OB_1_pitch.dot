@@ -1,0 +1,1935 @@
+digraph OB_1_pitch
+{
+	graph [rankdir=LR];
+	node [shape=circle];
+	nodesep = 0.2;
+	forcelabels = true;
+
+	{
+		0 [id = -1, xlabel = -1]
+		0 -> 1
+		0 -> 2 [constraint = false]
+		0 -> 4 [constraint = false]
+		0 -> 7 [constraint = false]
+		0 -> 8 [constraint = false]
+		0 -> 9 [constraint = false]
+		0 -> 11 [constraint = false]
+		0 -> 18 [constraint = false]
+		0 -> 19 [constraint = false]
+		0 -> 29 [constraint = false]
+		0 -> 30 [constraint = false]
+		0 -> 31 [constraint = false]
+		0 -> 36 [constraint = false]
+		0 -> 44 [constraint = false]
+		0 -> 52 [constraint = false]
+		0 -> 53 [constraint = false]
+		0 -> 54 [constraint = false]
+		0 -> 71 [constraint = false]
+		0 -> 85 [constraint = false]
+		0 -> 86 [constraint = false]
+		0 -> 92 [constraint = false]
+		0 -> 93 [constraint = false]
+		0 -> 98 [constraint = false]
+		0 -> 107 [constraint = false]
+		0 -> 142 [constraint = false]
+		0 -> 154 [constraint = false]
+		0 -> 177 [constraint = false]
+		0 -> 179 [constraint = false]
+		
+	}
+
+	{
+		1 [id = 453, xlabel = 65]
+		1 -> 2
+		1 -> 4 [constraint = false]
+		1 -> 11 [constraint = false]
+		1 -> 24 [constraint = false]
+		1 -> 28 [constraint = false]
+		1 -> 95 [constraint = false]
+		1 -> 118 [constraint = false]
+		1 -> 121 [constraint = false]
+		1 -> 122 [constraint = false]
+		1 -> 134 [constraint = false]
+		1 -> 179 [constraint = false]
+		
+		1 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		2 [id = 2160, xlabel = 63]
+		2 -> 3
+		2 -> 7 [constraint = false]
+		2 -> 52 [constraint = false]
+		2 -> 64 [constraint = false]
+		2 -> 80 [constraint = false]
+		2 -> 184 [constraint = false]
+		2 -> 235 [constraint = false]
+		
+		2 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		3 [id = 2288, xlabel = 65]
+		3 -> 4
+		
+		3 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		4 [id = 2416, xlabel = 71]
+		4 -> 5
+		4 -> 14 [constraint = false]
+		4 -> 22 [constraint = false]
+		4 -> 33 [constraint = false]
+		4 -> 97 [constraint = false]
+		4 -> 107 [constraint = false]
+		
+		4 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		5 [id = 2608, xlabel = 65]
+		5 -> 6
+		5 -> 28 [constraint = false]
+		
+		5 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		6 [id = 2789, xlabel = 63]
+		6 -> 7
+		
+		6 -> 2 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		7 [id = 3024, xlabel = 69]
+		7 -> 8
+		7 -> 29 [constraint = false]
+		7 -> 41 [constraint = false]
+		7 -> 60 [constraint = false]
+		7 -> 63 [constraint = false]
+		7 -> 113 [constraint = false]
+		7 -> 153 [constraint = false]
+		
+		7 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		8 [id = 3184, xlabel = 70]
+		8 -> 9
+		8 -> 16 [constraint = false]
+		8 -> 35 [constraint = false]
+		8 -> 40 [constraint = false]
+		8 -> 91 [constraint = false]
+		8 -> 100 [constraint = false]
+		8 -> 103 [constraint = false]
+		8 -> 238 [constraint = false]
+		8 -> 244 [constraint = false]
+		
+		8 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		9 [id = 3344, xlabel = 53]
+		9 -> 10
+		9 -> 85 [constraint = false]
+		
+		9 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		10 [id = 3397, xlabel = 65]
+		10 -> 11
+		10 -> 24 [constraint = false]
+		
+		10 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		11 [id = 3568, xlabel = 61]
+		11 -> 12
+		11 -> 18 [constraint = false]
+		11 -> 57 [constraint = false]
+		11 -> 145 [constraint = false]
+		11 -> 160 [constraint = false]
+		11 -> 200 [constraint = false]
+		
+		11 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		12 [id = 3973, xlabel = 65]
+		12 -> 13
+		12 -> 68 [constraint = false]
+		
+		12 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		13 [id = 4474, xlabel = 71]
+		13 -> 14
+		
+		13 -> 4 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		14 [id = 4805, xlabel = 69]
+		14 -> 15
+		
+		14 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		15 [id = 4944, xlabel = 70]
+		15 -> 16
+		
+		15 -> 8 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		16 [id = 5157, xlabel = 65]
+		16 -> 17
+		16 -> 26 [constraint = false]
+		16 -> 39 [constraint = false]
+		16 -> 118 [constraint = false]
+		16 -> 234 [constraint = false]
+		
+		16 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		17 [id = 5338, xlabel = 61]
+		17 -> 18
+		17 -> 192 [constraint = false]
+		
+		17 -> 11 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		18 [id = 5552, xlabel = 58]
+		18 -> 19
+		18 -> 44 [constraint = false]
+		18 -> 66 [constraint = false]
+		18 -> 82 [constraint = false]
+		18 -> 84 [constraint = false]
+		18 -> 120 [constraint = false]
+		18 -> 162 [constraint = false]
+		18 -> 167 [constraint = false]
+		
+		18 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		19 [id = 5786, xlabel = 60]
+		19 -> 20
+		19 -> 65 [constraint = false]
+		19 -> 73 [constraint = false]
+		19 -> 140 [constraint = false]
+		19 -> 142 [constraint = false]
+		19 -> 146 [constraint = false]
+		19 -> 149 [constraint = false]
+		19 -> 193 [constraint = false]
+		
+		19 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		20 [id = 6405, xlabel = 65]
+		20 -> 21
+		20 -> 47 [constraint = false]
+		20 -> 165 [constraint = false]
+		
+		20 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		21 [id = 6736, xlabel = 71]
+		21 -> 22
+		
+		21 -> 4 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		22 [id = 7002, xlabel = 53]
+		22 -> 23
+		
+		22 -> 9 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		23 [id = 7056, xlabel = 65]
+		23 -> 24
+		
+		23 -> 10 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		24 [id = 7152, xlabel = 70]
+		24 -> 25
+		24 -> 40 [constraint = false]
+		24 -> 215 [constraint = false]
+		
+		24 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		25 [id = 9477, xlabel = 65]
+		25 -> 26
+		
+		25 -> 16 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		26 [id = 9626, xlabel = 71]
+		26 -> 27
+		
+		26 -> 4 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		27 [id = 9818, xlabel = 65]
+		27 -> 28
+		
+		27 -> 5 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		28 [id = 9882, xlabel = 69]
+		28 -> 29
+		
+		28 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		29 [id = 10042, xlabel = 73]
+		29 -> 30
+		29 -> 92 [constraint = false]
+		29 -> 96 [constraint = false]
+		29 -> 98 [constraint = false]
+		29 -> 204 [constraint = false]
+		
+		29 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		30 [id = 10192, xlabel = 72]
+		30 -> 31
+		30 -> 61 [constraint = false]
+		30 -> 101 [constraint = false]
+		30 -> 106 [constraint = false]
+		30 -> 203 [constraint = false]
+		30 -> 210 [constraint = false]
+		
+		30 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		31 [id = 10384, xlabel = 66]
+		31 -> 32
+		31 -> 34 [constraint = false]
+		31 -> 36 [constraint = false]
+		31 -> 51 [constraint = false]
+		31 -> 226 [constraint = false]
+		
+		31 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		32 [id = 10725, xlabel = 71]
+		32 -> 33
+		
+		32 -> 4 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		33 [id = 10906, xlabel = 66]
+		33 -> 34
+		
+		33 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		34 [id = 11024, xlabel = 70]
+		34 -> 35
+		
+		34 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		35 [id = 11194, xlabel = 66]
+		35 -> 36
+		35 -> 51 [constraint = false]
+		
+		35 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		36 [id = 11290, xlabel = 67]
+		36 -> 37
+		36 -> 104 [constraint = false]
+		36 -> 110 [constraint = false]
+		36 -> 158 [constraint = false]
+		36 -> 171 [constraint = false]
+		36 -> 197 [constraint = false]
+		
+		36 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		37 [id = 11536, xlabel = 70]
+		37 -> 38
+		37 -> 212 [constraint = false]
+		
+		37 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		38 [id = 11728, xlabel = 65]
+		38 -> 39
+		
+		38 -> 16 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		39 [id = 11909, xlabel = 70]
+		39 -> 40
+		
+		39 -> 24 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		40 [id = 12090, xlabel = 69]
+		40 -> 41
+		40 -> 63 [constraint = false]
+		40 -> 113 [constraint = false]
+		40 -> 209 [constraint = false]
+		
+		40 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		41 [id = 12421, xlabel = 65]
+		41 -> 42
+		41 -> 214 [constraint = false]
+		
+		41 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		42 [id = 12592, xlabel = 61]
+		42 -> 43
+		
+		42 -> 11 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		43 [id = 12741, xlabel = 58]
+		43 -> 44
+		
+		43 -> 18 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		44 [id = 12890, xlabel = 57]
+		44 -> 45
+		44 -> 81 [constraint = false]
+		44 -> 144 [constraint = false]
+		44 -> 147 [constraint = false]
+		44 -> 188 [constraint = false]
+		
+		44 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		45 [id = 13018, xlabel = 60]
+		45 -> 46
+		
+		45 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		46 [id = 13168, xlabel = 65]
+		46 -> 47
+		
+		46 -> 20 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		47 [id = 13349, xlabel = 63]
+		47 -> 48
+		47 -> 132 [constraint = false]
+		
+		47 -> 2 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		48 [id = 13530, xlabel = 69]
+		48 -> 49
+		
+		48 -> 7 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		49 [id = 13648, xlabel = 70]
+		49 -> 50
+		
+		49 -> 8 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		50 [id = 13850, xlabel = 66]
+		50 -> 51
+		
+		50 -> 35 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		51 [id = 14021, xlabel = 63]
+		51 -> 52
+		51 -> 59 [constraint = false]
+		51 -> 80 [constraint = false]
+		
+		51 -> 2 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		52 [id = 14149, xlabel = 59]
+		52 -> 53
+		52 -> 56 [constraint = false]
+		52 -> 133 [constraint = false]
+		52 -> 139 [constraint = false]
+		52 -> 166 [constraint = false]
+		52 -> 245 [constraint = false]
+		
+		52 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		53 [id = 14480, xlabel = 54]
+		53 -> 54
+		53 -> 71 [constraint = false]
+		53 -> 83 [constraint = false]
+		53 -> 141 [constraint = false]
+		53 -> 175 [constraint = false]
+		53 -> 187 [constraint = false]
+		
+		53 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		54 [id = 14672, xlabel = 64]
+		54 -> 55
+		54 -> 148 [constraint = false]
+		54 -> 201 [constraint = false]
+		
+		54 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		55 [id = 14789, xlabel = 59]
+		55 -> 56
+		
+		55 -> 52 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		56 [id = 14938, xlabel = 61]
+		56 -> 57
+		
+		56 -> 11 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		57 [id = 15098, xlabel = 66]
+		57 -> 58
+		
+		57 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		58 [id = 15301, xlabel = 63]
+		58 -> 59
+		
+		58 -> 51 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		59 [id = 15461, xlabel = 69]
+		59 -> 60
+		59 -> 77 [constraint = false]
+		
+		59 -> 7 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		60 [id = 15642, xlabel = 72]
+		60 -> 61
+		60 -> 106 [constraint = false]
+		60 -> 210 [constraint = false]
+		
+		60 -> 30 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		61 [id = 16229, xlabel = 70]
+		61 -> 62
+		61 -> 196 [constraint = false]
+		
+		61 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		62 [id = 16368, xlabel = 69]
+		62 -> 63
+		62 -> 209 [constraint = false]
+		
+		62 -> 40 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		63 [id = 16517, xlabel = 63]
+		63 -> 64
+		63 -> 152 [constraint = false]
+		
+		63 -> 2 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		64 [id = 16677, xlabel = 60]
+		64 -> 65
+		
+		64 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		65 [id = 16826, xlabel = 58]
+		65 -> 66
+		65 -> 120 [constraint = false]
+		
+		65 -> 18 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		66 [id = 16997, xlabel = 61]
+		66 -> 67
+		
+		66 -> 11 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		67 [id = 17210, xlabel = 65]
+		67 -> 68
+		
+		67 -> 12 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		68 [id = 17370, xlabel = 63]
+		68 -> 69
+		
+		68 -> 2 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		69 [id = 17541, xlabel = 59]
+		69 -> 70
+		69 -> 133 [constraint = false]
+		
+		69 -> 52 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		70 [id = 17722, xlabel = 54]
+		70 -> 71
+		
+		70 -> 53 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		71 [id = 17946, xlabel = 62]
+		71 -> 72
+		71 -> 161 [constraint = false]
+		71 -> 194 [constraint = false]
+		
+		71 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		72 [id = 19450, xlabel = 60]
+		72 -> 73
+		
+		72 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		73 [id = 19589, xlabel = 61]
+		73 -> 74
+		73 -> 200 [constraint = false]
+		
+		73 -> 11 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		74 [id = 19749, xlabel = 66]
+		74 -> 75
+		
+		74 -> 57 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		75 [id = 19888, xlabel = 63]
+		75 -> 76
+		
+		75 -> 58 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		76 [id = 20016, xlabel = 69]
+		76 -> 77
+		
+		76 -> 59 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		77 [id = 20154, xlabel = 70]
+		77 -> 78
+		77 -> 91 [constraint = false]
+		77 -> 117 [constraint = false]
+		
+		77 -> 8 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		78 [id = 20314, xlabel = 66]
+		78 -> 79
+		
+		78 -> 50 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		79 [id = 20474, xlabel = 63]
+		79 -> 80
+		
+		79 -> 51 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		80 [id = 20613, xlabel = 57]
+		80 -> 81
+		
+		80 -> 44 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		81 [id = 20816, xlabel = 58]
+		81 -> 82
+		
+		81 -> 18 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		82 [id = 20986, xlabel = 54]
+		82 -> 83
+		82 -> 175 [constraint = false]
+		82 -> 187 [constraint = false]
+		
+		82 -> 53 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		83 [id = 21530, xlabel = 58]
+		83 -> 84
+		
+		83 -> 18 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		84 [id = 21690, xlabel = 53]
+		84 -> 85
+		
+		84 -> 9 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		85 [id = 21872, xlabel = 51]
+		85 -> 86
+		85 -> 168 [constraint = false]
+		85 -> 177 [constraint = false]
+		
+		85 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		86 [id = 22096, xlabel = 49]
+		86 -> 87
+		
+		86 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		87 [id = 23493, xlabel = 66]
+		87 -> 88
+		
+		87 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		88 [id = 23696, xlabel = 63]
+		88 -> 89
+		
+		88 -> 51 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		89 [id = 23898, xlabel = 69]
+		89 -> 90
+		
+		89 -> 59 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		90 [id = 24026, xlabel = 70]
+		90 -> 91
+		
+		90 -> 77 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		91 [id = 24197, xlabel = 73]
+		91 -> 92
+		91 -> 206 [constraint = false]
+		
+		91 -> 29 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		92 [id = 24389, xlabel = 78]
+		92 -> 93
+		
+		92 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		93 [id = 24560, xlabel = 75]
+		93 -> 94
+		93 -> 154 [constraint = false]
+		
+		93 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		94 [id = 25178, xlabel = 65]
+		94 -> 95
+		
+		94 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		95 [id = 25402, xlabel = 73]
+		95 -> 96
+		
+		95 -> 29 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		96 [id = 26362, xlabel = 71]
+		96 -> 97
+		
+		96 -> 4 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		97 [id = 26480, xlabel = 73]
+		97 -> 98
+		
+		97 -> 29 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		98 [id = 26917, xlabel = 74]
+		98 -> 99
+		98 -> 156 [constraint = false]
+		
+		98 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		99 [id = 27088, xlabel = 70]
+		99 -> 100
+		99 -> 170 [constraint = false]
+		
+		99 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		100 [id = 27482, xlabel = 72]
+		100 -> 101
+		100 -> 203 [constraint = false]
+		
+		100 -> 30 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		101 [id = 27664, xlabel = 69]
+		101 -> 102
+		
+		101 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		102 [id = 27781, xlabel = 70]
+		102 -> 103
+		
+		102 -> 8 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		103 [id = 27930, xlabel = 67]
+		103 -> 104
+		103 -> 110 [constraint = false]
+		103 -> 171 [constraint = false]
+		103 -> 197 [constraint = false]
+		103 -> 223 [constraint = false]
+		
+		103 -> 36 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		104 [id = 28026, xlabel = 69]
+		104 -> 105
+		
+		104 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		105 [id = 28165, xlabel = 72]
+		105 -> 106
+		105 -> 221 [constraint = false]
+		
+		105 -> 60 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		106 [id = 28314, xlabel = 71]
+		106 -> 107
+		
+		106 -> 4 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		107 [id = 28474, xlabel = 68]
+		107 -> 108
+		107 -> 157 [constraint = false]
+		107 -> 239 [constraint = false]
+		
+		107 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		108 [id = 28570, xlabel = 70]
+		108 -> 109
+		108 -> 112 [constraint = false]
+		108 -> 238 [constraint = false]
+		
+		108 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		109 [id = 28730, xlabel = 67]
+		109 -> 110
+		
+		109 -> 103 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		110 [id = 28848, xlabel = 68]
+		110 -> 111
+		
+		110 -> 107 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		111 [id = 28965, xlabel = 70]
+		111 -> 112
+		111 -> 238 [constraint = false]
+		
+		111 -> 108 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		112 [id = 29125, xlabel = 69]
+		112 -> 113
+		
+		112 -> 40 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		113 [id = 29285, xlabel = 66]
+		113 -> 114
+		113 -> 226 [constraint = false]
+		
+		113 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		114 [id = 29445, xlabel = 63]
+		114 -> 115
+		
+		114 -> 51 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		115 [id = 29605, xlabel = 69]
+		115 -> 116
+		
+		115 -> 59 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		116 [id = 29754, xlabel = 70]
+		116 -> 117
+		
+		116 -> 77 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		117 [id = 29989, xlabel = 65]
+		117 -> 118
+		117 -> 127 [constraint = false]
+		117 -> 234 [constraint = false]
+		
+		117 -> 16 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		118 [id = 30138, xlabel = 60]
+		118 -> 119
+		
+		118 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		119 [id = 30384, xlabel = 58]
+		119 -> 120
+		
+		119 -> 65 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		120 [id = 30650, xlabel = 65]
+		120 -> 121
+		
+		120 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		121 [id = 32570, xlabel = 65]
+		121 -> 122
+		
+		121 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		122 [id = 32901, xlabel = 66]
+		122 -> 123
+		
+		122 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		123 [id = 33093, xlabel = 63]
+		123 -> 124
+		
+		123 -> 51 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		124 [id = 33253, xlabel = 69]
+		124 -> 125
+		
+		124 -> 59 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		125 [id = 33360, xlabel = 70]
+		125 -> 126
+		
+		125 -> 77 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		126 [id = 33520, xlabel = 65]
+		126 -> 127
+		126 -> 234 [constraint = false]
+		
+		126 -> 117 [label = 5, constraint = false, style = dotted]
+	}
+
+	{
+		127 [id = 33648, xlabel = 61]
+		127 -> 128
+		
+		127 -> 17 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		128 [id = 34032, xlabel = 58]
+		128 -> 129
+		
+		128 -> 18 [label = 5, constraint = false, style = dotted]
+	}
+
+	{
+		129 [id = 34256, xlabel = 60]
+		129 -> 130
+		
+		129 -> 19 [label = 6, constraint = false, style = dotted]
+	}
+
+	{
+		130 [id = 34448, xlabel = 65]
+		130 -> 131
+		
+		130 -> 20 [label = 7, constraint = false, style = dotted]
+	}
+
+	{
+		131 [id = 34629, xlabel = 63]
+		131 -> 132
+		
+		131 -> 47 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		132 [id = 34810, xlabel = 59]
+		132 -> 133
+		
+		132 -> 69 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		133 [id = 36304, xlabel = 65]
+		133 -> 134
+		
+		133 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		134 [id = 36592, xlabel = 59]
+		134 -> 135
+		134 -> 139 [constraint = false]
+		134 -> 166 [constraint = false]
+		
+		134 -> 52 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		135 [id = 36826, xlabel = 65]
+		135 -> 136
+		
+		135 -> 133 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		136 [id = 37082, xlabel = 59]
+		136 -> 137
+		136 -> 139 [constraint = false]
+		
+		136 -> 134 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		137 [id = 37274, xlabel = 65]
+		137 -> 138
+		
+		137 -> 135 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		138 [id = 37509, xlabel = 59]
+		138 -> 139
+		
+		138 -> 136 [label = 5, constraint = false, style = dotted]
+	}
+
+	{
+		139 [id = 37712, xlabel = 60]
+		139 -> 140
+		
+		139 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		140 [id = 37893, xlabel = 54]
+		140 -> 141
+		
+		140 -> 53 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		141 [id = 38074, xlabel = 60]
+		141 -> 142
+		
+		141 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		142 [id = 38192, xlabel = 55]
+		142 -> 143
+		142 -> 163 [constraint = false]
+		
+		142 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		143 [id = 38341, xlabel = 57]
+		143 -> 144
+		
+		143 -> 44 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		144 [id = 38458, xlabel = 61]
+		144 -> 145
+		
+		144 -> 11 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		145 [id = 38586, xlabel = 60]
+		145 -> 146
+		145 -> 193 [constraint = false]
+		
+		145 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		146 [id = 38714, xlabel = 57]
+		146 -> 147
+		
+		146 -> 44 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		147 [id = 38864, xlabel = 64]
+		147 -> 148
+		
+		147 -> 54 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		148 [id = 38981, xlabel = 60]
+		148 -> 149
+		148 -> 199 [constraint = false]
+		
+		148 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		149 [id = 39130, xlabel = 63]
+		149 -> 150
+		
+		149 -> 2 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		150 [id = 39354, xlabel = 69]
+		150 -> 151
+		
+		150 -> 7 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		151 [id = 39557, xlabel = 63]
+		151 -> 152
+		
+		151 -> 63 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		152 [id = 39728, xlabel = 69]
+		152 -> 153
+		
+		152 -> 7 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		153 [id = 39898, xlabel = 75]
+		153 -> 154
+		
+		153 -> 93 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		154 [id = 40090, xlabel = 76]
+		154 -> 155
+		
+		154 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		155 [id = 40272, xlabel = 74]
+		155 -> 156
+		
+		155 -> 98 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		156 [id = 40560, xlabel = 68]
+		156 -> 157
+		
+		156 -> 107 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		157 [id = 40965, xlabel = 67]
+		157 -> 158
+		
+		157 -> 36 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		158 [id = 41125, xlabel = 65]
+		158 -> 159
+		158 -> 229 [constraint = false]
+		
+		158 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		159 [id = 41296, xlabel = 61]
+		159 -> 160
+		
+		159 -> 11 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		160 [id = 41520, xlabel = 62]
+		160 -> 161
+		
+		160 -> 71 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		161 [id = 41680, xlabel = 58]
+		161 -> 162
+		161 -> 186 [constraint = false]
+		
+		161 -> 18 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		162 [id = 41861, xlabel = 55]
+		162 -> 163
+		
+		162 -> 142 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		163 [id = 42074, xlabel = 60]
+		163 -> 164
+		
+		163 -> 19 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		164 [id = 42330, xlabel = 65]
+		164 -> 165
+		
+		164 -> 20 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		165 [id = 42650, xlabel = 59]
+		165 -> 166
+		
+		165 -> 134 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		166 [id = 42960, xlabel = 58]
+		166 -> 167
+		166 -> 174 [constraint = false]
+		
+		166 -> 18 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		167 [id = 43237, xlabel = 51]
+		167 -> 168
+		
+		167 -> 85 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		168 [id = 45370, xlabel = 74]
+		168 -> 169
+		
+		168 -> 98 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		169 [id = 46426, xlabel = 70]
+		169 -> 170
+		
+		169 -> 99 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		170 [id = 46608, xlabel = 67]
+		170 -> 171
+		
+		170 -> 103 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		171 [id = 46757, xlabel = 63]
+		171 -> 172
+		171 -> 184 [constraint = false]
+		171 -> 242 [constraint = false]
+		
+		171 -> 2 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		172 [id = 46896, xlabel = 59]
+		172 -> 173
+		
+		172 -> 52 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		173 [id = 47056, xlabel = 58]
+		173 -> 174
+		
+		173 -> 166 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		174 [id = 47248, xlabel = 54]
+		174 -> 175
+		
+		174 -> 82 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		175 [id = 47450, xlabel = 53]
+		175 -> 176
+		
+		175 -> 9 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		176 [id = 47621, xlabel = 51]
+		176 -> 177
+		
+		176 -> 85 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		177 [id = 47834, xlabel = 50]
+		177 -> 178
+		
+		177 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		178 [id = 48464, xlabel = 65]
+		178 -> 179
+		
+		178 -> 1 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		179 [id = 49189, xlabel = 77]
+		179 -> 180
+		
+		179 -> 0 [label = 0, constraint = false, style = dotted]
+	}
+
+	{
+		180 [id = 49946, xlabel = 74]
+		180 -> 181
+		
+		180 -> 98 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		181 [id = 50117, xlabel = 70]
+		181 -> 182
+		
+		181 -> 99 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		182 [id = 50256, xlabel = 67]
+		182 -> 183
+		
+		182 -> 170 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		183 [id = 50416, xlabel = 63]
+		183 -> 184
+		
+		183 -> 171 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		184 [id = 50565, xlabel = 62]
+		184 -> 185
+		
+		184 -> 71 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		185 [id = 50736, xlabel = 58]
+		185 -> 186
+		
+		185 -> 161 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		186 [id = 50960, xlabel = 54]
+		186 -> 187
+		
+		186 -> 82 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		187 [id = 51194, xlabel = 57]
+		187 -> 188
+		
+		187 -> 44 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		188 [id = 51461, xlabel = 69]
+		188 -> 189
+		
+		188 -> 7 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		189 [id = 51674, xlabel = 70]
+		189 -> 190
+		
+		189 -> 8 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		190 [id = 51898, xlabel = 65]
+		190 -> 191
+		
+		190 -> 16 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		191 [id = 52122, xlabel = 61]
+		191 -> 192
+		
+		191 -> 17 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		192 [id = 52357, xlabel = 60]
+		192 -> 193
+		
+		192 -> 145 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		193 [id = 52613, xlabel = 62]
+		193 -> 194
+		
+		193 -> 71 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		194 [id = 54629, xlabel = 72]
+		194 -> 195
+		
+		194 -> 30 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		195 [id = 55621, xlabel = 70]
+		195 -> 196
+		
+		195 -> 61 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		196 [id = 55781, xlabel = 67]
+		196 -> 197
+		196 -> 223 [constraint = false]
+		
+		196 -> 103 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		197 [id = 55909, xlabel = 64]
+		197 -> 198
+		
+		197 -> 54 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		198 [id = 56048, xlabel = 60]
+		198 -> 199
+		
+		198 -> 148 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		199 [id = 56176, xlabel = 61]
+		199 -> 200
+		
+		199 -> 73 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		200 [id = 56336, xlabel = 64]
+		200 -> 201
+		
+		200 -> 54 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		201 [id = 56485, xlabel = 70]
+		201 -> 202
+		
+		201 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		202 [id = 56634, xlabel = 72]
+		202 -> 203
+		
+		202 -> 100 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		203 [id = 56805, xlabel = 73]
+		203 -> 204
+		
+		203 -> 29 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		204 [id = 57061, xlabel = 70]
+		204 -> 205
+		
+		204 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		205 [id = 57232, xlabel = 73]
+		205 -> 206
+		
+		205 -> 91 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		206 [id = 57402, xlabel = 72]
+		206 -> 207
+		
+		206 -> 30 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		207 [id = 57541, xlabel = 70]
+		207 -> 208
+		
+		207 -> 61 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		208 [id = 57690, xlabel = 69]
+		208 -> 209
+		
+		208 -> 62 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		209 [id = 57818, xlabel = 72]
+		209 -> 210
+		
+		209 -> 60 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		210 [id = 58000, xlabel = 67]
+		210 -> 211
+		
+		210 -> 36 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		211 [id = 58128, xlabel = 70]
+		211 -> 212
+		
+		211 -> 37 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		212 [id = 58298, xlabel = 69]
+		212 -> 213
+		212 -> 225 [constraint = false]
+		
+		212 -> 40 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		213 [id = 58576, xlabel = 65]
+		213 -> 214
+		
+		213 -> 41 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		214 [id = 58736, xlabel = 70]
+		214 -> 215
+		
+		214 -> 24 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		215 [id = 59056, xlabel = 72]
+		215 -> 216
+		
+		215 -> 100 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		216 [id = 59824, xlabel = 69]
+		216 -> 217
+		
+		216 -> 101 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		217 [id = 59920, xlabel = 70]
+		217 -> 218
+		
+		217 -> 102 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		218 [id = 60058, xlabel = 67]
+		218 -> 219
+		
+		218 -> 103 [label = 5, constraint = false, style = dotted]
+	}
+
+	{
+		219 [id = 60154, xlabel = 69]
+		219 -> 220
+		
+		219 -> 104 [label = 6, constraint = false, style = dotted]
+	}
+
+	{
+		220 [id = 60282, xlabel = 72]
+		220 -> 221
+		
+		220 -> 105 [label = 7, constraint = false, style = dotted]
+	}
+
+	{
+		221 [id = 60421, xlabel = 70]
+		221 -> 222
+		
+		221 -> 61 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		222 [id = 60581, xlabel = 67]
+		222 -> 223
+		
+		222 -> 196 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		223 [id = 60709, xlabel = 70]
+		223 -> 224
+		
+		223 -> 37 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		224 [id = 60858, xlabel = 69]
+		224 -> 225
+		
+		224 -> 212 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		225 [id = 61018, xlabel = 66]
+		225 -> 226
+		
+		225 -> 113 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		226 [id = 61146, xlabel = 68]
+		226 -> 227
+		
+		226 -> 107 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		227 [id = 61296, xlabel = 67]
+		227 -> 228
+		
+		227 -> 157 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		228 [id = 61466, xlabel = 65]
+		228 -> 229
+		
+		228 -> 158 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		229 [id = 61626, xlabel = 66]
+		229 -> 230
+		
+		229 -> 122 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		230 [id = 61861, xlabel = 63]
+		230 -> 231
+		
+		230 -> 123 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		231 [id = 62042, xlabel = 69]
+		231 -> 232
+		
+		231 -> 124 [label = 4, constraint = false, style = dotted]
+	}
+
+	{
+		232 [id = 62202, xlabel = 70]
+		232 -> 233
+		
+		232 -> 125 [label = 5, constraint = false, style = dotted]
+	}
+
+	{
+		233 [id = 62992, xlabel = 65]
+		233 -> 234
+		
+		233 -> 126 [label = 6, constraint = false, style = dotted]
+	}
+
+	{
+		234 [id = 63130, xlabel = 63]
+		234 -> 235
+		
+		234 -> 2 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		235 [id = 63280, xlabel = 67]
+		235 -> 236
+		
+		235 -> 36 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		236 [id = 63386, xlabel = 68]
+		236 -> 237
+		
+		236 -> 110 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		237 [id = 63461, xlabel = 70]
+		237 -> 238
+		
+		237 -> 111 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		238 [id = 63546, xlabel = 68]
+		238 -> 239
+		
+		238 -> 107 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		239 [id = 63664, xlabel = 66]
+		239 -> 240
+		
+		239 -> 31 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		240 [id = 63749, xlabel = 67]
+		240 -> 241
+		
+		240 -> 36 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		241 [id = 64026, xlabel = 63]
+		241 -> 242
+		
+		241 -> 171 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		242 [id = 64442, xlabel = 69]
+		242 -> 243
+		
+		242 -> 7 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		243 [id = 64666, xlabel = 70]
+		243 -> 244
+		
+		243 -> 8 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		244 [id = 65818, xlabel = 59]
+		244 -> 245
+		
+		244 -> 52 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		245 [id = 66266, xlabel = 70]
+		245 -> 246
+		
+		245 -> 8 [label = 1, constraint = false, style = dotted]
+	}
+
+	{
+		246 [id = 66586, xlabel = 59]
+		246 -> 247
+		
+		246 -> 244 [label = 2, constraint = false, style = dotted]
+	}
+
+	{
+		247 [id = 66885, xlabel = 70]
+		247 -> 248
+		
+		247 -> 245 [label = 3, constraint = false, style = dotted]
+	}
+
+	{
+		248 [id = 67173, xlabel = 59]
+		
+		248 -> 246 [label = 4, constraint = false, style = dotted]
+	}
+
+}

@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 886.0, 95.0, 897.0, 895.0 ],
-		"bglocked" : 0,
+		"rect" : [ 134.0, 172.0, 897.0, 895.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -227,8 +202,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.75, 242.0, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.5, 27.0, 55.0, 18.0 ],
-					"text" : "in 3 bests"
+					"presentation_rect" : [ 20.25, 17.0, 50.25, 18.0 ],
+					"text" : "in 3 best"
 				}
 
 			}
@@ -242,7 +217,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.75, 228.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.5, 14.0, 30.0, 18.0 ],
+					"presentation_rect" : [ 36.5, 3.0, 30.0, 18.0 ],
 					"text" : "best"
 				}
 
@@ -263,7 +238,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activecolor" : [ 1.0, 0.4, 0.3, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0, 0 ],
 					"id" : "obj-23",
@@ -276,7 +251,14 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 140.5, 228.0, 18.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.25, 13.0, 18.0, 30.0 ],
+					"presentation_rect" : [ 63.0, 3.0, 18.0, 30.0 ],
+					"saved_attribute_attributes" : 					{
+						"activecolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+
+					}
+,
 					"size" : 2,
 					"value" : 0
 				}
@@ -332,7 +314,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.5, 334.0, 61.0, 22.0 ],
 					"text" : "random 3"
 				}
@@ -451,7 +433,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 23.5, 505.75, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 3.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 15.0, 20.0, 20.0 ],
 					"prototypename" : "blue"
 				}
 
@@ -467,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.833327999999995, 140.0, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.375, 0.0, 54.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 33.5, 20.0 ],
 					"text" : "Pick"
 				}
 
@@ -579,7 +561,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"border" : 1,
 					"id" : "obj-108",
 					"maxclass" : "panel",
@@ -588,7 +570,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.5, 32.0, 469.0, 725.75 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 79.0, 42.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 79.0, 32.0 ],
 					"rounded" : 12,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -903,9 +885,11 @@
 
 			}
  ],
+		"originid" : "pat-9801",
 		"dependency_cache" : [ 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Music/Oraclette2/OMax5_5PureMalt_/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

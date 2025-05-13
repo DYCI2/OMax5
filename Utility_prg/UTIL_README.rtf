@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid2\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11905\paperh16837\margl1440\margr1440\vieww12520\viewh17440\viewkind1
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 README_UTILITIES
+\f1\b0 \ulnone \
+\
+
+\f0\b ProsaxXX.maxpat\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 It is the current version of the OBIN system of prosodic features implemented by Michael Malt. To use it:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}Create your Oracle Bundle with the other descriptors (pitch, MFCC, chromas)\
+{\listtext	\uc0\u8226 	}Save the resulting Bundle\
+{\listtext	\uc0\u8226 	}Take the resulting soundfile from the oracle and treat it with Sylseg_pipo_w_labels_016, press INIT and follow the steps :\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	1.	}process the file (segments, wait for the end)\
+{\listtext	2.	}chose Hertz\
+{\listtext	3.	}chose the method between 3symb, 4EqSymb, 3Symb+slope\
+{\listtext	4.	}chose the analysis type (Fundamental Frequency is recommended)\
+{\listtext	5.	}do it ! (and wait for the end)\
+{\listtext	6.	}save syllabe markers + labels in sec format.\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}In the last step, one or several Text file(s) is (are) created that should be saved in the same area than the soundfile : I suggested to create a folder called Prosody_Text inside the folder containing the Oracle Bundle data.\
+NOTE: the name of the textile is very explicit, like 
+\f2\i NameBundle
+\f1\i0 _Syllable_FundamentalFrequency_Hertz_3Symb_contour_sec\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 NOTE: there are at the moment 3 different methods of notating the prosody (see step 3 above), even more if you experiment with other descriptors (loudness, centroid, etc\'85). If you want to compare between them, you need to plan several Prosody oracles inside your bundle. (You can always simplify the Bundle later with less oracles).\
+\
+Then in OMax:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}From the Prosody Oracle, open the created TextFile by pressing the [read] button. It asks for a text file. Chose the file saved before. I recommend you associate the Oracle with a read number remaining of the analysis type.\
+{\listtext	\uc0\u8226 	}You can play with the oracle\
+{\listtext	\uc0\u8226 	}The \'ab\'a0Special write\'a0\'bb button allows you to save the oracle in the right place. When you load the Bundle next time, it will be loaded as an existing oracle. Note that the alphabet and datas are not saved.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Create_MIDIPitchSequence_from_Oracle
+\f1\b0 \
+This utility allows you to create a collection of MIDI data (notion and off) out of the detection made by the yin~when you ran the oracle.\
+This is automatically done if you record from Max, but you can have older Pitch oracles where this file is missing. You can easily create it from the Pitch Datas.\
+\
+Just follow the indication from the program. The MIDIPitch sequence (actually a coll) is automatically created and saved in the right place.}

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 259.0, 141.0, 79.0, 22.0 ],
+					"patching_rect" : [ 259.0, 141.0, 88.0, 22.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -112,14 +112,14 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 293.0, 87.0, 19.0 ],
+					"patching_rect" : [ 96.0, 293.0, 81.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 71.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 63.25, 18.0 ],
 					"text" : "#2 Del"
 				}
 
@@ -127,14 +127,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 233.0, 27.0, 20.0 ],
+					"patching_rect" : [ 117.0, 233.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 18.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 40.0, 14.0, 22.0, 18.0 ],
 					"text" : "ms"
 				}
 
@@ -162,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 148.0, 79.0, 22.0 ],
+					"patching_rect" : [ 104.0, 148.0, 83.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -207,7 +207,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 10.0,
+					"fontsize" : 8.0,
 					"id" : "obj-9",
 					"maxclass" : "number",
 					"minimum" : 0,
@@ -215,9 +215,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 233.0, 50.0, 20.0 ],
+					"patching_rect" : [ 67.0, 233.0, 46.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 19.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 16.0, 37.25, 17.0 ],
 					"triscale" : 0.5
 				}
 
@@ -292,7 +292,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 224.0, 161.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 70.0, 40.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 63.25, 33.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
 							"expression" : "themecolor.theme_locked_bgcolor"

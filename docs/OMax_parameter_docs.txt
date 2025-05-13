@@ -1,0 +1,73 @@
+####  OMAX ORACLE_BUNDLE GENERAL ######
+
+[name] is the name of the Oracle Bundle. By default – and generally – OB.
+Another Name is useful when you want to use several bundles at the same time.
+It can be OB_a, OB_b, OBa, OBb, OB_one, OB_two (avoid numbers).
+
+* Reset: send OracleBundle[name]_AudioReset_ [bang] 
+		default: send OracleBundleOB_AudioReset_
+
+* Load Oracle: send OracleBundle[name]_LoadOracle_ [full_path_name_of_folder] 
+		default: send OracleBundleOB_LoadOracle_ 
+
+* Enable: send OracleBundle[name]_AudioRecEnable_ [f0/1] 
+		default: send OracleBundleOB_AudioRecEnable_ 
+
+* Open Visu : send OracleBundle[name]_OpenOBVisu [0/1] 
+		default: send OracleBundleOB_OpenOBVisu 
+
+______####  PRESETS ######
+* Load Oracle: send OracleBundle[name]_ReadPreset[full_path_name_of_file] 
+		default: send OracleBundleOB_ReadPreset
+
+* Load Oracle: send OracleBundle[name]_RecallPreset [Preset#] 
+		default: send OracleBundleOB_RecallPreset
+
+
+####  POLY PLAYERS ######
+
+______####  PLAYERS ######
+* On/Off [1|6]= Player#
+	* [1|6]_PlayerOn [0|1]
+
+* Continuity  0=AllPlayers [0-1|6]= Player#
+	* Set Continuity (ms.)	[0-1|6]_Player-Continuity [100|1000000
+
+* Oracle List  0=AllPlayers [1|6]= Player# [L1|LN]= order of the oracles in the list (N is 3, 4 or 6, but can be more)
+	Default List: 1(menu 0) => Oracle1, 2(menu 1) => Oracle2, and so on.
+	If the List is longer than the number of Oracles, the last items of the list are disabled.
+	* Set Menu# [0|Number_of_Oracles_in_OB-1] 	
+		* menu_o_Player[0-1|6]_Oracle[L1|L6] $1
+NB: the oracles in the menu don't correspond to their number on OB, but the number-1. (A little program given in the examples corrects this inconsistency)
+
+* Minimum Context on an Oracle of the List  
+	Default value: 3
+	* Set Minimum Context on oracle #Lx on the list (minimum 1)	
+		* min_ctxt_Player[0-1|6]_Oracle[L1|L6] $1
+
+______####  PLAYERS=>REGIONS ######
+
+* Regions On/Off  [1|6]= Player#  [1|6]= Region#
+	* [1|6]_Player-RegionOn [1|6] [0|1]
+
+* Regions Type  [1|6]= Player#  [1|6]= Region# 0=Region 1=Avoid
+	* [1|6]_Player-RegionType [1|6] [0|1]
+
+
+
+______####  REGIONS ###### OPERATIOONS ONLY POSSIBLE WITH A POLY-PLAYER!!
+* Mark (during recording)
+	* Chose Region		OB_RegionMark [1|6]
+	a-* Value (ms from now)	OB_ValueMark [2|1000000]
+	b-* Mark_from_NOW	OB_ValueMark 1
+	* STOP Mark_from_NOW	OB_ValueMark 0
+	c-* Mark_Until_NOW	OB_ValueMark -1
+
+* Set region (during or after recording)
+	* Chose Region		OB_RegionSet [1|6]
+	* Start & end in ms	OB_ValueSet $1 $2
+
+* Follow (generally during recording)
+	* Chose Region		OB_RegionFollow [1|6]
+	* Value (in seconds!)	OB_ValueFollow [1|100]
+

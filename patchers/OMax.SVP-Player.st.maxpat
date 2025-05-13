@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 892.0, 911.0 ],
+		"rect" : [ 34.0, 79.0, 892.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -478,21 +478,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.847058823529412, 0.752941176470588, 0.074509803921569, 1.0 ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 173.25, 103.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.5, 4.0, 14.0, 14.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "restart",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "restart",
-							"parameter_type" : 2
-						}
-
-					}
-,
 					"varname" : "restart"
 				}
 
@@ -1275,7 +1264,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.94902, 0.94902, 0.94902, 1.0 ],
+					"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.784313725490196, 0.145098039215686, 0.023529411764706, 1.0 ],
 					"id" : "obj-96",
@@ -1985,23 +1974,9 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-9" : [ "restart", "restart", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.SVP-Play.st.maxpat",
-				"bootpath" : "~/Work/OMax/OMax5/patchers",
+				"bootpath" : "~/Projets/OMax/OMax5/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
