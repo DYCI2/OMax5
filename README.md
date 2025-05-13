@@ -4,9 +4,13 @@ OMax is a generative music program that (co-)improvises using material from pre-
 It realises a free improvisation from the input, on the fly. And creates a multiple layer of relationships with factor oracles built on different descriptors.
 
 The version 5.5 introduces a new concept of Oracle Bundle, where several different oracles can be associated to a soundfile (or sound input). A former version already existed in OMax5 as Pitch-MFCC or Pitch-Chroma associations (historically called Dual and Duo). Now, any combination of diverse oracle of four different types can be created:
+
 a- the pitch descriptor uses an enhanced version of yin~. This version is a little delayed by probabilistic evaluation of the presence of a given pitch. The parameters if this evaluation can vary and give very different results, not only according to the input, but also to the expected results.
+
 b- MFCC are a common spectral descriptor. The number of filter bands can be set (14 by default)
+
 c- chromas are a very useful descriptor for polyphonic or dense structures (like piano, complex drones or orchestra)
+
 d- various analyses or prosodic descriptors can be added to the bundle after real-time acquisition thanks to the Prosax program.
 
 ## Requirements
