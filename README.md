@@ -49,7 +49,7 @@ OMax was created by [Gérard Assayag](https://www.ircam.fr/person/gerard-assayag
 OMax5 was developed by [Benjamin Levy] 
 
 version OMax5.5 is by [Georges Bloch](https://creaa.unistra.fr/le-creaa/gream/organisation/membres/chercheurs/georges-bloch/), with the help of
-[[Mikhail Malt](https://www.ircam.fr/person/mikhail-malt), [[Marco Fiorini(https://www.ircam.fr/person/marco-fiorini)
+[Mikhail Malt](https://www.ircam.fr/person/mikhail-malt), [Marco Fiorini](https://www.ircam.fr/person/marco-fiorini)
 
 [IRCAM REACH Project](https://www.ircam.fr/projects/pages/reach-project)
 [IRCAM Musical Representations Team](http://repmus.ircam.fr/home)  
